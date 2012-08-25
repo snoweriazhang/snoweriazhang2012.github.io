@@ -1,0 +1,54 @@
+body {
+	background: url(../images/background.jpg) repeat;	
+	background-color: #F1F1F1;
+}
+
+#menu_left{
+	font-size: Helvetica;
+	position: absolute;
+	left:0 px;
+	top:50 px;
+	height:50 px;
+}
+
+.menu img{
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:-1;
+	height:620px;
+}
+
+.menu ul{
+	margin:0px;
+	padding:0px;
+	float:left;
+}
+
+.menu li{
+	display:block;
+	position:relative;
+	top:130px;
+	left:20px;
+	height: 30px;
+	width: 120px;
+}
+
+.menu a{
+	font-family: Helvetica;
+	font-size: 15px;
+	text-decoration: none;
+	color:#3c3c3c;
+	background-color: none;
+	padding:5px;
+}
+
+.menu li img {
+		position: absolute;
+		top: -5px;
+		left: -160px;
+		height:30px;
+		width:150px;
+		border: 0;
+}
+
