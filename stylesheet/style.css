@@ -92,5 +92,16 @@ body {
 	float: right;
 }
 
+.footer{
+	position: absolute;
+	float:right;
+	right:0px;
+	bottom:-5px;
+	padding: 0px;
+	margin:0px;
+}
 
-
+.footer img{
+	border:0px;
+	border-style: none;
+}
