@@ -62,6 +62,12 @@ body {
 	top:10px;
 }
 
+#googleplus{
+	position:absolute;
+	right:135px;
+	float: right;
+}
+
 #facebook{
 	position:absolute;
 	right:10px;
@@ -76,7 +82,7 @@ body {
 
 #stumbleupon{
 	position:absolute;
-	right:220px;
+	right:260px;
 	float: right;
 }
 
@@ -85,4 +91,6 @@ body {
 	right:125px;
 	float: right;
 }
+
+
 
