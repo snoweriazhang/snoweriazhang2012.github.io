@@ -1,3 +1,10 @@
 .DS_Store
 design
 images
+*.jpg
+*.png
+*.gif
+*.indd
+*.psd
+*.ico
+*.idlk

@@ -1,14 +1,8 @@
 body {
 	background: url(../images/background.jpg) repeat;	
 	background-color: #F1F1F1;
-}
-
-#menu_left{
-	font-size: Helvetica;
-	position: absolute;
-	left:0 px;
-	top:50 px;
-	height:50 px;
+	padding:0px auto;
+	margin:0px auto;
 }
 
 .menu img{
@@ -29,26 +23,66 @@ body {
 	display:block;
 	position:relative;
 	top:130px;
-	left:20px;
+	left:0px;
 	height: 30px;
 	width: 120px;
 }
 
-.menu a{
+.menu li a{
 	font-family: Helvetica;
 	font-size: 15px;
 	text-decoration: none;
 	color:#3c3c3c;
 	background-color: none;
-	padding:5px;
+	padding:0px auto;
+	margin:0px auto;
 }
 
 .menu li img {
-		position: absolute;
-		top: -5px;
-		left: -160px;
-		height:30px;
-		width:150px;
-		border: 0;
+	position: absolute;
+	top: -5px;
+	left: -140px;
+	height:30px;
+	width:150px;
+	border: 0;
+}
+
+.menu li a #menu_text{
+	position: absolute;
+	left: 30px;
+}
+
+.menu li a #menu_home{
+	position: absolute;
+	left: 30px;
+}
+
+.social_media{
+	position:absolute;
+	top:10px;
+}
+
+#facebook{
+	position:absolute;
+	right:10px;
+	float: right;
+}
+
+#twitter{
+	position:absolute;
+	right:60px;
+	float: right;
+}
+
+#stumbleupon{
+	position:absolute;
+	right:220px;
+	float: right;
+}
+
+#pininterest{
+	position:absolute;
+	right:125px;
+	float: right;
 }
 
