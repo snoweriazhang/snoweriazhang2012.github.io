@@ -87,82 +87,34 @@
 
 	<script src="JS/jQuery.js"></script>
 	<script src="JS/menu.js"></script>
+	<!--<script src="JS/page_scroll.js"></script>-->
 
 </head>
 
 
 <body onLoad="javascript:_gaq.push(['_setVar','user_self']);">
 
-	<!--script for google plus "+1" button-->
-	<div class="social_media" id="googleplus">
-		<div class="g-plusone" data-size="medium" data-annotation="inline" data-width="120"></div>
-		<script type="text/javascript">
-		  (function() {
-		    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-		    po.src = 'https://apis.google.com/js/plusone.js';
-		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-		  })();
-		</script>
+	<?php
+ require($DOCUMENT_ROOT . "navigation.html");
+ ?>
+
+
+	<div id="content">
+	<!--BEGIN about page-->
+	<div id="about_page">
+     <a id="about"></a>
+           <center>About page content goes here.</center>
 	</div>
-	<!--end of script for google plus "+1" button-->
+	<!--END about page-->
 
-	<!--script for facebook "like" button-->
-	<div class="social_media" id="facebook">
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
-		<div class="fb-like" data-href="http://snoweria.com" data-send="false" data-layout="button_count" data-width="200" data-show-faces="true"></div>
-	</div>	
-	<!--end of script for facebook "like" button-->
-
-	<!--script for twitter "tweet" button-->
-	<div class="social_media" id="twitter">
-		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://snoweria.com">Tweet</a>
-		<script>
-			!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-		</script>
-    </div>
-	<!--end of script for twitter "tweet" button-->
-
-	<!--script for stumble upon button-->
-	<div class="social_media" id="stumbleupon">
-		<script language=JavaScript>
-		document.write ('<a href="');
-		document.write('http://www.stumbleupon.com/submit?url='+document.URL+'&title='+document.title.replace(/ /g,'+')+'">');
-		document.write ('<img border=0 src=/images/stumbleupon_logo.png height="22px"></a>');
-		</script>
+	<!--BEGIN about page-->
+	<div id="architecture_page">
+     <a id="architecture"></a>
+           <center>Architecture page content goes here.</center>
 	</div>
-	<!--end of script for stumble upon button-->
-
-	<!--script for pininterest button-->
-	<div class="social_media" id="pininterest">
-		<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fsnoweria.com&media=http%3A%2F%2Fsnoweria.com&description=Untitled%20No.43%20-%20Snoweria's%20online%20portfolio" class="pin-it-button" count-layout="horizontal"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" height="20"/></a>
-		<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+	<!--END about page-->
 	</div>
-	<!--end of script for pininterest button-->
 
-	<div class="menu">
-		<a href="index.html"><img src="images/menu_left.png" /></a>
 
-		<ul class="menu">
-			<li><a href="/"><img src="images/menu_about.gif"/><div id="menu_home">.about</div></a></li>
-			<li><a href="/"><img src="images/menu_architecture.gif"/><div id="menu_text">.architecture</div></a></li>
-			<li><a href="/"><img src="images/menu_set_design.gif"/><div id="menu_text">.set design</div></a></li>
-			<li><a href="/"><img src="images/menu_drawing.gif"/><div id="menu_text">.drawing</div></a></li>
-			<li><a href="/"><img src="images/menu_painting.gif"/><div id="menu_text">.painting</div></a></li>
-			<li><a href="/"><img src="images/menu_photography.gif"/><div id="menu_text">.photography</div></a></li>
-			<li><a href="/"><img src="images/menu_web.gif"/><div id="menu_text">.web</div></a></li>
-			<li><a href="/"><img src="images/menu_misc.gif"/><div id="menu_text">.misc</div></a></li>
-			<li><a href="/"><img src="images/menu_contact.gif"/><div id="menu_text">.contact</div></a></li>
-		</ul>
-	</div>	
-
-	<div class="footer">
-		<a href="http://snoweria.com"><img src="images/footer.png" /></a>
-	</div>
 </body>
+</html>

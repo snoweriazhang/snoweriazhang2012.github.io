@@ -23,11 +23,11 @@
 	<link rel="Shortcut Icon" href="images/icon.ico" type="image/ico" />
 
 	<!--[if IE 6]>
-		<link href="styles/ie6.css" rel="stylesheet" type="text/css" />
+		<link href="stylesheet/ie6.css" rel="stylesheet" type="text/css" />
 	<![endif]-->
 	                
 	<!--[if IE 7]>
-		<link href="styles/ie7.css" rel="stylesheet" type="text/css" />
+		<link href="stylesheet/ie7.css" rel="stylesheet" type="text/css" />
 	<![endif]-->
 
 
@@ -42,15 +42,11 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" media="screen, projection" href="stylesheet/style.css" />
-	<!--
-	<link rel="stylesheet" type="text/css" media="print" href="/Websites/ef2010/templates/ef2010Theme/css/print.css" />
-	-->
-	<!--[if lte IE 8]> <link rel="stylesheet" type="text/css" media="screen" href="/Websites/ef2010/templates/ef2010Theme/css/ie.css" /> <![endif]-->
-
+	
 
 	<!-- Scripts -->
 
-	<!-- Google Analytics-->
+	<!-- BEGIN Google Analytics-->
 	<script type="text/javascript">
 
 	  var _gaq = _gaq || [];
@@ -63,6 +59,7 @@
 	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	  })();
 	</script>
+	<!--END Google Analytics-->
 
 	<!--general mobile redirect
 	<script type="text/javascript">
@@ -72,8 +69,8 @@
 	</script>
 	-->
 
-	<!--mobile redirect-->
-	<script language=javascript>
+	<!--BEGIN mobile redirect-->
+	<script type="text/javascript">
 	if ((navigator.userAgent.match(/iPhone/i)) || 
 		(navigator.userAgent.match(/iPod/i)) || 
 		(navigator.userAgent.match(/Android/i)) ||
@@ -84,10 +81,13 @@
 	   //location.replace("http://snoweria.com/mobile.html");
 	}
 	</script>
+	<!--END mobile redirect-->
 
-	<script src="JS/jQuery.js"></script>
-	<script src="JS/menu.js"></script>
-	<!--<script src="JS/page_scroll.js"></script>-->
+
+
+	<script src="JS/jQuery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="JS/menu.js" type="text/javascript" charset="utf-8"></script>
+	<script src="JS/jcarousellite_1.0.1.js" type="text/javascript" charset="utf-8"></script>
 
 </head>
 
@@ -104,51 +104,29 @@
 	</div>
 	<!--END about page-->
 
-	<!--BEGIN about page-->
+	<!--BEGIN architecture page-->
 	<div id="architecture_page">
      <a id="architecture"></a>
            <center>Architecture page content goes here.</center>
 	</div>
-	<!--END about page-->
+	<!--END architecture page-->
 
 
-<script type="text/javascript">
+	<!--BEGIN horizontal page scroll-->
+	<script type="text/javascript">
 	$(function() {
-	    $('ul.menu a').bind('click',function(event){
+	    //$('ul.nav a').bind('click',function(event){
+	    $('ul.menu a').click(function(){
 	        var $anchor = $(this);
-	        /*
-	        if you want to use one of the easing effects:
-	        $('html, body').stop().animate({
-	            scrollLeft: $($anchor.attr('href')).offset().left
-	        }, 1500,'easeInOutExpo');
-	         */
-	        $('html, body').stop().animate({
+	        $('html, body').stop(false, true).animate({
 	            scrollLeft: $($anchor.attr('href')).offset().left
 	        }, 1000);
 	        event.preventDefault();
+
 	    });
 	});
-
-
-	$(function() {
-	    $('ul.menu a').bind('click',function(event){
-	        var $anchor = $(this);
-	 
-	        $('html, body').stop().animate({
-	            scrollTop: $($anchor.attr('href')).offset().top
-	        }, 1500,'easeInOutExpo');
-	        /*
-	        if you don't want to use the easing effects:
-	        $('html, body').stop().animate({
-	            scrollTop: $($anchor.attr('href')).offset().top
-	        }, 1000);
-	        */
-	        event.preventDefault();
-	    });
-	});
-
-</script>
-
+	</script>
+	<!--END horizontal page scroll-->
 
 </body>
 </html>
