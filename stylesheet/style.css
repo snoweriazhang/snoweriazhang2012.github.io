@@ -111,6 +111,7 @@ body {
 	bottom:-5px;
 	padding: 0px;
 	margin:0px;
+	z-index:2;
 }
 
 .footer img{
