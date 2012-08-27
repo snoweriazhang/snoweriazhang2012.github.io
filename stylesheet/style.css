@@ -4,6 +4,10 @@ body {
 	padding:0px auto;
 	margin:0px auto;
 	width: 12000px;
+	position:absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
 }
 
 .menu img{
