@@ -84,14 +84,16 @@
 	<!--END mobile redirect-->
 
 
-
+	<!--jQuery.easing.js included in jQuery.js-->
 	<script src="JS/jQuery.js" type="text/javascript" charset="utf-8"></script>
 	<script src="JS/jQuery.easing.js" type="text/javascript" charset="utf-8"></script>
-	<script src="JS/jcarousellite_1.0.1.js" type="text/javascript" charset="utf-8"></script>
+	<!--<script src="JS/jcarousellite_1.0.1.js" type="text/javascript" charset="utf-8"></script>-->
 	<script src="JS/menu.js" type="text/javascript" charset="utf-8"></script>
 
 </head>
 
+<!--good for busy backends-->
+<?php flush(); ?>
 
 <body onLoad="javascript:_gaq.push(['_setVar','user_self']);">
 
@@ -99,76 +101,74 @@
 	<?php require($DOCUMENT_ROOT . "navigation.html");?>
 
 	<!--BEGIN about page-->
-	<div class="page_content">
-		<div id="about_page">
-	     <a id="about"></a>
-	           <center>About page content goes here.</center>
-		</div>
-		<!--END about page-->
-
-		<!--BEGIN architecture page-->
-		<div id="architecture_page">
-	     <a id="architecture"></a>
-	           <center>Architecture page content goes here.</center>
-		</div>
-		<!--END architecture page-->
-
-		<!--BEGIN drawing page-->
-		<div id="drawing_page">
-	     <a id="drawing"></a>
-	           <center>Drawing page content goes here.</center>
-		</div>
-		<!--END drawing page-->
-
-		<!--BEGIN fashion page-->
-		<div id="fashion_page">
-	     <a id="fashion"></a>
-	           <center>Fashion page content goes here.</center>
-		</div>
-		<!--END fashion page-->
-
-		<!--BEGIN painting page-->
-		<div id="painting_page">
-	     <a id="painting"></a>
-	           <center>Painting page content goes here.</center>
-		</div>
-		<!--END painting page-->
-
-		<!--BEGIN photography page-->
-		<div id="photography_page">
-	     <a id="photography"></a>
-	           <center>Photography page content goes here.</center>
-		</div>
-		<!--END photography page-->
-
-		<!--BEGIN set design page-->
-		<div id="set_design_page">
-	     <a id="set_design"></a>
-	           <center>Set Design page content goes here.</center>
-		</div>
-		<!--END set design page-->
-
-		<!--BEGIN web page-->
-		<div id="web_page">
-	     <a id="web"></a>
-	           <center>Web page content goes here.</center>
-		</div>
-		<!--END web page-->
-
-		<!--BEGIN misc page-->
-		<div id="misc_page">
-	     <a id="misc"></a>
-	           <center>misc page content goes here.</center>
-		</div>
-		<!--END misc page-->
-
-		<!--BEGIN contact page-->
-		<div id="contact_page">
-	     <a id="contact"></a>
-	           <center>Contact page content goes here.</center>
-		</div>
-		<!--END contact page-->
+	<div class="page about">
+     <a id="about"></a>
+           <h1>Hello</h1>
 	</div>
+	<!--END about page-->
+
+	<!--BEGIN architecture page-->
+	<div class="page architecture">
+     <a id="architecture"></a>
+           <h2>Architecture page content goes here.</h2>
+	</div>
+	<!--END architecture page-->
+
+	<!--BEGIN drawing page-->
+	<div class="page drawing">
+     <a id="drawing"></a>
+           <h2>Drawing page content goes here.</h2>
+	</div>
+	<!--END drawing page-->
+
+	<!--BEGIN fashion page-->
+	<div class="page fashion">
+     <a id="fashion"></a>
+           <h2>Fashion page content goes here.</h2>
+	</div>
+	<!--END fashion page-->
+
+	<!--BEGIN painting page-->
+	<div class="page painting">
+     <a id="painting"></a>
+           <h2>Painting page content goes here.</h2>
+	</div>
+	<!--END painting page-->
+
+	<!--BEGIN photography page-->
+	<div class="page photography">
+     <a id="photography"></a>
+           <h2>Photography page content goes here.</h2>
+	</div>
+	<!--END photography page-->
+
+	<!--BEGIN set design page-->
+	<div class="page setdesign">
+     <a id="set_design"></a>
+           <h2>Set Design page content goes here.</h2>
+	</div>
+	<!--END set design page-->
+
+	<!--BEGIN web page-->
+	<div class="page web">
+     <a id="web"></a>
+           <h2>Web page content goes here.</h2>
+	</div>
+	<!--END web page-->
+
+	<!--BEGIN misc page-->
+	<div class="page misc">
+     <a id="misc"></a>
+           <h2>misc page content goes here.</h2>
+	</div>
+	<!--END misc page-->
+
+	<!--BEGIN contact page-->
+	<div class="page contact">
+     <a id="contact"></a>
+           <h2>Contact page content goes here.</h2>
+	</div>
+	<!--END contact page-->
 
 
 	<!--BEGIN horizontal page scroll-->
@@ -179,14 +179,14 @@
 	    	//animate body
 	        var $anchor = $(this);
 	        $('html, body').stop(false, true).animate(
-	        	{scrollLeft: $($anchor.attr('href')).offset().left-200}, 
-	        	1000, 
+	        	{scrollLeft: $($anchor.attr('href')).offset().left}, 
+	        	1500, 
 	        	'easeInOutExpo'
 	        );
 	        event.preventDefault();
 
 	        //move nacigation bar color
-	        $(this).find('img').css('left','0px');
+	        //$(this).find('img').css('left','0px');
 
 	    });
 	});

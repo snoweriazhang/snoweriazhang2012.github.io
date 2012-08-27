@@ -1,9 +1,9 @@
 body {
-	background: url(../images/background.jpg) repeat;
+	/*background: url(../images/background.jpg) repeat;*/
 	background-color: #F1F1F1;
 	padding:0px auto;
 	margin:0px auto;
-	width: 30200px;
+	width: 30000px;
 	position:absolute;
     top:0px;
     left:0px;
@@ -118,62 +118,112 @@ body {
 	border-style: none;
 }
 
-.page_content{
+.page{
 	margin:0px;
     bottom:0px;
-    width:4000px;
+    width:3000px;
     float:left;
     height:100%;
 }
 
-#about_page{	
-	position: absolute;
+.page h2{
+	position: relative;
 	left:200px;
+	padding-left: 50px; 
+  	padding-top: 17px;
+  	font-family: Rockwell, Georgia, "Times New Roman", Times, serif;
+  	font-size: 50px;
+  	color: #0D4383;
+  	text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
+  	-webkit-text-stroke: 1px #fff;
+  	-webkit-text-fill-color: transparent;
+	
+}
+
+.page h1{
+	position: relative;
+	left:200px;
+
+	display: inline;
+	font: 200px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5); 
+}
+
+.page h1:after {
+
+	content: "Hello";
+	position: absolute; left: 10px; top: 5px;
+	color: rgba(255,0,0,0.5);   
+
+}
+
+.about{	
+	position: absolute;
+	left:0px;
+	background-color:#f1f1f1;
+	/*
+	background: -moz-linear-gradient(-90deg,#f7f7f7,#f1f1f1);
+  	background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#f1f1f1));
+  	*/
 }
 
 
-#architecture_page{	
+.architecture{	
 	position: absolute;;
-	left:3200px;
+	left:3000px;
+	background-color: #e8f1e4;
+	/*
+	background: -moz-linear-gradient(-90deg,#f7f7f7,#bee4ad);
+  	background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#bee4ad));
+  	*/
 }
 
-#drawing_page{	
+.drawing{	
 	position: absolute;;
-	left:6200px;
+	left:6000px;
+	background-color: #efe8db;
 }
 
-#fashion_page{	
+.fashion{	
 	position: absolute;;
-	left:9200px;
+	left:9000px;
+	background-color: #dbebeb;
 }
 
 
-#painting_page{	
+.painting{	
 	position: absolute;;
-	left:12200px;
+	left:12000px;
+	background-color: #eee4ee;
 }
 
-#photography_page{	
+.photography{	
 	position: absolute;;
-	left:15200px;
+	left:15000px;
+	background-color: #f5f5e2;
 }
 
-#set_design_page{	
+.setdesign{	
 	position: absolute;;
-	left:18200px;
+	left:18000px;
+	background-color: #f2e5e5;
 }
 
-#web_page{	
+.web{	
 	position: absolute;;
-	left:21200px;
+	left:21000px;
+	background-color: #f2dee5;
 }
 
-#misc_page{	
+.misc{	
 	position: absolute;;
-	left:24200px;
+	left:24000px;
+	background-color: #deeaf3;
 }
 
-#contact_page{	
+.contact{	
 	position: absolute;;
-	left:27200px;
+	left:27000px;
+	background-color: #f2f2db;
 }
