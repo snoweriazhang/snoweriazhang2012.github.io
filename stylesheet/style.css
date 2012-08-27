@@ -3,10 +3,11 @@ body {
 	background-color: #F1F1F1;
 	padding:0px auto;
 	margin:0px auto;
+	width: 12000px;
 }
 
 .menu img{
-	position:absolute;
+	position:fixed;
 	left:0px;
 	top:0px;
 	z-index:-1;
@@ -14,6 +15,8 @@ body {
 }
 
 .menu ul{
+	position: fixed;
+	left:0px;
 	margin:0px;
 	padding:0px;
 	float:left;
@@ -58,42 +61,42 @@ body {
 }
 
 .social_media{
-	position:absolute;
+	position:fixed;
 	top:10px;
 }
 
 #googleplus{
-	position:absolute;
+	position:fixed;
 	right:135px;
 	float: right;
 }
 
 #facebook{
-	position:absolute;
+	position:fixed;
 	right:10px;
 	float: right;
 }
 
 #twitter{
-	position:absolute;
+	position:fixed;
 	right:60px;
 	float: right;
 }
 
 #stumbleupon{
-	position:absolute;
+	position:fixed;
 	right:260px;
 	float: right;
 }
 
 #pininterest{
-	position:absolute;
+	position:fixed;
 	right:125px;
 	float: right;
 }
 
 .footer{
-	position: absolute;
+	position: fixed;
 	float:right;
 	right:0px;
 	bottom:-5px;
@@ -104,4 +107,17 @@ body {
 .footer img{
 	border:0px;
 	border-style: none;
+}
+
+#about_page{
+	width:1000px;
+	position: absolute;
+	left:500px;
+}
+
+
+#architecture_page{
+	width:1000px;
+	position: absolute;;
+	left:1200px;
 }
