@@ -86,8 +86,9 @@
 
 
 	<script src="JS/jQuery.js" type="text/javascript" charset="utf-8"></script>
-	<script src="JS/menu.js" type="text/javascript" charset="utf-8"></script>
+	<script src="JS/jQuery.easing.js" type="text/javascript" charset="utf-8"></script>
 	<script src="JS/jcarousellite_1.0.1.js" type="text/javascript" charset="utf-8"></script>
+	<script src="JS/menu.js" type="text/javascript" charset="utf-8"></script>
 
 </head>
 
@@ -118,9 +119,11 @@
 	    //$('ul.nav a').bind('click',function(event){
 	    $('ul.menu a').click(function(){
 	        var $anchor = $(this);
-	        $('html, body').stop(false, true).animate({
-	            scrollLeft: $($anchor.attr('href')).offset().left
-	        }, 1000);
+	        $('html, body').stop(false, true).animate(
+	        	{scrollLeft: $($anchor.attr('href')).offset().left}, 
+	        	1000, 
+	        	'easeInOutExpo'
+	        );
 	        event.preventDefault();
 
 	    });
