@@ -99,32 +99,94 @@
 	<?php require($DOCUMENT_ROOT . "navigation.html");?>
 
 	<!--BEGIN about page-->
-	<div id="about_page">
-     <a id="about"></a>
-           <center>About page content goes here.</center>
-	</div>
-	<!--END about page-->
+	<div class="page_content">
+		<div id="about_page">
+	     <a id="about"></a>
+	           <center>About page content goes here.</center>
+		</div>
+		<!--END about page-->
 
-	<!--BEGIN architecture page-->
-	<div id="architecture_page">
-     <a id="architecture"></a>
-           <center>Architecture page content goes here.</center>
+		<!--BEGIN architecture page-->
+		<div id="architecture_page">
+	     <a id="architecture"></a>
+	           <center>Architecture page content goes here.</center>
+		</div>
+		<!--END architecture page-->
+
+		<!--BEGIN drawing page-->
+		<div id="drawing_page">
+	     <a id="drawing"></a>
+	           <center>Drawing page content goes here.</center>
+		</div>
+		<!--END drawing page-->
+
+		<!--BEGIN fashion page-->
+		<div id="fashion_page">
+	     <a id="fashion"></a>
+	           <center>Fashion page content goes here.</center>
+		</div>
+		<!--END fashion page-->
+
+		<!--BEGIN painting page-->
+		<div id="painting_page">
+	     <a id="painting"></a>
+	           <center>Painting page content goes here.</center>
+		</div>
+		<!--END painting page-->
+
+		<!--BEGIN photography page-->
+		<div id="photography_page">
+	     <a id="photography"></a>
+	           <center>Photography page content goes here.</center>
+		</div>
+		<!--END photography page-->
+
+		<!--BEGIN set design page-->
+		<div id="set_design_page">
+	     <a id="set_design"></a>
+	           <center>Set Design page content goes here.</center>
+		</div>
+		<!--END set design page-->
+
+		<!--BEGIN web page-->
+		<div id="web_page">
+	     <a id="web"></a>
+	           <center>Web page content goes here.</center>
+		</div>
+		<!--END web page-->
+
+		<!--BEGIN misc page-->
+		<div id="misc_page">
+	     <a id="misc"></a>
+	           <center>misc page content goes here.</center>
+		</div>
+		<!--END misc page-->
+
+		<!--BEGIN contact page-->
+		<div id="contact_page">
+	     <a id="contact"></a>
+	           <center>Contact page content goes here.</center>
+		</div>
+		<!--END contact page-->
 	</div>
-	<!--END architecture page-->
 
 
 	<!--BEGIN horizontal page scroll-->
 	<script type="text/javascript">
 	$(function() {
-	    //$('ul.nav a').bind('click',function(event){
 	    $('ul.menu a').click(function(){
+
+	    	//animate body
 	        var $anchor = $(this);
 	        $('html, body').stop(false, true).animate(
-	        	{scrollLeft: $($anchor.attr('href')).offset().left}, 
+	        	{scrollLeft: $($anchor.attr('href')).offset().left-200}, 
 	        	1000, 
 	        	'easeInOutExpo'
 	        );
 	        event.preventDefault();
+
+	        //move nacigation bar color
+	        $(this).find('img').css('left','0px');
 
 	    });
 	});

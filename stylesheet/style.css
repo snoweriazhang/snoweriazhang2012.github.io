@@ -3,11 +3,12 @@ body {
 	background-color: #F1F1F1;
 	padding:0px auto;
 	margin:0px auto;
-	width: 12000px;
+	width: 30200px;
 	position:absolute;
     top:0px;
     left:0px;
     bottom:0px;
+    overflow:hidden;
 }
 
 .menu img{
@@ -117,15 +118,62 @@ body {
 	border-style: none;
 }
 
+.page_content{
+	margin:0px;
+    bottom:0px;
+    width:4000px;
+    float:left;
+    height:100%;
+}
+
 #about_page{	
-	width:1000px;
 	position: absolute;
-	left:500px;
+	left:200px;
 }
 
 
 #architecture_page{	
-	width:1000px;
 	position: absolute;;
-	left:2500px;
+	left:3200px;
+}
+
+#drawing_page{	
+	position: absolute;;
+	left:6200px;
+}
+
+#fashion_page{	
+	position: absolute;;
+	left:9200px;
+}
+
+
+#painting_page{	
+	position: absolute;;
+	left:12200px;
+}
+
+#photography_page{	
+	position: absolute;;
+	left:15200px;
+}
+
+#set_design_page{	
+	position: absolute;;
+	left:18200px;
+}
+
+#web_page{	
+	position: absolute;;
+	left:21200px;
+}
+
+#misc_page{	
+	position: absolute;;
+	left:24200px;
+}
+
+#contact_page{	
+	position: absolute;;
+	left:27200px;
 }
