@@ -233,12 +233,17 @@ body {
 	background-color: #f2f2db;
 }
 
-#formail{
+#sendform{
 	position: relative;
 	left:200px;
+	top:0px;
 	width:300px;
+}
+
+#formail{
+
 	overflow:hidden;
-	padding-left:10px;
+	padding-left:0px;
 	z-index:3;
 	padding-top:5px;
 	color:#3c3c3c;
@@ -246,6 +251,16 @@ body {
 	font-size:11px;
 }
 
+#response{
+	display: none;
+	width: 280px;
+	font-family: "Helvetica", Arial, Verdana;
+	font-size: 12px;
+	z-index:3;
+	padding: 10px;
+	color: #3c3c3c;
+	background-color: rgba(255,255,255,0.6); ;
+}
 
 #formail input{
 	width:300px;
@@ -263,14 +278,13 @@ body {
 	border:0;
 	margin-bottom:10px;
 	padding:4px;
-
 }
 
 .submit{
-width:88px !important;
-height:27px !important;
-border:0 !important;
-background:none !Important;
-margin:3px 0 0 0 !important;
-padding:0 !important;
+	width:88px !important;
+	height:27px !important;
+	border:0 !important;
+	background:none !important;
+	margin:3px 0 0 0 !important;
+	padding:0 !important;
 }
