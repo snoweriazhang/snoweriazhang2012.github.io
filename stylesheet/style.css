@@ -141,23 +141,7 @@ body {
 	
 }
 
-.page h1{
-	position: relative;
-	left:200px;
 
-	display: inline;
-	font: 200px Helvetica, Sans-Serif;
-	letter-spacing: -5px;
-	color: rgba(0,0,255,0.5); 
-}
-
-.page h1:after {
-
-	content: "Hello";
-	position: absolute; left: 10px; top: 5px;
-	color: rgba(255,0,0,0.5);   
-
-}
 
 .about{	
 	position: absolute;
@@ -167,6 +151,25 @@ body {
 	background: -moz-linear-gradient(-90deg,#f7f7f7,#f1f1f1);
   	background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#f1f1f1));
   	*/
+}
+
+.about h1{
+	position: relative;
+	left:200px;
+
+	display: inline;
+	font: 200px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(127,198,255,0.6); 
+}
+
+.about h1:after {
+
+	content: "hello.";
+	position: absolute; left: 10px; top: 3px;
+	  
+	color: rgba(231,34,80,0.6); 
+
 }
 
 
@@ -179,6 +182,7 @@ body {
   	background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#bee4ad));
   	*/
 }
+
 
 .drawing{	
 	position: absolute;;
@@ -227,4 +231,46 @@ body {
 	position: absolute;;
 	left:27000px;
 	background-color: #f2f2db;
+}
+
+#formail{
+	position: relative;
+	left:200px;
+	width:300px;
+	overflow:hidden;
+	padding-left:10px;
+	z-index:3;
+	padding-top:5px;
+	color:#3c3c3c;
+	font-family: "Helvetica", Arial, Verdana;
+	font-size:11px;
+}
+
+
+#formail input{
+	width:300px;
+	height:16px;
+	background:#fff;
+	border:0;
+	margin-bottom:10px;
+	padding:4px 5px;
+}
+
+#formail textarea{
+	width:300px;
+	height:256px;
+	background:#fff;
+	border:0;
+	margin-bottom:10px;
+	padding:4px;
+
+}
+
+.submit{
+width:88px !important;
+height:27px !important;
+border:0 !important;
+background:none !Important;
+margin:3px 0 0 0 !important;
+padding:0 !important;
 }

@@ -97,13 +97,13 @@
 
 <body onLoad="javascript:_gaq.push(['_setVar','user_self']);">
 
-	<!-- include navigation bar, social media buttons, and footer-->
+	<!-- include navigation bar and footer-->
 	<?php require($DOCUMENT_ROOT . "navigation.html");?>
 
 	<!--BEGIN about page-->
 	<div class="page about">
      <a id="about"></a>
-           <h1>Hello</h1>
+           <h1>hello.</h1>
 	</div>
 	<!--END about page-->
 
@@ -111,6 +111,7 @@
 	<div class="page architecture">
      <a id="architecture"></a>
            <h2>Architecture page content goes here.</h2>
+           <img src="images/architecture_page_bg.png" width="1000" />
 	</div>
 	<!--END architecture page-->
 
@@ -167,6 +168,16 @@
 	<div class="page contact">
      <a id="contact"></a>
            <h2>Contact page content goes here.</h2>
+         	<form id="formail" action="" method ="post" name="sendform">
+				<input type="text" name="subject" id="subject" value="Name" onclick="this.value='';" onfocus="this.select()" onblur=
+                "this.value=!this.value?'Name':this.value;" />
+				<input type="text" name="mail" id="mail" value="Email Address" onclick="this.value='';" onfocus="this.select()" onblur=
+                "this.value=!this.value?'Email Address':this.value;" />
+				<textarea name="text" rows="" cols="" id="text" onclick="document.sendform.text.value='';" onfocus="this.select()" onblur=
+                "document.sendform.text.value=!document.sendform.text.value?'Message':this.value;">Message</textarea> 
+            	<input type="image" src="images/submit_button.png" onmouseover='this.src="images/submit_button_hover.png"' onmouseout=
+                'this.src="images/submit_button.png"' alt="Submit" class="submit" id="sendmail" name="sendmail" value="send mail" />
+			</form>
 	</div>
 	<!--END contact page-->
 
@@ -192,6 +203,9 @@
 	});
 	</script>
 	<!--END horizontal page scroll-->
+
+	<!-- include social media buttons-->
+	<?php require($DOCUMENT_ROOT . "social_media.html");?>
 
 </body>
 </html>
