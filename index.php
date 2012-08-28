@@ -160,30 +160,32 @@
 
 	<!--BEGIN misc page-->
 	<div class="page misc">
-     <a id="misc"></a>
-           <h2>misc page content goes here.</h2>
+     	<a id="misc"></a>
+        <h2>misc page content goes here.</h2>
 	</div>
 	<!--END misc page-->
 
 	<!--BEGIN contact page-->
 	<div class="page contact">
-     <a id="contact"></a>
-           <h2>Contact page content goes here.</h2>
+    	<a id="contact"></a>
+	 	<img src="images/icon_contact.png" />
+        <h2>Contact Me</h2>
+       
 
-            <div id="sendform">            
-            	<div id="response"></div>
+        <div id="sendform">            
+        	<div id="response"></div>
 
-	         	<form id="formail" action="" method ="post" name="sendform">
-					<input type="text" name="subject" id="subject" value="Name" onclick="this.value='';" onfocus="this.select()" onblur=
-	                "this.value=!this.value?'Name':this.value;" /><br />
-					<input type="text" name="mail" id="mail" value="Email Address" onclick="this.value='';" onfocus="this.select()" onblur=
-	                "this.value=!this.value?'Email Address':this.value;" /><br />
-					<textarea name="text" rows="" cols="" id="text" onclick="document.sendform.text.value='';" onfocus="this.select()" onblur=
-	                "document.sendform.text.value=!document.sendform.text.value?'Message':this.value;">Message</textarea> <br />
-	            	<input type="image" src="images/submit_button.png" onmouseover='this.src="images/submit_button_hover.png"' onmouseout=
-	                'this.src="images/submit_button.png"' alt="Submit" class="submit" id="sendmail" name="sendmail" value="send mail" />
-				</form>
-			</div>
+         	<form id="formail" action="" method ="post" name="sendform">
+				<input type="text" name="subject" id="subject" value="Name" onclick="this.value='';" onfocus="this.select()" onblur=
+                "this.value=!this.value?'Name':this.value;" /><br />
+				<input type="text" name="mail" id="mail" value="Email Address" onclick="this.value='';" onfocus="this.select()" onblur=
+                "this.value=!this.value?'Email Address':this.value;" /><br />
+				<textarea name="text" rows="" cols="" id="text" onclick="document.sendform.text.value='';" onfocus="this.select()" onblur=
+                "document.sendform.text.value=!document.sendform.text.value?'Message':this.value;">Message</textarea> <br />
+            	<input type="image" src="images/submit_button.png" onmouseover='this.src="images/submit_button_hover.png"' onmouseout=
+                'this.src="images/submit_button.png"' alt="Submit" class="submit" id="sendmail" name="sendmail" value="send mail" />
+			</form>
+		</div>
 	</div>
 	<!--END contact page-->
 

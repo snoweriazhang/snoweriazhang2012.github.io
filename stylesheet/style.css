@@ -127,9 +127,17 @@ body {
     height:100%;
 }
 
-.page h2{
-	position: relative;
+.page img{
+	position: inherit;
+	top:30px;
 	left:200px;
+	width: 100px;
+}
+
+.page h2{
+	position: inherit;
+	top:0px;
+	left: 250px;
 	padding-left: 50px; 
   	padding-top: 17px;
   	font-family: Rockwell, Georgia, "Times New Roman", Times, serif;
@@ -140,6 +148,7 @@ body {
   	-webkit-text-fill-color: transparent;
 	
 }
+
 
 
 
@@ -234,9 +243,9 @@ body {
 }
 
 #sendform{
-	position: relative;
+	position: inherit;
 	left:200px;
-	top:0px;
+	top:200px;
 	width:300px;
 }
 
