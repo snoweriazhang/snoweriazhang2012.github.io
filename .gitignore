@@ -1,6 +1,7 @@
 .DS_Store
 design
 images
+version 1.0
 *.jpg
 *.png
 *.gif

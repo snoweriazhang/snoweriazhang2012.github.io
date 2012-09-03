@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 <head>
@@ -15,21 +14,11 @@
 	<meta name="keywords" content="Snoweria, Toronto-based artist, mathematics, Boston-based" />
 	<meta name="description" content="Untitled No.43: the online portfolio of Snoweria Zhang, a Toront- and Boston-based artist and designer. " />
 	<meta charset="utf-8" />
-	<meta http-equiv="imagetoolbar" content="no" />
 	<meta name="MSSmartTagsPreventParsing" content="true" />
-	<meta name="title" content=" Untitled No.43 - Snoweria Zhang's Online Portfolio " />
+	<meta name="title" content=" Untitled No.43 - Snoweria Zhang's Online Portfolio" />
 	<meta name="copyright" content="Copyright (c) 2012 Snoweria Zhang" />
 
 	<link rel="Shortcut Icon" href="images/icon.ico" type="image/ico" />
-
-	<!--[if IE 6]>
-		<link href="stylesheet/ie6.css" rel="stylesheet" type="text/css" />
-	<![endif]-->
-	                
-	<!--[if IE 7]>
-		<link href="stylesheet/ie7.css" rel="stylesheet" type="text/css" />
-	<![endif]-->
-
 
 	<!-- iPhone/iPad -->
 	<!--
@@ -39,6 +28,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="HandheldFriendly" content="True">
 	-->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" media="screen, projection" href="stylesheet/style.css" />
@@ -112,7 +104,7 @@
 	<div class="page architecture">
      <a id="architecture"></a>
            <h2>Architecture page content goes here.</h2>
-           <img src="images/architecture_page_bg.png" width="1000" />
+           <!--<img src="images/architecture_page_bg.png" width="1000" />-->
 	</div>
 	<!--END architecture page-->
 
