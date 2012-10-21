@@ -3,7 +3,7 @@ body {
 	background-color: #F1F1F1;
 	padding:0px auto;
 	margin:0px auto;
-	width: 30000px;
+	height: 30000px;
 	position:absolute;
     top:0px;
     left:0px;
@@ -123,21 +123,27 @@ body {
 .page{
 	margin:0px;
     bottom:0px;
-    width:3000px;
-    float:left;
-    height:100%;
+    height:3000px;
+    width:100%;
+    float:top;
 }
 
 .page img{
 	position: inherit;
 	top:30px;
 	left:200px;
-	width: 100px;
+	/*width: 100px;*/
 }
 
 .page h2{
 	position: inherit;
-	top:0px;
+	top:-10px;
+	left: 200px;
+	font-family: Helvetica;
+	font-size: 60px;
+	color:rgba(255,255,255,0.8);
+
+	/*
 	left: 250px;
 	padding-left: 50px; 
   	padding-top: 17px;
@@ -145,18 +151,24 @@ body {
   	font-size: 50px;
   	color: #0D4383;
   	text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
-  	-webkit-text-stroke: 1px #fff;
+  	
   	-webkit-text-fill-color: transparent;
+  	*/
 	
 }
 
-
+#page_title{
+	position: inherit;
+	top:-30px;
+	left:0px;
+}
 
 
 .about{	
 	position: absolute;
-	left:0px;
+	top:0px;
 	background-color:#f1f1f1;
+	background: url(../images/bg_about.jpg) repeat top left;
 	/*
 	background: -moz-linear-gradient(-90deg,#f7f7f7,#f1f1f1);
   	background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#f1f1f1));
@@ -166,13 +178,15 @@ body {
 .about h1{
 	position: relative;
 	left:200px;
-
+	font-size: 250px;
+	color: rgba(0,0,0,0.1);
+	/*
 	display: inline;
 	font: 200px Helvetica, Sans-Serif;
 	letter-spacing: -5px;
-	color: rgba(127,198,255,0.6); 
+	color: rgba(127,198,255,0.6); */
 }
-
+/*
 .about h1:after {
 
 	content: "hello.";
@@ -181,12 +195,13 @@ body {
 	color: rgba(231,34,80,0.6); 
 
 }
-
+*/
 
 .architecture{	
 	position: absolute;;
-	left:3000px;
+	top:3000px;
 	background-color: #e8f1e4;
+	/*background: url(../images/bg_arch.jpg) repeat;*/
 	/*
 	background: -moz-linear-gradient(-90deg,#f7f7f7,#bee4ad);
   	background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#bee4ad));
@@ -196,50 +211,54 @@ body {
 
 .drawing{	
 	position: absolute;;
-	left:6000px;
+	top:6000px;
 	background-color: #efe8db;
+	background: url(../images/bg_drawing.png) repeat;
 }
 
 .fashion{	
 	position: absolute;;
-	left:9000px;
+	top:9000px;
 	background-color: #dbebeb;
+
+	background: url(../images/bg_fashion.jpg) repeat;
 }
 
 
 .painting{	
 	position: absolute;;
-	left:12000px;
+	top:12000px;
 	background-color: #eee4ee;
+	background: url(../images/bg_painting.jpg) repeat;
 }
 
 .photography{	
 	position: absolute;;
-	left:15000px;
+	top:15000px;
 	background-color: #f5f5e2;
 }
 
 .setdesign{	
 	position: absolute;;
-	left:18000px;
+	top:18000px;
 	background-color: #f2e5e5;
 }
 
 .web{	
 	position: absolute;;
-	left:21000px;
+	top:21000px;
 	background-color: #f2dee5;
 }
 
 .misc{	
 	position: absolute;;
-	left:24000px;
+	top:24000px;
 	background-color: #deeaf3;
 }
 
 .contact{	
 	position: absolute;;
-	left:27000px;
+	top:27000px;
 	background-color: #f2f2db;
 }
 

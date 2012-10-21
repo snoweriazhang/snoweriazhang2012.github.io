@@ -103,8 +103,10 @@
 	<!--BEGIN architecture page-->
 	<div class="page architecture">
      <a id="architecture"></a>
-           <h2>Architecture page content goes here.</h2>
-           <!--<img src="images/architecture_page_bg.png" width="1000" />-->
+           <h2></h2>
+           <div id="page_title"><img src="images/architecture_logo.png" alt=""/></div>
+           <img src="images/arch_1.jpg" width="800" style="top:200px">
+
 	</div>
 	<!--END architecture page-->
 
@@ -118,7 +120,8 @@
 	<!--BEGIN fashion page-->
 	<div class="page fashion">
      <a id="fashion"></a>
-           <h2>Fashion page content goes here.</h2>
+           <h2></h2>
+           <div id="page_title"><img src="images/fashion_logo.png" alt=""/></div>
 	</div>
 	<!--END fashion page-->
 
@@ -146,7 +149,7 @@
 	<!--BEGIN web page-->
 	<div class="page web">
      <a id="web"></a>
-           <h2>Web page content goes here.</h2>
+           <h2>&lt;Web&gt;&lt;/Web&gt;</h2>
 	</div>
 	<!--END web page-->
 
@@ -190,7 +193,7 @@
 	    	//animate body
 	        var $anchor = $(this);
 	        $('html, body').stop(false, true).animate(
-	        	{scrollLeft: $($anchor.attr('href')).offset().left}, 
+	        	{scrollTop: $($anchor.attr('href')).offset().top}, 
 	        	1500, 
 	        	'easeInOutExpo'
 	        );
