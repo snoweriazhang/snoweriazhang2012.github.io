@@ -79,6 +79,7 @@
 	<!--jQuery.easing.js included in jQuery.js-->
 	<script src="JS/jQuery.js" type="text/javascript" charset="utf-8"></script>
 	<script src="JS/jQuery.easing.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js" type="text/javascript"></script> 
 	<!--<script src="JS/jcarousellite_1.0.1.js" type="text/javascript" charset="utf-8"></script>-->
 	<!--<script src="JS/menu.js" type="text/javascript" charset="utf-8"></script>-->
 	<script src="JS/contact_form.js" type="text/javascript" charset="utf-8"></script>
@@ -109,8 +110,49 @@
 	<!--BEGIN portfolio page-->
 	<div class="portfolio">
     	<a id="portfolio"></a>
-        
-	</div>
+	    <div class="content">
+	    	<!--<p class="light">Portfolio available in <a href="">PDF</a></p>-->
+	    	
+	        <div class="gallery">
+	        	<a class="image" href="">
+	        		<span class="overlay"><p>architecture</p></span>
+		        	<img src="images/port_arch.jpg" />
+		        </a>
+		        <a class="image" href="">
+	        		<span class="overlay"><p>fashion</p></span>
+		        	<img src="images/port_fashion.jpg" />
+		        </a>
+		        <a class="image" href="">
+	        		<span class="overlay"><p>drawing</p></span>
+		        	<img src="images/port_draw.jpg" />
+		        </a>
+		        <a class="image" href="">
+	        		<span class="overlay"><p>painting</p></span>
+		        	<img src="images/port_paint.jpg" />
+		        </a>
+	        </div>
+	        <div class="gallery">
+	        	<a class="image" href="">
+	        		<span class="overlay"><p>photography</p></span>
+		        	<img src="images/port_photo.jpg" />
+		        </a>
+		        <a class="image" href="">
+	        		<span class="overlay"><p>set design</p></span>
+		        	<img src="images/port_set.jpg" />
+		        </a>
+		        <a class="image" href="">
+	        		<span class="overlay"><p>web design</p></span>
+		        	<img src="images/port_web.jpg" />
+		        </a>
+		        <a class="image" href="">
+	        		<span class="overlay"><p>misc.</p></span>
+		        	<img src="images/port_misc.jpg" />
+		        </a>
+	        </div>
+
+	        
+		</div>
+	</div>	
 	<!--END portfolio page-->
 
 	<!--BEGIN about page-->
@@ -160,6 +202,7 @@
 
 	<!--BEGIN page scroll-->
 	<script type="text/javascript">
+/*
 	$(function() {
 	    $('nav a, .menu a').click(function(){
 
@@ -177,8 +220,96 @@
 
 	    });
 	});
+*/
 	</script>
 	<!--END page scroll-->
+       <script type="text/javascript"> 
+        	$(document).ready(function(){
+        	
+        		// menu animation
+        		        		
+        		$("nav a").hover(
+	        		function(){
+			        	$(this).animate( { backgroundColor: "#000" }, 200);
+		        	},function(){
+			        	$(this).animate( { backgroundColor: "transparent" }, 200);
+	        	}).click(function(){
+
+		        	$(this).animate( { backgroundColor: "#000" }, 200).unbind("hover");
+		        	
+		        	$(this).siblings()
+		        	.animate( { backgroundColor: "transparent" }, 200)	
+		        	.hover(
+		        		function(){
+				        	$(this).animate( { backgroundColor: "#000" }, 200);
+			        	},function(){
+				        	$(this).animate( { backgroundColor: "transparent" }, 200);
+			        });	
+
+			        //animate body
+			        var $anchor = $(this);
+			        $('html, body').stop(false, true).animate(
+			        	{scrollTop: $($anchor.attr('href')).offset().top}, 
+			        	1000, 
+			        	'easeInOutExpo'
+			        );
+			        event.preventDefault();
+	        	});
+
+	        	$(function() {
+				    $('.menu a').click(function(){
+
+				    	//animate body
+				        var $anchor = $(this);
+				        $('html, body').stop(false, true).animate(
+				        	{scrollTop: $($anchor.attr('href')).offset().top}, 
+				        	1000, 
+				        	'easeInOutExpo'
+				        );
+				        event.preventDefault();
+
+				        //move nacigation bar color
+				        //$(this).find('img').css('left','0px');
+
+				    });
+				});
+
+	        	
+	        
+	        	//resize nav left block
+	        	
+        		resize_nav_left_bg();
+	        	
+	        	$(window).resize(resize_nav_left_bg);
+					        	
+		        function resize_nav_left_bg(){
+			       	$("#header_bg_left").css("width",function(){
+		        		return (window.innerWidth - 960)/2;
+		        	});		
+		        }
+		        
+		       
+		       //gallery animation
+		       
+				$(function() {
+					$(".overlay").css("opacity","1");
+					$(".overlay").hover(
+						function () {
+							$(this).stop().animate({opacity: 0}, 200);
+						},
+						function () {
+							$(this).stop().animate({opacity: 1}, 200);
+					});
+				});
+				
+				
+		       	        	
+        	});
+        	
+        	
+        	
+        	
+        </script> 
 
 	<?php require($DOCUMENT_ROOT . "footer.html");?>
 

@@ -40,7 +40,7 @@ body{
 
 .content{
 	margin:0 auto;
-	width:960px;
+	width:864px;
 }
 
 /*	--------------------------------------------------
@@ -51,7 +51,7 @@ nav a{
 	text-decoration: none;
 	font-family: "Helvetica";
 	size:18px;
-	font-weight:bold;
+	font-weight:normal;
 	color: #f3f2e9;
 }
 
@@ -105,7 +105,7 @@ header{
 	top: 0px;
 	z-index: 100;
 	width: 100%;
-	height:120px;
+	height:110px;
 	background: url('../images/header_bg.jpg') repeat #8c1d1d;
 	/*-webkit-transform: rotate(-50deg); 
     -moz-transform: rotate(-50deg);*/
@@ -113,25 +113,38 @@ header{
 
 header img{
 	position: fixed;
-	top:0;
+	top:-12px;
 	left:50%;
 	margin-left:-101px;
 	height:167px;
 	width:202px;
+	z-index: 102;
 }
 
 nav{
-	position:relative;
-	top:50px;
-	left:20px;
+	display:block;
+	position:fixed;
+	top:45px;
+	width:864px;
 	z-index: 101;
 }
 
+#left{
+	position: fixed;
+	left:50%;
+	margin-left: -423px;
+}
+
+#right{
+	position: fixed;
+	left:50%;
+	margin-left: 143px;
+}
+
 nav a{
-	display: block;
+	display: inline-block;
 	width:150px;
 	height:13px;
-	margin:0;
 	padding-top:17px;
 	padding-bottom:20px;
 	text-align: center;
@@ -139,6 +152,28 @@ nav a{
 
 nav .current{
 	background: #100303;
+}
+
+
+#header_bg_bottom{
+	background: url('../images/header_bg_bottom.png') no-repeat;
+	position:fixed;
+	top:84px;
+	left:50%;
+	margin-left:-480px;
+	height:56px;
+	width:960px;
+	z-index: 100;
+}
+
+#header_bg_left{
+	background: url('../images/header_bg.jpg') repeat #8c1d1d;
+	position:fixed;
+	left:0px;
+	right:0px;
+	width:100px;
+	height:140px;
+	z-index: 200;
 }
 
 /*	--------------------------------------------------
@@ -152,23 +187,40 @@ nav .current{
 	top:0;
 }
 
-.menu{
+.home h1{
+	position:absolute;
+	top:180px;
+}
 
+.home h2{
+	display:block;
+	position: absolute;
+	top:320px;
+	width:650px;
+}
+
+.menu{
+	display:block;
+	position: absolute;
+	top: 520px;
+	/*width:864px;*/
 }
 
 .menu a{
-	display:block;
+	display:inline-block;
 	background: url('../images/arrow.png') no-repeat 210px rgba(16,3,3,0.2);
 	width:250px;
-	height:13px;
-	padding-top: 17px;
+	height:15px;
+	padding-top: 15px;
 	padding-bottom: 20px;
+	margin-right:57px;
+	margin-bottom:10px;
 	text-align: center;
 	text-decoration: none;
 }
 
 .menu a:hover{
-	background: rgba(16,3,3,0.25);
+	background: url('../images/arrow.png') no-repeat 210px rgba(16,3,3,0.3);
 }
 
 
@@ -182,6 +234,46 @@ nav .current{
 	position: absolute;
 	top:700px;
 }
+
+.portfolio p{
+	float:right;
+	position: relative;
+	top:170px;
+}
+
+.gallery{
+	position:relative;
+	top:200px;
+	height:216px;
+	width: 900px;
+}
+
+.gallery img{
+	width:216px;
+	height:216px;
+	margin:0;
+	padding:0;
+	border:0px;
+}
+
+span.overlay{
+	background:url("../images/overlay.png") center center no-repeat;
+	height:216px;
+	width:216px;
+	position:absolute;
+	z-index:10;
+}
+
+span.overlay p{
+	float:left;
+	position:relative;
+	top:186px;
+	left:20px;
+	color: #f3f2e9;
+	font-family:"Helvetica";
+	font-size:18px;
+}}
+
 
 /*	--------------------------------------------------
     About me
