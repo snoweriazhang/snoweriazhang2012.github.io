@@ -111,7 +111,7 @@
     	<a id="portfolio"></a>
     	<div class="divider_top"></div>
 	    <div class="content">
-	    	<!--<p class="light">Portfolio available in <a href="">PDF</a></p>-->
+	    	<p class="light">Portfolio available in <a href="">PDF</a></p>
 	    	
 	        <div class="gallery">
 	        	<a class="image" href=""><span class="overlay"><p>architecture</p></span><img src="images/port_arch.jpg" /></a><!--
@@ -152,15 +152,16 @@
     	<a id="contact"></a>
 
     	<div class="divider_top"></div>
-        <h2>Contact Me</h2>
+        <h2>Contact me</h2>
 
         <p class="light">Please feel free to contact me about my work or to suggest<br/> improvements to my portfolio. You may email me at<br/> <a href="">snoweriazhang@gmail.com</a> or use the form on the left. </p>
-		<p class="light">Alternatively, you can fine me on <a href="" alt="">LinkedIn</a> or <a href="" alt="">GitHub</a>.</p>
+		<p class="light">Alternatively, you can find me on <a href="" alt="">LinkedIn</a> or <a href="" alt="">GitHub</a>.</p>
  
         <div id="sendform">            
+        	
         	<div id="response"></div>
-
          	<form id="formail" action="" method ="post" name="sendform">
+         		
 				<input type="text" name="subject" id="subject" value="Name*" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Name*':this.value;" />
 				<input type="text" name="mail" id="mail" value="Email Address*" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Email Address*':this.value;" />
 				<textarea name="text" rows="" cols="" id="text" onclick="document.sendform.text.value='';" onfocus="this.select()" onblur="document.sendform.text.value=!document.sendform.text.value?'Message*':this.value;">Message*</textarea> 
