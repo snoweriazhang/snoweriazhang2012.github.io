@@ -26,14 +26,6 @@ time, mark, audio, video {
 
 }
 
-@font-face {
-    font-family: 'Neuton_Regular';
-    src: url('../fonts/Neuton-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 body{
 	margin:0 auto;
 }
@@ -49,27 +41,31 @@ body{
 
 nav a{
 	text-decoration: none;
-	font-family: "Helvetica";
+	font-family: "Lato", Helvetica, Arial, Times New Roman, sans-serif;
 	size:18px;
-	font-weight:normal;
+	font-weight:400;
 	color: #f3f2e9;
 }
 
 h1{
-	font-family: "The_Great_Escape"; 
+	font-family: "The_Great_Escape", Helvetica, Arial, Times New Roman, sans-serif;
 	font-size: 100px;
 	color: #100303;
 }
 
 h2{
-	font-family: "Neuton_Regular";
+	font-family: "Neuton", Helvetica, Arial, Times New Roman, serif; 
+	font-weight: 400;
 	font-size:40px;
 	color: #8c1c1c;
+	line-height: 120%;
 }
 
 p{
-	font-family: "Helvetica";
+	font-family: "Lato", Helvetica, Arial, Times New Roman, sans-serif; 
 	font-size:18px;
+	font-weight:300;
+	margin-bottom:20px;
 }
 
 p.dark{
@@ -83,18 +79,32 @@ p.light{
 p a{
 	color: #8c1c1c;
 	text-decoration: none;
+	font-style:italic;
 }
 
 .menu a{
-	font-family: "Helvetica";
+	font-family: "Lato";
 	font-size:20px;
-	font-weight: normal;
+	font-weight: 400;
 	color:#100303;
 }
 
 .menu a:active{
 	color:#100303;
 }
+
+input, textarea{
+	font-family: "Lato", Helvetica, Arial, Times New Roman, sans-serif; 
+	font-size:18px;
+	font-weight:300;
+	color: #100303;
+}
+
+input.submit{
+	color:#f3f2e9;
+	font-weight:400;
+}
+
 
 /*	--------------------------------------------------
     Header
@@ -144,8 +154,8 @@ nav{
 nav a{
 	display: inline-block;
 	width:150px;
-	height:13px;
-	padding-top:17px;
+	height:15px;
+	padding-top:15px;
 	padding-bottom:20px;
 	text-align: center;
 }
@@ -176,6 +186,12 @@ nav .current{
 	z-index: 200;
 }
 
+.divider_top{
+	background: url('../images/divider_top.png') repeat;
+	width:100%;
+	height:50px;
+}
+
 /*	--------------------------------------------------
     Home
 	-------------------------------------------------- */
@@ -202,7 +218,7 @@ nav .current{
 .menu{
 	display:block;
 	position: absolute;
-	top: 520px;
+	top: 500px;
 	/*width:864px;*/
 }
 
@@ -210,8 +226,8 @@ nav .current{
 	display:inline-block;
 	background: url('../images/arrow.png') no-repeat 210px rgba(16,3,3,0.2);
 	width:250px;
-	height:15px;
-	padding-top: 15px;
+	height:17px;
+	padding-top: 13px;
 	padding-bottom: 20px;
 	margin-right:57px;
 	margin-bottom:10px;
@@ -243,7 +259,7 @@ nav .current{
 
 .gallery{
 	position:relative;
-	top:200px;
+	top:125px;
 	height:216px;
 	width: 900px;
 }
@@ -270,9 +286,8 @@ span.overlay p{
 	top:186px;
 	left:20px;
 	color: #f3f2e9;
-	font-family:"Helvetica";
-	font-size:18px;
-}}
+	font-weight: 100;
+}
 
 
 /*	--------------------------------------------------
@@ -286,6 +301,29 @@ span.overlay p{
 	top:1400px;
 }
 
+.about h2{
+	position:relative;
+	top:125px;
+	left:50%;
+	width:440px;
+}
+
+.about p{
+	position:relative;
+	top:145px;
+	left:50%;
+	width:440px;
+}
+
+.about img{
+	width:303px;
+	height:303px;
+	position: absolute;
+	top:220px;
+	left:50%;
+	margin-left:-380px;
+}
+
 /*	--------------------------------------------------
     Contact me
 	-------------------------------------------------- */
@@ -295,6 +333,66 @@ span.overlay p{
 	height:700px;
 	position: absolute;
 	top:2100px;
+}
+
+.contact h2{
+	position:relative;
+	top:125px;
+	left:50%;
+	width:440px;
+}
+
+.contact p{
+	position:relative;
+	top:145px;
+	left:50%;
+	width:440px;
+}
+
+form{
+
+	width:320px;
+	height:310px;
+	position:absolute;
+	top:240px;
+	left:50%;
+	margin-left:-400px;
+}
+
+input{
+	width:300px;
+	height:16px;
+	background-color: #f3f2e9;
+	margin-bottom:10px;
+	padding:10px;
+	border:none;
+}
+
+textarea{
+	width:300px;
+	height:150px;
+	background-color: #f3f2e9;
+	margin-bottom:10px;
+	padding:10px;
+	border:none;
+}
+
+input.submit{
+	display:block;
+	float:right;
+	width:127px;
+	height:36px;
+	padding:7px 40px 10px 40px;
+	background: url('../images/arrow_white.png') 100px no-repeat #8b2e2e;
+}
+
+input.submit:hover, input.submit:focus {
+  cursor: pointer;
+  background: url('../images/arrow_white.png') 100px no-repeat #8c1d1d;
+}
+
+input.submit:active {
+  background-position-y: 9px;
 }
 
 /*	--------------------------------------------------
@@ -307,7 +405,7 @@ footer{
 	top:2700px;
 	width:100%;
 	height:60px;
-	padding-top:40px;
+	padding-top:20px;
 	font-family: "Helvetica";
 	font-size:18px;
 	color: #100303;

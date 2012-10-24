@@ -18,6 +18,7 @@
 	<meta name="title" content=" Snoweria Zhang's Online Portfolio" />
 	<meta name="copyright" content="Copyright (c) 2012 Snoweria Zhang" />
 
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,300italic,400|Neuton' rel='stylesheet' type='text/css'>
 	<link rel="Shortcut Icon" href="images/icon.ico" type="image/ico" />
 
 	<!-- iPhone/iPad -->
@@ -93,7 +94,6 @@
 	<!--BEGIN home page-->
 	<div class="home">
 	    <a id="home"></a>
-		
 		<div class="content">
 		    <h1>Hello!</h1>
 		    <h2>My name is Snoweria Zhang. <br/>I am an artist and designer who<br/> enjoys mathematics, earrings, and tea.</h2>
@@ -103,51 +103,27 @@
 			    <a href="#contact">CONTACT ME</a>
 			</div>
 		</div>    
-	
 	</div>
 	<!--END home page-->
 
 	<!--BEGIN portfolio page-->
 	<div class="portfolio">
     	<a id="portfolio"></a>
+    	<div class="divider_top"></div>
 	    <div class="content">
 	    	<!--<p class="light">Portfolio available in <a href="">PDF</a></p>-->
 	    	
 	        <div class="gallery">
-	        	<a class="image" href="">
-	        		<span class="overlay"><p>architecture</p></span>
-		        	<img src="images/port_arch.jpg" />
-		        </a>
-		        <a class="image" href="">
-	        		<span class="overlay"><p>fashion</p></span>
-		        	<img src="images/port_fashion.jpg" />
-		        </a>
-		        <a class="image" href="">
-	        		<span class="overlay"><p>drawing</p></span>
-		        	<img src="images/port_draw.jpg" />
-		        </a>
-		        <a class="image" href="">
-	        		<span class="overlay"><p>painting</p></span>
-		        	<img src="images/port_paint.jpg" />
-		        </a>
+	        	<a class="image" href=""><span class="overlay"><p>architecture</p></span><img src="images/port_arch.jpg" /></a><!--
+		     --><a class="image" href=""><span class="overlay"><p>fashion</p></span><img src="images/port_fashion.jpg" /></a><!--
+		     --><a class="image" href=""><span class="overlay"><p>drawing</p></span><img src="images/port_draw.jpg" /></a><!--
+		     --><a class="image" href=""><span class="overlay"><p>painting</p></span><img src="images/port_paint.jpg" /></a>
 	        </div>
 	        <div class="gallery">
-	        	<a class="image" href="">
-	        		<span class="overlay"><p>photography</p></span>
-		        	<img src="images/port_photo.jpg" />
-		        </a>
-		        <a class="image" href="">
-	        		<span class="overlay"><p>set design</p></span>
-		        	<img src="images/port_set.jpg" />
-		        </a>
-		        <a class="image" href="">
-	        		<span class="overlay"><p>web design</p></span>
-		        	<img src="images/port_web.jpg" />
-		        </a>
-		        <a class="image" href="">
-	        		<span class="overlay"><p>misc.</p></span>
-		        	<img src="images/port_misc.jpg" />
-		        </a>
+	        	<a class="image" href=""><span class="overlay"><p>photography</p></span><img src="images/port_photo.jpg" /></a><!--
+		     --><a class="image" href=""><span class="overlay"><p>set design</p></span><img src="images/port_set.jpg" /></a><!--
+		     --><a class="image" href=""><span class="overlay"><p>web design</p></span><img src="images/port_web.jpg" /></a><!--
+		     --><a class="image" href=""><span class="overlay"><p>misc.</p></span><img src="images/port_misc.jpg" /></a>
 	        </div>
 
 	        
@@ -158,14 +134,15 @@
 	<!--BEGIN about page-->
 	<div class="about">
     	<a id="about"></a>
-    <!--
-        <h2>About me</h2>
-        <img src="images/snoweria.png" alt="Snoweria Zhang" />
-        <p>Hi! My name is <a href="http://www.snoweria.com" alt="www.snoweria.com">Snoweria</a>. I am an artist + designer who<br/> enjoys mathematics, earrings, and tea.</p>
-		<p>A Canadian citizen, I have worked and lived in many cities,<br/> including Boston, Shanghai, Paris, and London. As a result, <br/>I am a teensy culturally “messed up.” My work draws <br/>inspiration from my travels, daydreams, and actual dreams. </p>
-		<p>I own 43 pairs of <a href="fashion.html" alt="www.snoweria.com/fashion.html">earrings</a>, 21 of which I made from things <br/>my friends threw away. None of them match the <a href="fashion.html" alt="www.snoweria.com/fashion.html">dresses</a> <br/>I have designed. </p>
-		<p>In May, 2012, I graduated from Harvard University with a B.A.<br/> in <a href="" alt="">mathematics</a> and a minor in fine arts.</p>
-	-->
+    	<div class="divider_top"></div>
+    	<div class="content">
+	        <h2>About me</h2>
+	        <p class="dark">Hi! My name is <a href="http://www.snoweria.com" alt="www.snoweria.com">Snoweria</a>. I am an artist + designer who<br/> enjoys mathematics, earrings, and tea.</p>
+			<p class="dark">A Canadian citizen, I have worked and lived in many cities,<br/> including Boston, Shanghai, Paris, and London. As a result, <br/>I am a teensy culturally “messed up.” My work draws <br/>inspiration from my travels, daydreams, and actual dreams. </p>
+			<p class="dark">I own 43 pairs of <a href="fashion.html" alt="www.snoweria.com/fashion.html">earrings</a>, 21 of which I made from things <br/>on their way to the trash can. None of them match the <br/><a href="fashion.html" alt="www.snoweria.com/fashion.html">dresses</a> I have designed. </p>
+			<p class="dark">In May, 2012, I graduated from Harvard University with a <br/>B.A. in <a href="" alt="">mathematics</a> and a minor in fine arts.</p>
+			<img src="images/snoweria.png" alt="Snoweria Zhang" />
+		</div>
 	</div>
 	<!--END about page-->
 
@@ -173,29 +150,24 @@
 	<!--BEGIN contact page-->
 	<div class="contact">
     	<a id="contact"></a>
-    <!--
-	 	<img src="images/icon_contact.png" />
+
+    	<div class="divider_top"></div>
         <h2>Contact Me</h2>
 
-        <p>Please feel free to contact me about my work or to suggest<br/> improvements to my portfolio. You may email me at<br/> <a href="">snoweriazhang@gmail.com</a> or use the form on the left. </p>
-		<p>Alternatively, you can fine me on <a href="" alt="">LinkedIn</a> or <a href="" alt="">GitHub</a>.</p>
-       
-
+        <p class="light">Please feel free to contact me about my work or to suggest<br/> improvements to my portfolio. You may email me at<br/> <a href="">snoweriazhang@gmail.com</a> or use the form on the left. </p>
+		<p class="light">Alternatively, you can fine me on <a href="" alt="">LinkedIn</a> or <a href="" alt="">GitHub</a>.</p>
+ 
         <div id="sendform">            
         	<div id="response"></div>
 
          	<form id="formail" action="" method ="post" name="sendform">
-				<input type="text" name="subject" id="subject" value="Name" onclick="this.value='';" onfocus="this.select()" onblur=
-                "this.value=!this.value?'Name':this.value;" /><br />
-				<input type="text" name="mail" id="mail" value="Email Address" onclick="this.value='';" onfocus="this.select()" onblur=
-                "this.value=!this.value?'Email Address':this.value;" /><br />
-				<textarea name="text" rows="" cols="" id="text" onclick="document.sendform.text.value='';" onfocus="this.select()" onblur=
-                "document.sendform.text.value=!document.sendform.text.value?'Message':this.value;">Message</textarea> <br />
-            	<input type="image" src="images/submit_button.png" onmouseover='this.src="images/submit_button_hover.png"' onmouseout=
-                'this.src="images/submit_button.png"' alt="Submit" class="submit" id="sendmail" name="sendmail" value="send mail" />
+				<input type="text" name="subject" id="subject" value="Name*" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Name*':this.value;" />
+				<input type="text" name="mail" id="mail" value="Email Address*" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Email Address*':this.value;" />
+				<textarea name="text" rows="" cols="" id="text" onclick="document.sendform.text.value='';" onfocus="this.select()" onblur="document.sendform.text.value=!document.sendform.text.value?'Message*':this.value;">Message*</textarea> 
+            	<input type="button" alt="Submit" class="submit" id="sendmail" name="sendmail" value="Send" />
 			</form>
 		</div>
-	-->
+
 	</div>
 	<!--END contact page-->
 
