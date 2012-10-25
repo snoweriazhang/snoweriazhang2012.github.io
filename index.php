@@ -109,7 +109,7 @@
 	<!--BEGIN portfolio page-->
 	<div class="portfolio">
     	<a id="portfolio"></a>
-    	<div class="divider_top"></div>
+    	<div class="divider"><img src="images/divider_home.png" alt=""/></div>
     	<!--<div class="divider_home"></div><span id="divider_home_margin"></span>-->
 	    <div class="content">	
 	    	<p class="light">Portfolio available in <a href="">PDF</a></p>
@@ -135,14 +135,14 @@
 	<!--BEGIN about page-->
 	<div class="about">
     	<a id="about"></a>
-    	<div class="divider_top"></div>
+    	<div class="divider"><img src="images/divider_portfolio.png" alt=""/></div>
     	<div class="content">
 	        <h2>About me</h2>
 	        <p class="dark">Hi! My name is <a href="http://www.snoweria.com" alt="www.snoweria.com">Snoweria</a>. I am an artist + designer who<br/> enjoys mathematics, earrings, and tea.</p>
 			<p class="dark">A Canadian citizen, I have worked and lived in many cities,<br/> including Boston, Shanghai, Paris, and London. As a result, <br/>I am a teensy culturally “messed up.” My work draws <br/>inspiration from my travels, daydreams, and actual dreams. </p>
 			<p class="dark">I own 43 pairs of <a href="fashion.html" alt="www.snoweria.com/fashion.html">earrings</a>, 21 of which I made from things <br/>on their way to the trash can. None of them match the <br/><a href="fashion.html" alt="www.snoweria.com/fashion.html">dresses</a> I have designed. </p>
 			<p class="dark">In May, 2012, I graduated from Harvard University with a <br/>B.A. in <a href="" alt="">mathematics</a> and a minor in fine arts.</p>
-			<img src="images/snoweria.png" alt="Snoweria Zhang" />
+			<img src="images/snoweria.png" alt="Snoweria Zhang" id="photo_snoweria"/>
 		</div>
 	</div>
 	<!--END about page-->
@@ -151,8 +151,7 @@
 	<!--BEGIN contact page-->
 	<div class="contact">
     	<a id="contact"></a>
-
-    	<div class="divider_top"></div>
+    	<div class="divider"><img src="images/divider_about.png" alt=""/></div>
         <h2>Contact me</h2>
 
         <p class="light">Please feel free to contact me about my work or to suggest improvements to my portfolio. You may email me at<br/> <a href="">snoweriazhang@gmail.com</a> or use the form on the left. </p>
