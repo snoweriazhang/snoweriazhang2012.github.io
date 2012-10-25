@@ -109,10 +109,9 @@
 	<!--BEGIN portfolio page-->
 	<div class="portfolio">
     	<a id="portfolio"></a>
-    	<!--<div class="divider_top"></div>-->
-    	<span id="divider_home_margin"></span>
-	    <div class="content">
-	    	<div class="divider_home"></div>
+    	<div class="divider_top"></div>
+    	<!--<div class="divider_home"></div><span id="divider_home_margin"></span>-->
+	    <div class="content">	
 	    	<p class="light">Portfolio available in <a href="">PDF</a></p>
 	    	
 	        <div class="gallery">
@@ -243,8 +242,13 @@
 				        );
 				        event.preventDefault();
 
-				        //move nacigation bar color
-				        //$(this).find('img').css('left','0px');
+				        $("nav a").animate( { backgroundColor: "transparent" }, 200);
+				        if($anchor.attr('href')=="#portfolio")
+				        	$("nav a:contains('PORTFOLIO')").animate( { backgroundColor: "#000" }, 200);
+				        else if($anchor.attr('href')=="#about")
+				        	$("nav a:contains('ABOUT ME')").animate( { backgroundColor: "#000" }, 200);
+				        else if($anchor.attr('href')=="#contact")
+				        	$("nav a:contains('CONTACT')").animate( { backgroundColor: "#000" }, 200);
 
 				    });
 				});
@@ -258,7 +262,7 @@
 	        	$(window).resize(resize_nav_left_bg);
 					        	
 		        function resize_nav_left_bg(){
-			       	$("#header_bg_left").add("#divider_home_margin").css("width",function(){
+			       	$("#header_bg_left").css("width",function(){
 		        		return (window.innerWidth - 960)/2;
 		        	});		
 		        }
@@ -279,7 +283,7 @@
 				
 				//last page resize (for bigger screen resolution)
 				$(function(){
-					if(window.innerHeight>680)
+					if(window.innerHeight>580)
 						$(".contact").css("height",window.innerHeight);
 				});
 		       	        	
