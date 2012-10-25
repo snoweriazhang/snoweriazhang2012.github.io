@@ -70,7 +70,7 @@
 			(navigator.userAgent.match(/webOS/i)) ||
 			(navigator.userAgent.match(/Windows Phone OS 7/i)) ||
 			(screen.width <=480)) {
-			document.location="mobile.html"
+			document.location="mobile/index.html"
 		   //location.replace("http://snoweria.com/mobile.html");
 		}
 	</script>
@@ -109,8 +109,10 @@
 	<!--BEGIN portfolio page-->
 	<div class="portfolio">
     	<a id="portfolio"></a>
-    	<div class="divider_top"></div>
+    	<!--<div class="divider_top"></div>-->
+    	<span id="divider_home_margin"></span>
 	    <div class="content">
+	    	<div class="divider_home"></div>
 	    	<p class="light">Portfolio available in <a href="">PDF</a></p>
 	    	
 	        <div class="gallery">
@@ -154,14 +156,14 @@
     	<div class="divider_top"></div>
         <h2>Contact me</h2>
 
-        <p class="light">Please feel free to contact me about my work or to suggest<br/> improvements to my portfolio. You may email me at<br/> <a href="">snoweriazhang@gmail.com</a> or use the form on the left. </p>
+        <p class="light">Please feel free to contact me about my work or to suggest improvements to my portfolio. You may email me at<br/> <a href="">snoweriazhang@gmail.com</a> or use the form on the left. </p>
 		<p class="light">Alternatively, you can find me on <a href="" alt="">LinkedIn</a> or <a href="" alt="">GitHub</a>.</p>
  
         <div id="sendform">            
         	
         	<div id="response"></div>
          	<form id="formail" action="" method ="post" name="sendform">
-         		
+
 				<input type="text" name="subject" id="subject" value="Name*" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Name*':this.value;" />
 				<input type="text" name="mail" id="mail" value="Email Address*" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Email Address*':this.value;" />
 				<textarea name="text" rows="" cols="" id="text" onclick="document.sendform.text.value='';" onfocus="this.select()" onblur="document.sendform.text.value=!document.sendform.text.value?'Message*':this.value;">Message*</textarea> 
@@ -256,7 +258,7 @@
 	        	$(window).resize(resize_nav_left_bg);
 					        	
 		        function resize_nav_left_bg(){
-			       	$("#header_bg_left").css("width",function(){
+			       	$("#header_bg_left").add("#divider_home_margin").css("width",function(){
 		        		return (window.innerWidth - 960)/2;
 		        	});		
 		        }
@@ -275,7 +277,11 @@
 					});
 				});
 				
-				
+				//last page resize (for bigger screen resolution)
+				$(function(){
+					if(window.innerHeight>680)
+						$(".contact").css("height",window.innerHeight);
+				});
 		       	        	
         	});
         	
