@@ -225,7 +225,7 @@
 			        var $anchor = $(this);
 			        $('html, body').stop(false, true).animate(
 			        	{scrollTop: $($anchor.attr('href')).offset().top}, 
-			        	1000, 
+			        	1500, 
 			        	'easeInOutExpo'
 			        );
 			        event.preventDefault();
@@ -238,7 +238,7 @@
 				        var $anchor = $(this);
 				        $('html, body').stop(false, true).animate(
 				        	{scrollTop: $($anchor.attr('href')).offset().top}, 
-				        	1000, 
+				        	1500, 
 				        	'easeInOutExpo'
 				        );
 				        event.preventDefault();
@@ -284,7 +284,7 @@
 				
 				//last page resize (for bigger screen resolution)
 				$(function(){
-					if(window.innerHeight>580)
+					if(window.innerHeight>680)
 						$(".contact").css("height",window.innerHeight);
 				});
 		       	        	

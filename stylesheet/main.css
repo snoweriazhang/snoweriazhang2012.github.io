@@ -155,12 +155,16 @@ nav{
 }
 
 #left{
+	display:block;
+	width:423px;
 	position: fixed;
 	left:50%;
 	margin-left: -423px;
 }
 
 #right{
+	display:block;
+	width:423px;
 	position: fixed;
 	left:50%;
 	margin-left: 143px;
