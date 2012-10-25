@@ -206,18 +206,19 @@
 	        		function(){
 			        	$(this).animate( { backgroundColor: "#000" }, 200);
 		        	},function(){
-			        	$(this).animate( { backgroundColor: "transparent" }, 200);
+			        	$(this).animate( { backgroundColor: "transparent" }, 100);
 	        	}).click(function(){
 
 		        	$(this).animate( { backgroundColor: "#000" }, 200).unbind("hover");
 		        	
-		        	$(this).siblings()
-		        	.animate( { backgroundColor: "transparent" }, 200)	
+		        	//$(this).siblings()
+		        	$("nav a").not(this)
+		        	.animate( { backgroundColor: "transparent" }, 100)	
 		        	.hover(
 		        		function(){
 				        	$(this).animate( { backgroundColor: "#000" }, 200);
 			        	},function(){
-				        	$(this).animate( { backgroundColor: "transparent" }, 200);
+				        	$(this).animate( { backgroundColor: "transparent" }, 100);
 			        });	
 
 			        //animate body
