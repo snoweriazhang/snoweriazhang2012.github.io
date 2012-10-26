@@ -32,6 +32,9 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
+	<!--chrome frame-->
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" media="screen, projection" href="stylesheet/main.css" />
@@ -112,7 +115,7 @@
     	<div class="divider"><img src="images/divider_home.png" alt=""/></div>
     	<!--<div class="divider_home"></div><span id="divider_home_margin"></span>-->
 	    <div class="content">	
-	    	<p class="light">Portfolio available in <a href="">PDF</a></p>
+	    	<p class="light">Portfolio available in <a href="" alt="PDF portfolio" target="_blank">PDF</a></p>
 	    	
 	        <div class="gallery">
 	        	<a class="image" href=""><span class="overlay"><p>architecture</p></span><img src="images/port_arch.jpg" /></a><!--
@@ -154,17 +157,17 @@
     	<div class="divider"><img src="images/divider_about.png" alt=""/></div>
         <h2>Contact me</h2>
 
-        <p class="light">Please feel free to contact me about my work or to suggest improvements to my portfolio. You may email me at<br/> <a href="">snoweriazhang@gmail.com</a> or use the form on the left. </p>
-		<p class="light">Alternatively, you can find me on <a href="" alt="">LinkedIn</a> or <a href="" alt="">GitHub</a>.</p>
+        <p class="light">Please feel free to contact me about my work or to suggest improvements to my portfolio. You may email me at <a href="mailto:snoweriazhang@gmail.com" target="_blank">snoweriazhang@gmail.com</a> or use the form on the left. </p>
+		<p class="light">Alternatively, you can find me on <a href="http://www.linkedin.com/pub/snoweria-zhang/45/372/aa5" alt="Snoweria's LinkedIn" target="_blank">LinkedIn</a> or <a href="https://github.com/dobbyzhang" alt="Snoweria's GitHub" target="_blank">GitHub</a>.</p>
  
         <div id="sendform">            
         	
         	<div id="response"></div>
          	<form id="formail" action="" method ="post" name="sendform">
 
-				<input type="text" name="subject" id="subject" value="Name*" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Name*':this.value;" />
-				<input type="text" name="mail" id="mail" value="Email Address*" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Email Address*':this.value;" />
-				<textarea name="text" rows="" cols="" id="text" onclick="document.sendform.text.value='';" onfocus="this.select()" onblur="document.sendform.text.value=!document.sendform.text.value?'Message*':this.value;">Message*</textarea> 
+				<input type="text" name="subject" id="subject" value="Name*" required="required" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Name*':this.value;" />
+				<input type="email" name="mail" id="mail" value="Email Address*" required="required" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Email Address*':this.value;" />
+				<textarea name="text" rows="" cols="" id="text" required="required" onclick="document.sendform.text.value='';" onfocus="this.select()" onblur="document.sendform.text.value=!document.sendform.text.value?'Message*':this.value;">Message*</textarea> 
             	<input type="button" alt="Submit" class="submit" id="sendmail" name="sendmail" value="Send" />
 			</form>
 		</div>
@@ -231,7 +234,7 @@
 	        	});
 
 	        	$(function() {
-				    $('.menu a').click(function(){
+				    $('.menu a').click(function(event){
 
 				    	//animate body
 				        var $anchor = $(this);
