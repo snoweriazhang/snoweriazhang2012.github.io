@@ -92,7 +92,25 @@
 
 <body>
 
-	<?php require($DOCUMENT_ROOT . "header.html");?>
+	
+	<header>
+		<div id="header_bg_left"></div>
+		<a href="http://www.snoweria.com" alt="www.snoweria.com">
+			<img src="images/logo.png" alt="www.snoweria.com" />
+		</a>
+		<div id="header_bg_bottom"></div>
+		<nav>
+			<span id="left">
+				<a href="#home">HOME</a>
+				<a href="#portfolio">PORTFOLIO</a>
+			</span>
+			<span id="right">
+				<a href="#about">ABOUT ME</a>
+				<a href="#contact">CONTACT</a>
+			</span>
+		</nav>	
+	</header>
+
 
 	<!--BEGIN home page-->
 	<div class="home">
@@ -297,7 +315,9 @@
         	
         </script> 
 
-	<?php require($DOCUMENT_ROOT . "footer.html");?>
+	<footer>
+		&copy; 2012 Snoweria Zhang
+	</footer>
 
 </body>
 </html>
