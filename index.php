@@ -136,16 +136,16 @@
 	    	<p class="light">Portfolio available in <a href="" alt="PDF portfolio" target="_blank">PDF</a></p>
 	    	
 	        <div class="gallery">
-	        	<a class="image" href=""><span class="overlay"><p>architecture</p></span><img src="images/port_arch.jpg" /></a><!--
-		     --><a class="image" href=""><span class="overlay"><p>fashion</p></span><img src="images/port_fashion.jpg" /></a><!--
-		     --><a class="image" href=""><span class="overlay"><p>drawing</p></span><img src="images/port_draw.jpg" /></a><!--
-		     --><a class="image" href=""><span class="overlay"><p>painting</p></span><img src="images/port_paint.jpg" /></a>
+	        	<a class="image" href="portfolio/index.html?id=Architecture"><span class="overlay"><p>architecture</p></span><img src="images/port_arch.jpg" /></a><!--
+		     --><a class="image" href="portfolio/index.html?id=Fashion"><span class="overlay"><p>fashion</p></span><img src="images/port_fashion.jpg" /></a><!--
+		     --><a class="image" href="portfolio/index.html?id=Drawing"><span class="overlay"><p>drawing</p></span><img src="images/port_draw.jpg" /></a><!--
+		     --><a class="image" href="portfolio/index.html?id=Painting"><span class="overlay"><p>painting</p></span><img src="images/port_paint.jpg" /></a>
 	        </div>
 	        <div class="gallery">
-	        	<a class="image" href=""><span class="overlay"><p>photography</p></span><img src="images/port_photo.jpg" /></a><!--
-		     --><a class="image" href=""><span class="overlay"><p>set design</p></span><img src="images/port_set.jpg" /></a><!--
-		     --><a class="image" href=""><span class="overlay"><p>web design</p></span><img src="images/port_web.jpg" /></a><!--
-		     --><a class="image" href=""><span class="overlay"><p>misc.</p></span><img src="images/port_misc.jpg" /></a>
+	        	<a class="image" href="portfolio/index.html?id=Photo"><span class="overlay"><p>photography</p></span><img src="images/port_photo.jpg" /></a><!--
+		     --><a class="image" href="Set Design"><span class="overlay"><p>set design</p></span><img src="images/port_set.jpg" /></a><!--
+		     --><a class="image" href="portfolio/index.html?id=Web"><span class="overlay"><p>web design</p></span><img src="images/port_web.jpg" /></a><!--
+		     --><a class="image" href="Misc."><span class="overlay"><p>misc.</p></span><img src="images/port_misc.jpg" /></a>
 	        </div>
 
 	        
@@ -307,6 +307,7 @@
 					if(window.innerHeight>680)
 						$(".contact").css("height",window.innerHeight);
 				});
+
 		       	        	
         	});
         	
