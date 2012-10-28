@@ -90,12 +90,13 @@
 <body>
 
 	<a id="top"></a>
+	<div class="top"><a href="#top">TOP</a></div>
 
 	<header>
 		<div id="header_bg_left"></div>
 		<a href="http://www.snoweria.com" alt="www.snoweria.com">
 			<img src="../images/logo.png" alt="www.snoweria.com" />
-		</a>
+		</a> 
 		<div id="header_bg_bottom"></div>
 		<nav>
 			<span id="left">
@@ -110,7 +111,10 @@
 	</header>
 	</script>
 
-	<div class="top"><a href="#top">TOP</a></div>
+	<div class="filters">
+	</div>
+
+	
 
    	<script type="text/javascript"> 
     	$(document).ready(function(){
@@ -150,6 +154,23 @@
 	        		return (window.innerWidth - 960)/2;
 	        	});		
 	        }    
+
+	        //change position attribute of header and filter on scroll
+			$(window).scroll(function() {
+				//alert("Hi");
+			    if ($(document).scrollTop() > 167) {
+			        $(".filters").css({
+			            'position': 'fixed', 
+			            'top': '-167px'
+			        });
+			    } else {
+			        $(".filters").css({
+			            'position': 'absolute',
+			            'top':'0px'
+			        });
+			    }
+			});
+
 	       
 	       //gallery animation
 	       
@@ -164,10 +185,7 @@
 				});
 			});       	        	
     	});
-    	
-    	
-    	
-    	
+    	 	
     </script> 
 
 	<footer>
