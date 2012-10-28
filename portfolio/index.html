@@ -109,12 +109,28 @@
 			</span>
 		</nav>	
 	</header>
-	</script>
 
-	<div class="filters">
-	</div>
 
-	
+<!--	<div class="filters">
+
+	</div>-->
+
+
+	<div id='filters_container'>	
+		<ol id="filters">
+		
+	        <li data-filter="amsterdam">Architecture</li>
+	        <li data-filter="tokyo">Drawing</li>
+	       	<li data-filter="berlin">Photo</li>
+	        <li data-filter="london">Fashion</li>
+	        <li data-filter="london"><span id="all">ALL</span></li>
+	        <li data-filter="paris">Painting</li>
+	        <li data-filter="sport">Web</li>
+	        <li data-filter="fashion">Set Design</li>
+	        <li data-filter="video">Misc.</li>
+     
+ 	   </ol>	
+    </div>
 
    	<script type="text/javascript"> 
     	$(document).ready(function(){
@@ -159,12 +175,12 @@
 			$(window).scroll(function() {
 				//alert("Hi");
 			    if ($(document).scrollTop() > 167) {
-			        $(".filters").css({
+			        $("#filters_container").css({
 			            'position': 'fixed', 
 			            'top': '-167px'
 			        });
 			    } else {
-			        $(".filters").css({
+			        $("#filters_container").css({
 			            'position': 'absolute',
 			            'top':'0px'
 			        });
