@@ -159,9 +159,9 @@
     	<div class="divider"><img src="images/divider_portfolio.png" alt=""/></div>
     	<div class="content">
 	        <h2>About me</h2>
-	        <p class="dark">Hi! My name is <a href="http://www.snoweria.com" alt="www.snoweria.com">Snoweria</a>. I am an artist + designer who<br/> enjoys mathematics, earrings, and tea.</p>
-			<p class="dark">A Canadian citizen, I have worked and lived in many cities,<br/> including Boston, Shanghai, Paris, and London. As a result, <br/>I am a teensy culturally “messed up.” My work draws <br/>inspiration from my travels, daydreams, and actual dreams. </p>
-			<p class="dark">I own 43 pairs of <a href="fashion.html" alt="www.snoweria.com/fashion.html">earrings</a>, 21 of which I made from things <br/>on their way to the trash can. None of them match the <br/><a href="fashion.html" alt="www.snoweria.com/fashion.html">dresses</a> I have designed. </p>
+	        <p class="dark">Hi! My name is <a href="http://www.snoweria.com" alt="www.snoweria.com">Snoweria</a>. I am an artist + designer who enjoys mathematics, earrings, and tea.</p>
+			<p class="dark">A Canadian citizen, I have worked and lived in many cities, including Boston, Shanghai, Paris, and London. As a result, I am a teensy culturally “messed up.” My work draws inspiration from my travels, daydreams, and actual dreams. </p>
+			<p class="dark">I own 43 pairs of <a href="portfolio/index.html?id=Fashion" alt="Porfolio | Fashion">earrings</a>, 21 of which I made from things on their way to the trash can. None of them match the <a href="portfolio/index.html?id=Fashion" alt="Portfolio | Fashion">dresses</a> I have designed. </p>
 			<p class="dark">In May, 2012, I graduated from Harvard University with a <br/>B.A. in <a href="" alt="">mathematics</a> and a minor in fine arts.</p>
 			<img src="images/snoweria.png" alt="Snoweria Zhang" id="photo_snoweria"/>
 		</div>

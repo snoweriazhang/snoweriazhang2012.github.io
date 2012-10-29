@@ -21,7 +21,6 @@ time, mark, audio, video {
 body{
 	margin:0 auto;
 	background: url('../images/home_bg.jpg') repeat #f3f2e9;
-	height:3000px;
 }
 /*
 .container{
@@ -67,6 +66,15 @@ nav a{
 	font-weight:400;
 	color: #8c1c1c;
 }
+
+#tiles li p {
+	color: #666;
+	font-size: 13px;
+	font-family: "Lato", Helvetica, Arial, Times New Roman, sans-serif;
+	font-weight:400;
+	margin: 7px 0 0 7px;
+}
+
 
 /*
 p{
@@ -288,8 +296,6 @@ nav .current{
  * Grid item text
  */
 #tiles li p {
-	color: #666;
-	font-size: 12px;
 	margin: 7px 0 0 7px;
 }
 
@@ -323,8 +329,6 @@ span.overlay{
 	height:300px;
 	width:300px;
 	position:absolute;
-
-/*	z-index:98;*/
 }
 
 /*	--------------------------------------------------

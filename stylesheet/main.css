@@ -66,6 +66,7 @@ p{
 	font-family: "Lato", Helvetica, Arial, Times New Roman, sans-serif; 
 	font-size:18px;
 	font-weight:300;
+	text-decoration: none;
 	margin-bottom:20px;
 }
 
@@ -310,6 +311,7 @@ span.overlay{
 span.overlay p{
 	float:left;
 	position:relative;
+	text-decoration: none !important;
 	top:186px;
 	left:20px;
 	margin:0;
