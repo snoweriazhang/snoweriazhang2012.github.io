@@ -1,28 +1,33 @@
 <CATALOG>
 
 	<ART>
-		<IMAGE>portfolio_images_full/architecture_house_1.jpg</IMAGE>
-		<TITLE>Shared Housing Project</TITLE>
 		<ID>architecture_house_1</ID>
-		<CONTENT>Content 1</CONTENT>
-		<DATE>June 2011</DATE>
-	</ART>
-	
-	<ART>
-		<IMAGE>portfolio_images_full/architecture_house_2.jpg</IMAGE>
+		<IMAGE>portfolio_images_full/architecture_house_1.jpg width="466" height="500"</IMAGE>
 		<TITLE>Shared Housing Project</TITLE>
-		<ID>architecture_house_2</ID>
-		<CONTENT>Content 2</CONTENT>
 		<DATE>June 2011</DATE>
-
+		<CONTENT>
+			The housing project is devised for two single residents, a botanist and an astronomer. The two have very different schedules and hobbies: the astronomer has an impressive collection of 200 pairs of shoes, while the botanist is an orchid enthusiast. The design aims to create the space the individuals need (e.g. greenhouse, observatory) while exploring the concept of public and private space. The design exercise introduces students to tectonic relations of space and structure. Staring with two separate residential spheres, I created "plug-in" structures that connect these spheres and function as shared space.
+		</CONTENT>
 	</ART>
 	
 	<ART>
+		<ID>architecture_house_2</ID>
+		<IMAGE>portfolio_images_full/architecture_house_2.jpg width="638" height="500"</IMAGE>
+		<TITLE>Shared Housing Project</TITLE>
+		<DATE>June 2011</DATE>
+		<CONTENT>
+			The housing project is devised for two single residents, a botanist and an astronomer. The two have very different schedules and hobbies: the astronomer has an impressive collection of 200 pairs of shoes, while the botanist is an orchid enthusiast. The design aims to create the space the individuals need (e.g. greenhouse, observatory) while exploring the concept of public and private space. The design exercise introduces students to tectonic relations of space and structure. Staring with two separate residential spheres, I created "plug-in" structures that connect these spheres and function as shared space.
+		</CONTENT>
+	</ART>
+	
+	<ART>
+		<ID>architecture_house_3</ID>
 		<IMAGE>portfolio_images_full/architecture_house_3.jpg</IMAGE>
 		<TITLE>Shared Housing Project</TITLE>
-		<ID>architecture_house_3</ID>
-		<CONTENT>Content 3</CONTENT>
 		<DATE>June 2011</DATE>
+		<CONTENT>
+			The housing project is devised for two single residents, a botanist and an astronomer. The two have very different schedules and hobbies: the astronomer has an impressive collection of 200 pairs of shoes, while the botanist is an orchid enthusiast. The design aims to create the space the individuals need (e.g. greenhouse, observatory) while exploring the concept of public and private space. The design exercise introduces students to tectonic relations of space and structure. Staring with two separate residential spheres, I created "plug-in" structures that connect these spheres and function as shared space.
+		</CONTENT>	
 	</ART>
 
 </CATALOG>

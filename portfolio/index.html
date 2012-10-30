@@ -18,7 +18,7 @@
 	<meta name="title" content=" Snoweria Zhang's Online Portfolio" />
 	<meta name="copyright" content="Copyright (c) 2012 Snoweria Zhang" />
 
-	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,300italic,400|Neuton' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,300italic,400|Neuton' rel='stylesheet' type='text/css'>
 	<link rel="Shortcut Icon" href="../images/icon.ico" type="image/ico" />
 
 	<!-- iPhone/iPad -->
@@ -458,6 +458,10 @@
 				xmlhttp.onreadystatechange=function(){
 				  if (xmlhttp.readyState==4 && xmlhttp.status==200){
 				  	$("#txtHint").html(xmlhttp.responseText);
+				  	//position image
+				  	$art_height=$('img.art').attr('height');
+			   		$art_width=$('img.art').attr('width');
+			    	$('img.art').css('left',360-$art_width/2).css('top',265-$art_height/2);
 				  }
 				  if (xmlhttp.readyState==3){
 				  	$("#txtHint").html("Loading...");
@@ -468,7 +472,7 @@
 				}
 				xmlhttp.open("GET","getlist.php?q="+str,true);
 				xmlhttp.send();
-			
+		
 			}
 
 			$('#modal').hide();
@@ -510,6 +514,9 @@
 			        $id=$('ul li').first().attr('id');
 			    showART($id);
 		    });
+
+
+
 
     	});
     	 	

@@ -18,17 +18,10 @@ for ($i=0; $i<=$x->length-1; $i++){
 
 $art=($y->childNodes);
 
-for ($i=0;$i<$art->length;$i++){ 
 
-	//Process only element nodes
-	if ($art->item($i)->nodeType==1){
-		if ($art->item($i)->nodeName=="IMAGE")
-	  		echo("<img src=".$art->item($i)->childNodes->item(0)->nodeValue." class='art'/>");
-	  	else{
-		  	echo("<b>" . $art->item($i)->nodeName . ":</b> ");
-		  	echo($art->item($i)->childNodes->item(0)->nodeValue);
-		  	echo("<br />");
-	  	}
-	}
-}
+echo("<p class='title'>".$art->item(5)->childNodes->item(0)->nodeValue."</p>"); // print title in title format
+echo("<p>".$art->item(7)->childNodes->item(0)->nodeValue."</p>"); // print date
+echo("<p>".$art->item(9)->childNodes->item(0)->nodeValue."</p>"); // print content
+echo("<img src=".$art->item(3)->childNodes->item(0)->nodeValue." class='art'/>"); // print image
+
 ?>
