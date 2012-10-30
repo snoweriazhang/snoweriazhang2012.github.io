@@ -463,11 +463,11 @@
 			   		$art_width=$('img.art').attr('width');
 			    	$('img.art').css('left',360-$art_width/2).css('top',265-$art_height/2);
 				  }
-				  if (xmlhttp.readyState==3){
-				  	$("#txtHint").html("Loading...");
+				  if (xmlhttp.readyState==1 || xmlhttp.readyState==2 || xmlhttp.readyState==3){
+				  	$("#txtHint").html("<p class='alert'>Loading...<p>");
 				  }
 				  if (xmlhttp.status==404){
-				  	$("#txtHint").html("Sorry, this image does not exist.");
+				  	$("#txtHint").html("<p class='alert'>Image not found.</p>");
 				  }
 				}
 				xmlhttp.open("GET","getlist.php?q="+str,true);
