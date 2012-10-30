@@ -1,0 +1,28 @@
+<CATALOG>
+
+	<ART>
+		<IMAGE>portfolio_images_full/architecture_house_1.jpg</IMAGE>
+		<TITLE>Shared Housing Project</TITLE>
+		<ID>architecture_house_1</ID>
+		<CONTENT>Content 1</CONTENT>
+		<DATE>June 2011</DATE>
+	</ART>
+	
+	<ART>
+		<IMAGE>portfolio_images_full/architecture_house_2.jpg</IMAGE>
+		<TITLE>Shared Housing Project</TITLE>
+		<ID>architecture_house_2</ID>
+		<CONTENT>Content 2</CONTENT>
+		<DATE>June 2011</DATE>
+
+	</ART>
+	
+	<ART>
+		<IMAGE>portfolio_images_full/architecture_house_3.jpg</IMAGE>
+		<TITLE>Shared Housing Project</TITLE>
+		<ID>architecture_house_3</ID>
+		<CONTENT>Content 3</CONTENT>
+		<DATE>June 2011</DATE>
+	</ART>
+
+</CATALOG>

@@ -136,9 +136,9 @@
 		          These are our grid items. Each one has classes assigned that
 		          are used for filtering. The classes match the "data-filter" properties above.
 		          -->
-		       	<li class="fashion"><span class="overlay"></span><img src="portfolio_images/fashion_dress_1.jpg" height="292" width="300"><p>Fashion | Dress</p></li>
-		        <li class="fashion"><span class="overlay"></span><img src="portfolio_images/fashion_dress_2.jpg" height="490" width="300"><p>Fashion | Dress from old purse</p></li>
-		        <li class="fashion"><span class="overlay"></span><img src="portfolio_images/fashion_dress_3.jpg" height="296" width="300"><p>Fashion | Skirt from old pants</p></li>
+		       	<li class="fashion" id="Title_1"><span class="overlay"></span><img src="portfolio_images/fashion_dress_1.jpg" height="292" width="300"><p>Fashion | Dress</p></li>
+		        <li class="fashion" id="Title_2"><span class="overlay"></span><img src="portfolio_images/fashion_dress_2.jpg" height="490" width="300"><p>Fashion | Dress from old purse</p></li>
+		        <li class="fashion" id="Title_3"><span class="overlay"></span><img src="portfolio_images/fashion_dress_3.jpg" height="296" width="300"><p>Fashion | Skirt from old pants</p></li>
 		        <li class="fashion"><span class="overlay"></span><img src="portfolio_images/fashion_earring_bulb.jpg" height="414" width="300"><p>Fashion | Light bulb earrings</p></li>
 		        <li class="fashion"><span class="overlay"></span><img src="portfolio_images/fashion_earring_can.jpg" height="403" width="300"><p>Fashion | Pop can earrings</p></li>
 		        <li class="fashion"><span class="overlay"></span><img src="portfolio_images/fashion_earring_chip.jpg" height="261" width="300"><p>Fashion | Radio chip earrings</p></li>
@@ -151,9 +151,9 @@
 		        <li class="fashion"><span class="overlay"></span><img src="portfolio_images/fashion_ring_rose.jpg" height="200" width="300"><p>Fashion | Origami rose ring</p></li>
 
 
-		        <li class="architecture"><span class="overlay"></span><img src="portfolio_images/architecture_house_1.jpg" height="322" width="300"><p>Architecture | Shared Housing Project</p></li>
-		        <li class="architecture"><span class="overlay"></span><img src="portfolio_images/architecture_house_2.jpg" height="235" width="300"><p>Architecture | Shared Housing Project/p></li>
-		        <li class="architecture"><span class="overlay"></span><img src="portfolio_images/architecture_house_3.jpg" height="223" width="300"><p>Architecture | Shared Housing Project</p></li>
+		        <li class="architecture" id="architecture_house_1"><span class="overlay"></span><img src="portfolio_images/architecture_house_1.jpg" height="322" width="300"><p>Architecture | Shared Housing Project</p></li>
+		        <li class="architecture" id="architecture_house_2"><span class="overlay"></span><img src="portfolio_images/architecture_house_2.jpg" height="235" width="300"><p>Architecture | Shared Housing Project/p></li>
+		        <li class="architecture" id="architecture_house_3"><span class="overlay"></span><img src="portfolio_images/architecture_house_3.jpg" height="223" width="300"><p>Architecture | Shared Housing Project</p></li>
 		        <li class="architecture"><span class="overlay"></span><img src="portfolio_images/architecture_kenmore_1.jpg" height="200" width="300"><p>Architecture | Kenmore Square Film Archive</p></li>
 		        <li class="architecture"><span class="overlay"></span><img src="portfolio_images/architecture_kenmore_2.jpg" height="200" width="300"><p>Architecture | Kenmore Square Film Archive</p></li>
 		        <li class="architecture"><span class="overlay"></span><img src="portfolio_images/architecture_kenmore_3.jpg" height="200" width="300"><p>Architecture | Kenmore Square Film Archive</p></li>
@@ -247,14 +247,19 @@
 		        <li class="web"><span class="overlay"></span><img src="portfolio_images/web_samuel.jpg" height="227" width="300"><p>Web Design | Samuel Lab</p></li>
 		        <li class="web"><span class="overlay"></span><img src="portfolio_images/web_snoweria.jpg" height="243" width="300"><p>Web Design | Snoweria.com 2.0</p></li>
 		        <li class="web"><span class="overlay"></span><img src="portfolio_images/web_tdsb.jpg" height="298" width="300"><p>Web Design | Toronto District School Board</p></li>
-
-
-		        
-
 		        <!-- End of grid blocks -->
-	        </ul>
-
+	        </ul>  
    		</div>
+	</div>  
+
+
+	<div id="modal">
+		<div id="modal_dialog">
+			<div id="txtHint"></div>
+		</div>
+		<button id="close"></button>
+		<button id="prev"></button>
+		<button id="next"></button>
 	</div>    
 
    	<script type="text/javascript"> 
@@ -425,17 +430,87 @@
 				OVERLAY ANIMATION
 			----------------------------------------------------*/    
 	
-				$(function() {
-					$(".overlay").css("opacity","0");
-					$(".overlay").hover(
-						function () {
-							$(this).stop().animate({opacity: 1}, 200);
-							$(this).css('height',$(this).parent().height()-21);
-						},
-						function () {
-							$(this).stop().animate({opacity: 0}, 200);
-					});
-				}); 
+			$(function() {
+				$(".overlay").css("opacity","0");
+				$(".overlay").hover(
+					function () {
+						$(this).stop().animate({opacity: 1}, 200);
+						$(this).css('height',$(this).parent().height()-21);
+					},
+					function () {
+						$(this).stop().animate({opacity: 0}, 200);
+				});
+			});
+
+			/*--------------------------------------------------
+				MODAL
+			----------------------------------------------------*/   
+
+			$id='';
+
+		    function showART(str){
+				
+				if (window.XMLHttpRequest){// code for IE7+, Firefox, Chrome, Opera, Safari
+					xmlhttp=new XMLHttpRequest();
+				}else{// code for IE6, IE5
+					xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+				}
+				xmlhttp.onreadystatechange=function(){
+				  if (xmlhttp.readyState==4 && xmlhttp.status==200){
+				  	$("#txtHint").html(xmlhttp.responseText);
+				  }
+				  if (xmlhttp.readyState==3){
+				  	$("#txtHint").html("Loading...");
+				  }
+				  if (xmlhttp.status==404){
+				  	$("#txtHint").html("Sorry, this image does not exist.");
+				  }
+				}
+				xmlhttp.open("GET","getlist.php?q="+str,true);
+				xmlhttp.send();
+			
+			}
+
+			$('#modal').hide();
+			
+			//show modal on click
+			$('ul li').click(function(){
+				$id=this.id;
+				showART($id);
+				$('#modal').css('top',$(window).scrollTop());
+				$('body').css('overflow','hidden');
+				$('#modal').fadeIn(200);
+			});
+			
+			//hide modal when area outside of modal is clicked
+			$('#modal').click(function(event){
+			    if (event.target == $('#modal').get(0)){
+					$('#modal').fadeOut(200);
+			    	$('body').css('overflow','visible');
+			    }
+			    
+		    });
+		    
+		    //hide modal when close button is closed
+		    $('#close').click(function(){
+			    $('#modal').fadeOut(500);
+			    $('body').css('overflow','visible');
+		    });
+		    
+		    $('#prev').click(function(){
+		        $id=$('#'+$id).prev().attr('id');
+		        if($id==undefined)
+			        $id=$('li').last().attr('id');
+			    showART($id);
+		    });
+		    
+		    $('#next').click(function(){
+		        $id=$('#'+$id).next().attr('id');
+		        if($id==undefined)
+			        $id=$('ul li').first().attr('id');
+			    showART($id);
+		    });
+
     	});
     	 	
     </script> 
