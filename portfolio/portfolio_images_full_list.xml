@@ -2,7 +2,7 @@
 
 	<ART>
 		<ID>architecture_house_1</ID>
-		<IMAGE>portfolio_images_full/architecture_house_1.jpg width="466" height="500"</IMAGE>
+		<IMAGE>portfolio_images_full/architecture_house_1.jpg width="333" height="500"</IMAGE>
 		<TITLE>Shared Housing Project</TITLE>
 		<DATE>June 2011</DATE>
 		<CONTENT>
@@ -22,12 +22,355 @@
 	
 	<ART>
 		<ID>architecture_house_3</ID>
-		<IMAGE>portfolio_images_full/architecture_house_3.jpg</IMAGE>
+		<IMAGE>portfolio_images_full/architecture_house_3.jpg width="671" height="500"</IMAGE>
 		<TITLE>Shared Housing Project</TITLE>
 		<DATE>June 2011</DATE>
 		<CONTENT>
 			The housing project is devised for two single residents, a botanist and an astronomer. The two have very different schedules and hobbies: the astronomer has an impressive collection of 200 pairs of shoes, while the botanist is an orchid enthusiast. The design aims to create the space the individuals need (e.g. greenhouse, observatory) while exploring the concept of public and private space. The design exercise introduces students to tectonic relations of space and structure. Staring with two separate residential spheres, I created "plug-in" structures that connect these spheres and function as shared space.
 		</CONTENT>	
 	</ART>
+
+	<ART>
+		<ID>architecture_kenmore_1</ID>
+		<IMAGE>portfolio_images_full/architecture_kenmore_1.jpg width="670" height="447"</IMAGE>
+		<TITLE>Kenmore Square Film Archive and Outdoor Theater</TITLE>
+		<DATE>June 2011</DATE>
+		<CONTENT>
+			The aim of this project is to create a cultural and community hub while preserving the subway stop that is currently occupying the site. The design includes and outdoor theatre, a film archive, and indoor theater, offices, and a special collection section that houses rare films.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>architecture_kenmore_2</ID>
+		<IMAGE>portfolio_images_full/architecture_kenmore_2.jpg width="670" height="447"</IMAGE>
+		<TITLE>Kenmore Square Film Archive and Outdoor Theater</TITLE>
+		<DATE>June 2011</DATE>
+		<CONTENT>
+			This is a study model of the Kenmore Square project. The aim of this project is to create a cultural and community hub while preserving the subway stop that is currently occupying the site. The design includes and outdoor theatre, a film archive, and indoor theater, offices, and a special collection section that houses rare films.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>architecture_kenmore_3</ID>
+		<IMAGE>portfolio_images_full/architecture_kenmore_3.jpg width="670" height="447"</IMAGE>
+		<TITLE>Kenmore Square Film Archive and Outdoor Theater</TITLE>
+		<DATE>June 2011</DATE>
+		<CONTENT>
+			This is a study model of the Kenmore Square project. The aim of this project is to create a cultural and community hub while preserving the subway stop that is currently occupying the site. The design includes and outdoor theatre, a film archive, and indoor theater, offices, and a special collection section that houses rare films.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>architecture_kenmore_4</ID>
+		<IMAGE>portfolio_images_full/architecture_kenmore_4.jpg width="670" height="447"</IMAGE>
+		<TITLE>Kenmore Square Film Archive and Outdoor Theater</TITLE>
+		<DATE>June 2011</DATE>
+		<CONTENT>
+			This is a study model of the Kenmore Square project. The aim of this project is to create a cultural and community hub while preserving the subway stop that is currently occupying the site. The design includes and outdoor theatre, a film archive, and indoor theater, offices, and a special collection section that houses rare films.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>architecture_kenmore_5</ID>
+		<IMAGE>portfolio_images_full/architecture_kenmore_5.jpg width="670" height="294"</IMAGE>
+		<TITLE>Kenmore Square Film Archive and Outdoor Theater</TITLE>
+		<DATE>June 2011</DATE>
+		<CONTENT>
+			This is a study model of the Kenmore Square project. The aim of this project is to create a cultural and community hub while preserving the subway stop that is currently occupying the site. The design includes and outdoor theatre, a film archive, and indoor theater, offices, and a special collection section that houses rare films.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>architecture_kenmore_6</ID>
+		<IMAGE>portfolio_images_full/architecture_kenmore_6.jpg width="627" height="500"</IMAGE>
+		<TITLE>Kenmore Square Film Archive and Outdoor Theater</TITLE>
+		<DATE>June 2011</DATE>
+		<CONTENT>
+			This is a study model of the Kenmore Square project. The aim of this project is to create a cultural and community hub while preserving the subway stop that is currently occupying the site. The design includes and outdoor theatre, a film archive, and indoor theater, offices, and a special collection section that houses rare films.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>architecture_kenmore_7</ID>
+		<IMAGE>portfolio_images_full/architecture_kenmore_7.jpg width="670" height="424"</IMAGE>
+		<TITLE>Kenmore Square Film Archive and Outdoor Theater</TITLE>
+		<DATE>June 2011</DATE>
+		<CONTENT>
+			This is a study model of the Kenmore Square project. The aim of this project is to create a cultural and community hub while preserving the subway stop that is currently occupying the site. The design includes and outdoor theatre, a film archive, and indoor theater, offices, and a special collection section that houses rare films.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>architecture_kenmore_8</ID>
+		<IMAGE>portfolio_images_full/architecture_kenmore_8.jpg width="670" height="309"</IMAGE>
+		<TITLE>Kenmore Square Film Archive and Outdoor Theater</TITLE>
+		<DATE>June 2011</DATE>
+		<CONTENT>
+			The aim of this project is to create a cultural and community hub while preserving the subway stop that is currently occupying the site. The design includes and outdoor theatre, a film archive, and indoor theater, offices, and a special collection section that houses rare films.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>architecture_kenmore_9</ID>
+		<IMAGE>portfolio_images_full/architecture_kenmore_9.jpg width="670" height="417"</IMAGE>
+		<TITLE>Kenmore Square Film Archive and Outdoor Theater</TITLE>
+		<DATE>June 2011</DATE>
+		<CONTENT>
+			The aim of this project is to create a cultural and community hub while preserving the subway stop that is currently occupying the site. The design includes and outdoor theatre, a film archive, and indoor theater, offices, and a special collection section that houses rare films.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>architecture_theatre</ID>
+		<IMAGE>portfolio_images_full/architecture_theatre.jpg width="372" height="500"</IMAGE>
+		<TITLE>Stairs</TITLE>
+		<DATE>June 2011</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>drawing_arnolfini</ID>
+		<IMAGE>portfolio_images_full/drawing_arnolfini.jpg width="336" height="500"</IMAGE>
+		<TITLE>Wake of Arnolfini</TITLE>
+		<DATE>October 2007</DATE>
+		<CONTENT>
+			This is the first of a series of pen and ink drawings inspired by the Mexican holiday "Dia de los Muertos" (Day of the Dead) and artist José Guadalupe Posada. In this series, I take canonical European paintings and skeletonize them, thereby mocking th mortality of art. This particular drawing is based on Jan van Eyck's "Betrothal of Arnolfini."
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>drawing_castle</ID>
+		<IMAGE>portfolio_images_full/drawing_castle.jpg width="337" height="500"</IMAGE>
+		<TITLE>Castle</TITLE>
+		<DATE>July 2009</DATE>
+		<CONTENT>
+			This is part of a series of drawings I did while studying abroad in Paris. Some of the drawings in this series are observational, and some are dreamlike. 
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>drawing_eye</ID>
+		<IMAGE>portfolio_images_full/drawing_eye.jpg width="573" height="500"</IMAGE>
+		<TITLE>Eye of a Lover</TITLE>
+		<DATE>September 2011</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>drawing_felix</ID>
+		<IMAGE>portfolio_images_full/drawing_felix.jpg width="401" height="500"</IMAGE>
+		<TITLE>Felix</TITLE>
+		<DATE>February 2011</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>drawing_irfan</ID>
+		<IMAGE>portfolio_images_full/drawing_irfan.jpg width="401" height="500"</IMAGE>
+		<TITLE>Irfan Gazi</TITLE>
+		<DATE>July 2011</DATE>
+		<CONTENT>
+			Irfan Gazi lives in Izmir, Turkey. I met him and his daughter in Coimbra, Portugal in 2011 at a math conference.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>drawing_isabel</ID>
+		<IMAGE>portfolio_images_full/drawing_isabel.jpg width="582" height="500"</IMAGE>
+		<TITLE>Isabel</TITLE>
+		<DATE>October 2011</DATE>
+		<CONTENT>
+			Isabel and I were collge roommates for all four years.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>drawing_larc</ID>
+		<IMAGE>portfolio_images_full/drawing_larc.jpg width="470" height="500"</IMAGE>
+		<TITLE>Le Départ de 1792</TITLE>
+		<DATE>October 2011</DATE>
+		<CONTENT>
+			This is part of a series of drawings I did while studying abroad in Paris. Some of the drawings in this series are observational, and some are dreamlike. This drawing is of one of the figures in Le Départ de 1792.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>drawing_odalisque</ID>
+		<IMAGE>portfolio_images_full/drawing_odalisque.jpg width="670" height="381"</IMAGE>
+		<TITLE>La Morte Odalisque</TITLE>
+		<DATE>October 2011</DATE>
+		<CONTENT>
+			This is the first of a series of pen and ink drawings inspired by the Mexican holiday "Dia de los Muertos" (Day of the Dead) and artist José Guadalupe Posada. In this series, I take canonical European paintings and skeletonize them, thereby mocking th mortality of art. This particular drawing is based on Ingres's "La Grande Odalisque."
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>drawing_paris_alley</ID>
+		<IMAGE>portfolio_images_full/drawing_paris_alley.jpg width="349" height="500"</IMAGE>
+		<TITLE>Parisian Alley</TITLE>
+		<DATE>October 2011</DATE>
+		<CONTENT>
+			This is part of a series of drawings I did while studying abroad in Paris. Some of the drawings in this series are observational, and some are dreamlike. This drawing is of an alley near Montmartre.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>drawing_skull</ID>
+		<IMAGE>portfolio_images_full/drawing_skull.jpg width="573" height="500"</IMAGE>
+		<TITLE>Still life</TITLE>
+		<DATE>October 2011</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>drawing_skull</ID>
+		<IMAGE>portfolio_images_full/drawing_skull.jpg width="670" height="443"</IMAGE>
+		<TITLE>Still life</TITLE>
+		<DATE>October 2011</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>drawing_sunday_1</ID>
+		<IMAGE>portfolio_images_full/drawing_sunday_1.jpg width="348" height="500"</IMAGE>
+		<TITLE>A Series of Portraits</TITLE>
+		<DATE>February 2012</DATE>
+		<CONTENT>
+			In 2012, I co-set designed a production of Stephen Sondheim’s musical Sunday in the Park with George. These are some drawings of actors who played characters in the painting A Sunday Afternoon on the Island of La Grande Jatte. Some of them were in costume and makeup; a few were not.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>drawing_sunday_2</ID>
+		<IMAGE>portfolio_images_full/drawing_sunday_2.jpg width="348" height="500"</IMAGE>
+		<TITLE>A Series of Portraits</TITLE>
+		<DATE>February 2012</DATE>
+		<CONTENT>
+			In 2012, I co-set designed a production of Stephen Sondheim’s musical Sunday in the Park with George. These are some drawings of actors who played characters in the painting A Sunday Afternoon on the Island of La Grande Jatte. Some of them were in costume and makeup; a few were not.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>drawing_sunday_3</ID>
+		<IMAGE>portfolio_images_full/drawing_sunday_3.jpg width="573" height="500"</IMAGE>
+		<TITLE>A Series of Portraits</TITLE>
+		<DATE>February 2012</DATE>
+		<CONTENT>
+			In 2012, I co-set designed a production of Stephen Sondheim’s musical Sunday in the Park with George. These are some drawings of actors who played characters in the painting A Sunday Afternoon on the Island of La Grande Jatte. Some of them were in costume and makeup; a few were not.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>drawing_sunday_3</ID>
+		<IMAGE>portfolio_images_full/drawing_sunday_3.jpg width="378" height="500"</IMAGE>
+		<TITLE>A Series of Portraits</TITLE>
+		<DATE>February 2012</DATE>
+		<CONTENT>
+			In 2012, I co-set designed a production of Stephen Sondheim’s musical Sunday in the Park with George. These are some drawings of actors who played characters in the painting A Sunday Afternoon on the Island of La Grande Jatte. Some of them were in costume and makeup; a few were not.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>drawing_sunday_4</ID>
+		<IMAGE>portfolio_images_full/drawing_sunday_4.jpg width="580" height="500"</IMAGE>
+		<TITLE>A Series of Portraits</TITLE>
+		<DATE>February 2012</DATE>
+		<CONTENT>
+			In 2012, I co-set designed a production of Stephen Sondheim’s musical Sunday in the Park with George. These are some drawings of actors who played characters in the painting A Sunday Afternoon on the Island of La Grande Jatte. Some of them were in costume and makeup; a few were not.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>drawing_sunday_5</ID>
+		<IMAGE>portfolio_images_full/drawing_sunday_5.jpg width="389" height="500"</IMAGE>
+		<TITLE>A Series of Portraits</TITLE>
+		<DATE>February 2012</DATE>
+		<CONTENT>
+			In 2012, I co-set designed a production of Stephen Sondheim’s musical Sunday in the Park with George. These are some drawings of actors who played characters in the painting A Sunday Afternoon on the Island of La Grande Jatte. Some of them were in costume and makeup; a few were not.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>drawing_venus</ID>
+		<IMAGE>portfolio_images_full/drawing_venus.jpg width="670" height="435"</IMAGE>
+		<TITLE>A Series of Portraits</TITLE>
+		<DATE>February 2012</DATE>
+		<CONTENT>
+			This is the first of a series of pen and ink drawings inspired by the Mexican holiday "Dia de los Muertos" (Day of the Dead) and artist José Guadalupe Posada. In this series, I take canonical European paintings and skeletonize them, thereby mocking th mortality of art. This particular drawing is based on Botticelli's "Birth of Venus."
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>photo_annenberg</ID>
+		<IMAGE>portfolio_images_full/photo_annenberg.jpg width="480" height="432"</IMAGE>
+		<TITLE>Dance in Annenberg Hall, Harvard</TITLE>
+		<DATE>December 2008</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>photo_eiffel</ID>
+		<IMAGE>portfolio_images_full/photo_eiffel.jpg width="333" height="500"</IMAGE>
+		<TITLE>Climbing the Eiffel Tower</TITLE>
+		<DATE>July 2009</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>photo_girl</ID>
+		<IMAGE>portfolio_images_full/photo_girl.jpg width="333" height="500"</IMAGE>
+		<TITLE>Girl on the T</TITLE>
+		<DATE>October 2008</DATE>
+		<CONTENT>
+			One day on the subway in Boston, I sat across from a girl whose bored facial expression caught my eye. I clandestinely took a picture of her. Three months later, her mother saw the photo in President Drew Faust's office. 
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>photo_northend</ID>
+		<IMAGE>portfolio_images_full/photo_northend.jpg width="670" height="261"</IMAGE>
+		<TITLE>Boston Northend</TITLE>
+		<DATE>October 2008</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+
+	<ART>
+		<ID>photo_paris_alley</ID>
+		<IMAGE>portfolio_images_full/photo_paris_alley.jpg width="333" height="500"</IMAGE>
+		<TITLE>Parisian Alley</TITLE>
+		<DATE>July 2009</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>	
+
+	<ART>
+		<ID>photo_pearson</ID>
+		<IMAGE>portfolio_images_full/photo_pearson.jpg width="313" height="500"</IMAGE>
+		<TITLE>Pearson Airport</TITLE>
+		<DATE>June 2009</DATE>
+		<CONTENT>
+			A passenger walking through a Richard Serra installation at the Toronto Pearson Airport.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>photo_run</ID>
+		<IMAGE>portfolio_images_full/photo_run.jpg width="670" height="445"</IMAGE>
+		<TITLE>Run</TITLE>
+		<DATE>October 2009</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+
 
 </CATALOG>

@@ -351,7 +351,7 @@ span.overlay{
 
 #modal{
      position: absolute;
-     background:rgba(0,0,0,0.6);
+     background:rgba(0,0,0,0.85);
      left: 0px;
      top: 0px;
      width:100%;
@@ -363,7 +363,8 @@ span.overlay{
 	 height:500px;
 	 position:relative;
      margin: 80px auto;
-     background-color: rgba(0,0,0,0.8);
+     background-color: rgba(0,0,0,0.85);
+     border: #fff 1px;
      padding:15px;
      text-align:center;
      color:#fff;
