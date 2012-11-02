@@ -371,6 +371,173 @@
 		</CONTENT>	
 	</ART>
 
+	<ART>
+		<ID>fashion_dress_1</ID>
+		<IMAGE>portfolio_images_full/fashion_dress_1.jpg width="514" height="500"</IMAGE>
+		<TITLE>Soirée Dress</TITLE>
+		<DATE>April 2012</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>fashion_dress_2</ID>
+		<IMAGE>portfolio_images_full/fashion_dress_2.jpg width="306" height="500"</IMAGE>
+		<TITLE>Shoulder Bag Dress</TITLE>
+		<DATE>June 2011</DATE>
+		<CONTENT>
+			This is a dress made from an old shoulder bag.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>fashion_dress_3</ID>
+		<IMAGE>portfolio_images_full/fashion_dress_3.jpg width="507" height="500"</IMAGE>
+		<TITLE>Skirt</TITLE>
+		<DATE>January 2011</DATE>
+		<CONTENT>
+			This is a skirt made from a pair of old pants that my college roommate threw away.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>fashion_earring_bulb</ID>
+		<IMAGE>portfolio_images_full/fashion_earring_bulb.jpg width="363" height="500"</IMAGE>
+		<TITLE>Light Bulb Earrings</TITLE>
+		<DATE>September 2011</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>fashion_earring_bulb</ID>
+		<IMAGE>portfolio_images_full/fashion_earring_bulb.jpg width="363" height="500"</IMAGE>
+		<TITLE>Light Bulb Earrings</TITLE>
+		<DATE>September 2011</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>fashion_earring_can</ID>
+		<IMAGE>portfolio_images_full/fashion_earring_can.jpg width="372" height="500"</IMAGE>
+		<TITLE>Pop Can Earrings</TITLE>
+		<DATE>September 2011</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>fashion_earring_chip</ID>
+		<IMAGE>portfolio_images_full/fashion_earring_chip.jpg width="575" height="500"</IMAGE>
+		<TITLE>Radio Chip Earrings</TITLE>
+		<DATE>September 2011</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>fashion_earring_clock</ID>
+		<IMAGE>portfolio_images_full/fashion_earring_clock.jpg width="445" height="500"</IMAGE>
+		<TITLE>Acrylic Clock Earrings</TITLE>
+		<DATE>January 2011</DATE>
+		<CONTENT>
+			I made the acrylic clock pattern in an engineering lab. It was designed to be the flywheel of an air engine.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>fashion_earring_penny</ID>
+		<IMAGE>portfolio_images_full/fashion_earring_penny.jpg width="670" height="456"</IMAGE>
+		<TITLE>Penny Earrings</TITLE>
+		<DATE>September 2011</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>fashion_earring_penrose</ID>
+		<IMAGE>portfolio_images_full/fashion_earring_penrose.jpg width="670" height="291"</IMAGE>
+		<TITLE>Penrose Earrings</TITLE>
+		<DATE>March 2012</DATE>
+		<CONTENT>
+			I wrote my senior math thesis on Penrose Tiles. This is the complimentary pair of earrings that I wore to the presentation.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>fashion_earring_yarn</ID>
+		<IMAGE>portfolio_images_full/fashion_earring_yarn.jpg width="277" height="500"</IMAGE>
+		<TITLE>Yarn Earrings</TITLE>
+		<DATE>November 2011</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>fashion_ring_bird</ID>
+		<IMAGE>portfolio_images_full/fashion_ring_bird.jpg width="558" height="500"</IMAGE>
+		<TITLE>Acrylic Bird Ring</TITLE>
+		<DATE>January 2011</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>fashion_ring_mondrian</ID>
+		<IMAGE>portfolio_images_full/fashion_ring_mondrian.jpg width="524" height="500"</IMAGE>
+		<TITLE>Masking Tape Mondrian Ring</TITLE>
+		<DATE>January 2011</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>fashion_ring_rose</ID>
+		<IMAGE>portfolio_images_full/fashion_ring_rose.jpg width="670" height="477"</IMAGE>
+		<TITLE>Origami Rose Ring</TITLE>
+		<DATE>January 2011</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>misc_aids</ID>
+		<IMAGE>portfolio_images_full/misc_aids.jpg width="484" height="500"</IMAGE>
+		<TITLE>Art for Aids Print</TITLE>
+		<DATE>September 2007</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>misc_boxcar</ID>
+		<IMAGE>portfolio_images_full/misc_boxcar.jpg width="415" height="500"</IMAGE>
+		<TITLE>New Book</TITLE>
+		<DATE>October 2010</DATE>
+		<CONTENT>
+			I bought a copy of the Boxcar Children from a local thrift sotre, changed all the B's in "Benny" to P's, and donated teh book back to the thrift store.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>misc_collage</ID>
+		<IMAGE>portfolio_images_full/misc_collage.jpg width="375" height="500"</IMAGE>
+		<TITLE>Collage</TITLE>
+		<DATE>October 2007</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>misc_hair</ID>
+		<IMAGE>portfolio_images_full/misc_hair.jpg width="670" height="467"</IMAGE>
+		<TITLE>Burial</TITLE>
+		<DATE>October 2010</DATE>
+		<CONTENT>
+			I have always questioned why people don't mourn the death of certain body parts, like nails and hair. To explore the concept of mortality, I buried my bangs and nail clippings in the Harvard Community Garden.
+		</CONTENT>	
+	</ART>
 
 
 </CATALOG>
