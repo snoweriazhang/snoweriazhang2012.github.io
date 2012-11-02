@@ -539,5 +539,637 @@
 		</CONTENT>	
 	</ART>
 
+	<ART>
+		<ID>misc_loveletter_2</ID>
+		<IMAGE>portfolio_images_full/misc_loveletter_2.jpg width="503" height="500"</IMAGE>
+		<TITLE>Love Letter</TITLE>
+		<DATE>October 2011</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>misc_loveletter</ID>
+		<IMAGE>portfolio_images_full/misc_loveletter.jpg width="670" height="315"</IMAGE>
+		<TITLE>Love Letter</TITLE>
+		<DATE>October 2011</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>misc_print_2</ID>
+		<IMAGE>portfolio_images_full/misc_print_2.jpg width="670" height="499"</IMAGE>
+		<TITLE>Lino Print No. 2</TITLE>
+		<DATE>March 2007</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>misc_print</ID>
+		<IMAGE>portfolio_images_full/misc_print.jpg width="503" height="499"</IMAGE>
+		<TITLE>Lino Print No. 1</TITLE>
+		<DATE>March 2007</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>misc_sculpture</ID>
+		<IMAGE>portfolio_images_full/misc_sculpture.jpg width="670" height="446"</IMAGE>
+		<TITLE>Soapstone Sculpture</TITLE>
+		<DATE>March 2007</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>misc_violin_2</ID>
+		<IMAGE>portfolio_images_full/misc_violin_2.jpg width="333" height="500"</IMAGE>
+		<TITLE>Violin Kit</TITLE>
+		<DATE>December 2010</DATE>
+		<CONTENT>
+			This is a violin-shaped kit that contains sound chips removed from musical birthday cards. The kit also contains a bow, wire, and instructions no how to string the violin to play the songs stored on the sounds chips. For a video, please click on the link below.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>misc_violin</ID>
+		<IMAGE>portfolio_images_full/misc_violin.jpg width="208" height="500"</IMAGE>
+		<TITLE>Violin Kit</TITLE>
+		<DATE>December 2010</DATE>
+		<CONTENT>
+			This is a violin-shaped kit that contains sound chips removed from musical birthday cards. The kit also contains a bow, wire, and instructions no how to string the violin to play the songs stored on the sounds chips. For a video, please click on the link below.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>misc_violin</ID>
+		<IMAGE>portfolio_images_full/misc_violin.jpg width="208" height="500"</IMAGE>
+		<TITLE>Violin Kit</TITLE>
+		<DATE>December 2010</DATE>
+		<CONTENT>
+			This is a violin-shaped kit that contains sound chips removed from musical birthday cards. The kit also contains a bow, wire, and instructions no how to string the violin to play the songs stored on the sounds chips. For a video, please click on the link below.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>painting_ballet</ID>
+		<IMAGE>portfolio_images_full/painting_ballet.jpg width="665" height="500"</IMAGE>
+		<TITLE>Boston Ballet</TITLE>
+		<DATE>May 2012</DATE>
+		<CONTENT>
+			Medium: oil on canvas
+		</CONTENT>	
+	</ART>
+
+
+	<ART>
+		<ID>painting_can</ID>
+		<IMAGE>portfolio_images_full/painting_can.jpg width="360" height="500"</IMAGE>
+		<TITLE>Coke Can</TITLE>
+		<DATE>April 2012</DATE>
+		<CONTENT>
+			Medium: oil on canvas
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>painting_chantilly</ID>
+		<IMAGE>portfolio_images_full/painting_chantilly.jpg width="344" height="500"</IMAGE>
+		<TITLE>Chantilly, France</TITLE>
+		<DATE>July 2009</DATE>
+		<CONTENT>
+			Medium: watercolor
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>painting_danella</ID>
+		<IMAGE>portfolio_images_full/painting_danella.jpg width="670" height="348"</IMAGE>
+		<TITLE>Chantilly, France</TITLE>
+		<DATE>May 2012</DATE>
+		<CONTENT>
+			Medium: oil on canvas
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>painting_egg</ID>
+		<IMAGE>portfolio_images_full/painting_egg.jpg width="667" height="500"</IMAGE>
+		<TITLE>Untitled</TITLE>
+		<DATE>May 2006</DATE>
+		<CONTENT>
+			Medium: acrylic on canvas
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>painting_eiffel</ID>
+		<IMAGE>portfolio_images_full/painting_eiffel.jpg width="670" height="456"</IMAGE>
+		<TITLE>Atop the Eiffel Tower</TITLE>
+		<DATE>April 2012</DATE>
+		<CONTENT>
+			Medium: oil on canvas
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>painting_father</ID>
+		<IMAGE>portfolio_images_full/painting_father.jpg width="670" height="479"</IMAGE>
+		<TITLE>My Hipster Father</TITLE>
+		<DATE>April 2012</DATE>
+		<CONTENT>
+			Medium: oil on canvas
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>painting_nick</ID>
+		<IMAGE>portfolio_images_full/painting_nick.jpg width="670" height="478"</IMAGE>
+		<TITLE>Nick</TITLE>
+		<DATE>May 2012</DATE>
+		<CONTENT>
+			Medium: acrylic on canvas
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>painting_oilpastel</ID>
+		<IMAGE>portfolio_images_full/painting_oilpastel.jpg width="667" height="500"</IMAGE>
+		<TITLE>Mist</TITLE>
+		<DATE>May 2008</DATE>
+		<CONTENT>
+			Medium: melted oil pastel on paper
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>painting_self_1</ID>
+		<IMAGE>portfolio_images_full/painting_self_1.jpg width="504" height="500"</IMAGE>
+		<TITLE>Self Portrait at Age Four</TITLE>
+		<DATE>May 2012</DATE>
+		<CONTENT>
+			Medium: oil on canvas
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>painting_self_2</ID>
+		<IMAGE>portfolio_images_full/painting_self_2.jpg width="284" height="500"</IMAGE>
+		<TITLE>Self Portrait at Twenty-One No.1</TITLE>
+		<DATE>March 2012</DATE>
+		<CONTENT>
+			Medium: oil on canvas
+		</CONTENT>	
+	</ART>
+
+
+	<ART>
+		<ID>painting_self_3</ID>
+		<IMAGE>portfolio_images_full/painting_self_3.jpg width="670" height="487"</IMAGE>
+		<TITLE>Self Portrait at Twenty-One No.2</TITLE>
+		<DATE>May 2012</DATE>
+		<CONTENT>
+			Medium: oil on canvas
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>painting_shape</ID>
+		<IMAGE>portfolio_images_full/painting_shape.jpg width="396" height="500"</IMAGE>
+		<TITLE>Shape</TITLE>
+		<DATE>April 2012</DATE>
+		<CONTENT>
+			Medium: oil on board, wood
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>painting_staircase</ID>
+		<IMAGE>portfolio_images_full/painting_staircase.jpg width="347" height="500"</IMAGE>
+		<TITLE>Memory of a Staircase</TITLE>
+		<DATE>March 2012</DATE>
+		<CONTENT>
+			Medium: oil on canvas
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>painting_watercolor_nude_1</ID>
+		<IMAGE>portfolio_images_full/painting_watercolor_nude_1.jpg width="670" height="466"</IMAGE>
+		<TITLE>Nude No.1</TITLE>
+		<DATE>May 2012</DATE>
+		<CONTENT>
+			Medium: watercolor
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>painting_watercolor_nude_2</ID>
+		<IMAGE>portfolio_images_full/painting_watercolor_nude_2.jpg width="670" height="411"</IMAGE>
+		<TITLE>Nude No.2</TITLE>
+		<DATE>May 2012</DATE>
+		<CONTENT>
+			Medium: watercolor
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>painting_watercolor_nude_3</ID>
+		<IMAGE>portfolio_images_full/painting_watercolor_nude_3.jpg width="670" height="444"</IMAGE>
+		<TITLE>Nude No.3</TITLE>
+		<DATE>May 2012</DATE>
+		<CONTENT>
+			Medium: watercolor
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>painting_watercolor_nude_4</ID>
+		<IMAGE>portfolio_images_full/painting_watercolor_nude_4.jpg width="670" height="422"</IMAGE>
+		<TITLE>Nude No.4</TITLE>
+		<DATE>May 2012</DATE>
+		<CONTENT>
+			Medium: watercolor
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>painting_window</ID>
+		<IMAGE>portfolio_images_full/painting_window.jpg width="346" height="500"</IMAGE>
+		<TITLE>Window in Coimbra, Portugal</TITLE>
+		<DATE>May 2012</DATE>
+		<CONTENT>
+			Medium: oil on canvas
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>web_rosegarden</ID>
+		<IMAGE>portfolio_images_full/web_rosegarden.jpg width="670" height="373"</IMAGE>
+		<TITLE>Rosegarden Bed and Breakfast</TITLE>
+		<DATE>August 2012</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>web_samuel</ID>
+		<IMAGE>portfolio_images_full/web_samuel.jpg width="670" height="468"</IMAGE>
+		<TITLE>The Samuel Lab</TITLE>
+		<DATE>September 2010</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>web_snoweria</ID>
+		<IMAGE>portfolio_images_full/web_snoweria.jpg width="670" height="467"</IMAGE>
+		<TITLE>Snoweria.com (old version)</TITLE>
+		<DATE>December 2008</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>web_tdsb</ID>
+		<IMAGE>portfolio_images_full/web_tdsb.jpg width="499" height="500"</IMAGE>
+		<TITLE>Toronto District School Board (Student Page)</TITLE>
+		<DATE>August 2008</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>set_attempts_2</ID>
+		<IMAGE>portfolio_images_full/set_attempts_2.jpg width="335" height="500"</IMAGE>
+		<TITLE>Attempts on Her Life by Martin Crimp</TITLE>
+		<DATE>October 2009</DATE>
+		<CONTENT>
+			Directed by Matt Stone. Set Design by Elizabeth Mak and Snoweria Zhang. Lighting Design by Bethina Liu and Lora Stoianova. Production photos by Bethina Liu.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>set_attempts</ID>
+		<IMAGE>portfolio_images_full/set_attempts.jpg width="670" height="474"</IMAGE>
+		<TITLE>Attempts on Her Life by Martin Crimp</TITLE>
+		<DATE>October 2009</DATE>
+		<CONTENT>
+			Directed by Matt Stone. Set Design by Elizabeth Mak and Snoweria Zhang. Lighting Design by Bethina Liu and Lora Stoianova. Production photos by Bethina Liu.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>set_attempts</ID>
+		<IMAGE>portfolio_images_full/set_attempts.jpg width="670" height="474"</IMAGE>
+		<TITLE>Attempts on Her Life by Martin Crimp</TITLE>
+		<DATE>October 2009</DATE>
+		<CONTENT>
+			Directed by Matt Stone. Set Design by Elizabeth Mak and Snoweria Zhang. Lighting Design by Bethina Liu and Lora Stoianova. Production photos by Bethina Liu.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>set_balcony_1</ID>
+		<IMAGE>portfolio_images_full/set_balcony_1.jpg width="670" height="447"</IMAGE>
+		<TITLE>The Balcony by Jean Genet</TITLE>
+		<DATE>November 2010</DATE>
+		<CONTENT>
+			Directed by Matthew C. Stone
+			Light Design by Bethina Liu and Lora Stoianova
+			Set Design by Elizabeth Mak and Snoweria Zhang
+			Production Photos by Gokcan Demirkazik
+
+			The Loeb Drama Center 
+			Harvard University
+			Fall 2011
+
+			This French play is set in a brothel in an unnamed city that is experiencing revolutionary uprising in its streets. The design captures the erotic energy as well as the political upheavals the characters face. Larger-than-life paintings of sensuous, nude women flank the triptych-like doors of the brothel, while red velvet walls depict the visitors' innermost fetishes. During the revolution scenes, over 600 red bricks are raucously punched out of the structure, leaving a bare steel frame that emphasizes the destruction that is left behind.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>set_balcony_2</ID>
+		<IMAGE>portfolio_images_full/set_balcony_2.jpg width="670" height="447"</IMAGE>
+		<TITLE>The Balcony by Jean Genet</TITLE>
+		<DATE>November 2010</DATE>
+		<CONTENT>
+			Directed by Matthew C. Stone
+			Light Design by Bethina Liu and Lora Stoianova
+			Set Design by Elizabeth Mak and Snoweria Zhang
+			Production Photos by Gokcan Demirkazik
+
+			The Loeb Drama Center 
+			Harvard University
+			Fall 2011
+
+			This French play is set in a brothel in an unnamed city that is experiencing revolutionary uprising in its streets. The design captures the erotic energy as well as the political upheavals the characters face. Larger-than-life paintings of sensuous, nude women flank the triptych-like doors of the brothel, while red velvet walls depict the visitors' innermost fetishes. During the revolution scenes, over 600 red bricks are raucously punched out of the structure, leaving a bare steel frame that emphasizes the destruction that is left behind.
+		</CONTENT>	
+	</ART>
+	<ART>
+		<ID>set_balcony_3</ID>
+		<IMAGE>portfolio_images_full/set_balcony_3.jpg width="670" height="447"</IMAGE>
+		<TITLE>The Balcony by Jean Genet</TITLE>
+		<DATE>November 2010</DATE>
+		<CONTENT>
+			Directed by Matthew C. Stone
+			Light Design by Bethina Liu and Lora Stoianova
+			Set Design by Elizabeth Mak and Snoweria Zhang
+			Production Photos by Gokcan Demirkazik
+
+			The Loeb Drama Center 
+			Harvard University
+			Fall 2011
+
+			This French play is set in a brothel in an unnamed city that is experiencing revolutionary uprising in its streets. The design captures the erotic energy as well as the political upheavals the characters face. Larger-than-life paintings of sensuous, nude women flank the triptych-like doors of the brothel, while red velvet walls depict the visitors' innermost fetishes. During the revolution scenes, over 600 red bricks are raucously punched out of the structure, leaving a bare steel frame that emphasizes the destruction that is left behind.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>set_balcony_4</ID>
+		<IMAGE>portfolio_images_full/set_balcony_4.jpg width="670" height="447"</IMAGE>
+		<TITLE>The Balcony by Jean Genet</TITLE>
+		<DATE>November 2010</DATE>
+		<CONTENT>
+			Directed by Matthew C. Stone
+			Light Design by Bethina Liu and Lora Stoianova
+			Set Design by Elizabeth Mak and Snoweria Zhang
+			Production Photos by Gokcan Demirkazik
+
+			The Loeb Drama Center 
+			Harvard University
+			Fall 2011
+
+			This French play is set in a brothel in an unnamed city that is experiencing revolutionary uprising in its streets. The design captures the erotic energy as well as the political upheavals the characters face. Larger-than-life paintings of sensuous, nude women flank the triptych-like doors of the brothel, while red velvet walls depict the visitors' innermost fetishes. During the revolution scenes, over 600 red bricks are raucously punched out of the structure, leaving a bare steel frame that emphasizes the destruction that is left behind.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>set_balcony_5</ID>
+		<IMAGE>portfolio_images_full/set_balcony_5.jpg width="670" height="447"</IMAGE>
+		<TITLE>The Balcony by Jean Genet</TITLE>
+		<DATE>November 2010</DATE>
+		<CONTENT>
+			Directed by Matthew C. Stone
+			Light Design by Bethina Liu and Lora Stoianova
+			Set Design by Elizabeth Mak and Snoweria Zhang
+			Production Photos by Gokcan Demirkazik
+
+			The Loeb Drama Center 
+			Harvard University
+			Fall 2011
+
+			This French play is set in a brothel in an unnamed city that is experiencing revolutionary uprising in its streets. The design captures the erotic energy as well as the political upheavals the characters face. Larger-than-life paintings of sensuous, nude women flank the triptych-like doors of the brothel, while red velvet walls depict the visitors' innermost fetishes. During the revolution scenes, over 600 red bricks are raucously punched out of the structure, leaving a bare steel frame that emphasizes the destruction that is left behind.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>set_caretaker</ID>
+		<IMAGE>portfolio_images_full/set_caretaker.jpg width="670" height="210"</IMAGE>
+		<TITLE>The Caretaker by Harold Pinter</TITLE>
+		<DATE>March 2011</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>set_cleansed_2</ID>
+		<IMAGE>portfolio_images_full/set_cleansed_2.jpg width="670" height="447"</IMAGE>
+		<TITLE>Cleansed by Sarah Kane</TITLE>
+		<DATE>April 2011</DATE>
+		<CONTENT>
+			Directed by Matthew C. Stone
+			Light Design by Bethina Liu and Lora Stoianova
+			Set Design by Elizabeth Mak and Snoweria Zhang
+			Production Photos by Annie McGrath
+
+			The Loeb Drama Center
+			Harvard University
+			Spring 2011
+
+			Set in an institution overseen by a sadistic torturer, Cleansed tells the unusual tales of love among the siblings, gay lovers, and a peep show dancer behind the fence of a concentration camp. The play explores the limits of human experience by pushing teh boundaries of theater itself. To capture Sarah Kane's brutal meditation about the nature of love, the production incorporates water and mud to create a lush environment in which the story unfolds.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>set_cleansed</ID>
+		<IMAGE>portfolio_images_full/set_cleansed.jpg width="670" height="447"</IMAGE>
+		<TITLE>Cleansed by Sarah Kane</TITLE>
+		<DATE>April 2011</DATE>
+		<CONTENT>
+			Directed by Matthew C. Stone
+			Light Design by Bethina Liu and Lora Stoianova
+			Set Design by Elizabeth Mak and Snoweria Zhang
+			Production Photos by Annie McGrath
+
+			The Loeb Drama Center
+			Harvard University
+			Spring 2011
+
+			Set in an institution overseen by a sadistic torturer, Cleansed tells the unusual tales of love among the siblings, gay lovers, and a peep show dancer behind the fence of a concentration camp. The play explores the limits of human experience by pushing teh boundaries of theater itself. To capture Sarah Kane's brutal meditation about the nature of love, the production incorporates water and mud to create a lush environment in which the story unfolds.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>set_crave_2</ID>
+		<IMAGE>portfolio_images_full/set_crave_2.jpg width="357" height="500"</IMAGE>
+		<TITLE>Crave by Sarah Kane</TITLE>
+		<DATE>September 2011</DATE>
+		<CONTENT>
+			Directed by Nasir Husain
+			Light Design by Bethina Liu and Gabrielle Walti
+			Set Design by Snoweria Zhang
+			Production Photos by Brenda Lin
+
+			The Loeb Experimental Theater
+			Harvard University
+			Fall 2011
+
+			Crave's richly lyrical and vividly imagistic text tells the story of four people's final, furious attempts at articulation before inevitable silence. The stage is framed by two imposign mounds of paper and a suspended mirror that reverberates the devastation love inflicts on the internal landscape of mind.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>set_crave</ID>
+		<IMAGE>portfolio_images_full/set_crave.jpg width="365" height="500"</IMAGE>
+		<TITLE>Crave by Sarah Kane</TITLE>
+		<DATE>September 2011</DATE>
+		<CONTENT>
+			Directed by Nasir Husain
+			Light Design by Bethina Liu and Gabrielle Walti
+			Set Design by Snoweria Zhang
+			Production Photos by Brenda Lin
+
+			The Loeb Experimental Theater
+			Harvard University
+			Fall 2011
+
+			Crave's richly lyrical and vividly imagistic text tells the story of four people's final, furious attempts at articulation before inevitable silence. The stage is framed by two imposign mounds of paper and a suspended mirror that reverberates the devastation love inflicts on the internal landscape of mind.
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>set_glass_2</ID>
+		<IMAGE>portfolio_images_full/set_glass_2.jpg width="670" height="449"</IMAGE>
+		<TITLE>The Glass Megagerie by Tennessee Williams</TITLE>
+		<DATE>February 2010</DATE>
+		<CONTENT>
+			Directed by Megan O'Keefe
+			Light Design by Michael Zellmann-Rhorer
+			Set Design by Snoweria Zhang
+			Production Photos by Bethina Liu
+
+			The Loeb Experimental Theater
+			Harvard University
+			Spring 2010
+		</CONTENT>	
+	</ART>
+
+
+	<ART>
+		<ID>set_glass</ID>
+		<IMAGE>portfolio_images_full/set_glass.jpg width="670" height="449"</IMAGE>
+		<TITLE>The Glass Megagerie by Tennessee Williams</TITLE>
+		<DATE>February 2010</DATE>
+		<CONTENT>
+			Directed by Megan O'Keefe
+			Light Design by Michael Zellmann-Rhorer
+			Set Design by Snoweria Zhang
+			Production Photos by Bethina Liu
+
+			The Loeb Experimental Theater
+			Harvard University
+			Spring 2010
+		</CONTENT>	
+	</ART>
+
+	<ART>
+		<ID>set_howie_1</ID>
+		<IMAGE>portfolio_images_full/set_howie_1.jpg width="670" height="449"</IMAGE>
+		<TITLE>Howie the Rookie by Mark O'Rowe</TITLE>
+		<DATE>October 2010</DATE>
+		<CONTENT>
+			Directed by Ali Leskowitz
+			Light Design by Matthew Warner
+			Set Design by Snoweria Zhang
+			Production Photos by Snoweria Zhang
+
+			The Loeb Experimental Theater
+			Harvard University
+			Spring 2011
+
+			The play takes place in the crime-ridden streets of Dublin, where the two eponymous characters, Howie and Rookie, get entangled in a series of events that involve sex, violence, and emotional trauma. The show is set in a small and intimate theater, and the design aims to create the aesthetic of a graffitied junkyard that reflects the disarrayed nature of the story. Furthermore, standard seating in the theater is removed and a set of mismatched chairs from the props department is used to enhance the audience's experience.
+		</CONTENT>
+	</ART>
+
+	<ART>
+		<ID>set_howie_2</ID>
+		<IMAGE>portfolio_images_full/set_howie_2.jpg width="670" height="449"</IMAGE>
+		<TITLE>Howie the Rookie by Mark O'Rowe</TITLE>
+		<DATE>October 2010</DATE>
+		<CONTENT>
+			Directed by Ali Leskowitz
+			Light Design by Matthew Warner
+			Set Design by Snoweria Zhang
+			Production Photos by Snoweria Zhang
+
+			The Loeb Experimental Theater
+			Harvard University
+			Spring 2011
+
+			The play takes place in the crime-ridden streets of Dublin, where the two eponymous characters, Howie and Rookie, get entangled in a series of events that involve sex, violence, and emotional trauma. The show is set in a small and intimate theater, and the design aims to create the aesthetic of a graffitied junkyard that reflects the disarrayed nature of the story. Furthermore, standard seating in the theater is removed and a set of mismatched chairs from the props department is used to enhance the audience's experience.
+		</CONTENT>
+	</ART>
+
+	<ART>
+		<ID>set_madman</ID>
+		<IMAGE>portfolio_images_full/set_madman.jpg width="441" height="500"</IMAGE>
+		<TITLE>The Madman and the Nun</TITLE>
+		<DATE>February 2011</DATE>
+		<CONTENT>
+		</CONTENT>
+	</ART>
+
+	<ART>
+		<ID>set_marmalade_1</ID>
+		<IMAGE>portfolio_images_full/set_marmalade_1.jpg width="670" height="447"</IMAGE>
+		<TITLE>Mr. Marmalade by Noah Haidle</TITLE>
+		<DATE>September 2010</DATE>
+		<CONTENT>
+			Directed by Julianne Ross
+			Light Design by Matthew C. Stone
+			Set Design by Snoweria Zhang
+			Production Photos by Matthew Warner
+
+			The Loeb Experimental Theater
+			Harvard University
+			Fall 2010
+
+			Mr. Marmalade is the imaginary friend of four-year-old Lucy. He also has a cocaine addiction and a penchant for pornography. Noah Haidle's savage black comedy explores what it takes to grow up in toxic environments. The scenic design captures the fairy-tale nature of hte little girl's imagination while connoting the dark reality that borders it.
+		</CONTENT>
+	</ART>
+
+	<ART>
+		<ID>set_marmalade_2</ID>
+		<IMAGE>portfolio_images_full/set_marmalade_2.jpg width="333" height="500"</IMAGE>
+		<TITLE>Mr. Marmalade by Noah Haidle</TITLE>
+		<DATE>September 2010</DATE>
+		<CONTENT>
+			Directed by Julianne Ross
+			Light Design by Matthew C. Stone
+			Set Design by Snoweria Zhang
+			Production Photos by Matthew Warner
+
+			The Loeb Experimental Theater
+			Harvard University
+			Fall 2010
+
+			Mr. Marmalade is the imaginary friend of four-year-old Lucy. He also has a cocaine addiction and a penchant for pornography. Noah Haidle's savage black comedy explores what it takes to grow up in toxic environments. The scenic design captures the fairy-tale nature of hte little girl's imagination while connoting the dark reality that borders it.
+		</CONTENT>
+	</ART>
+
 
 </CATALOG>
