@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 <head>
   <title>
-    Snoweria Zhang - Soirée Dress
+    Snoweria Zhang - Girl on the T
   </title>
 
   <!-- Meta Tags -->
@@ -74,14 +74,15 @@
   <div id="breadcrumbs">
     <a href="../../index.php">Home</a> > 
     <a href="../index.html">Portfolio</a> > 
-    <a href="../index.html?id=Fashion"> Fashion </a> > 
-    Soirée Dress </div>
+    <a href="../index.html?id=Photo"> Photography </a> > 
+   Girl on the T </div>
 
   <figure>
-    <img src="../portfolio_images_full/fashion_dress_1.jpg" width="514" height="500" />
+    <img src="../portfolio_images_full/photo_girl.jpg" width="333" height="500"/>
     <figcaption>
-      <p id="title"> Soirée Dress</p>
-      <p>April 2012</p>
+      <p id="title">Girl on the T</p>
+      <p>October 2008</p>
+      <p>One day on the subway in Boston, I sat across from a girl whose bored facial expression caught my eye. I clandestinely took a picture of her. Three months later, her mother saw the photo in President Drew Faust's office. </p>
     </figcaption>
   </figure>
   <?php include("share.html"); ?>

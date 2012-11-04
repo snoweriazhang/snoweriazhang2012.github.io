@@ -163,7 +163,7 @@
 		<ID>drawing_felix</ID>
 		<IMAGE>portfolio_images_full/drawing_felix.jpg width="401" height="500"</IMAGE>
 		<TITLE>Felix</TITLE>
-		<DATE>February 2011</DATE>
+		<DATE>February 2012</DATE>
 		<CONTENT>
 		</CONTENT>	
 	</ART>
@@ -202,7 +202,7 @@
 		<ID>drawing_odalisque</ID>
 		<IMAGE>portfolio_images_full/drawing_odalisque.jpg width="670" height="381"</IMAGE>
 		<TITLE>La Morte Odalisque</TITLE>
-		<DATE>October 2011</DATE>
+		<DATE>March 2011</DATE>
 		<CONTENT>
 			This is the first of a series of pen and ink drawings inspired by the Mexican holiday "Dia de los Muertos" (Day of the Dead) and artist José Guadalupe Posada. In this series, I take canonical European paintings and skeletonize them, thereby mocking th mortality of art. This particular drawing is based on Ingres's "La Grande Odalisque."
 		</CONTENT>	
@@ -212,7 +212,7 @@
 		<ID>drawing_paris_alley</ID>
 		<IMAGE>portfolio_images_full/drawing_paris_alley.jpg width="349" height="500"</IMAGE>
 		<TITLE>Parisian Alley</TITLE>
-		<DATE>October 2011</DATE>
+		<DATE>July 2009</DATE>
 		<CONTENT>
 			This is part of a series of drawings I did while studying abroad in Paris. Some of the drawings in this series are observational, and some are dreamlike. This drawing is of an alley near Montmartre.
 		</CONTENT>	
@@ -220,18 +220,9 @@
 
 	<ART>
 		<ID>drawing_skull</ID>
-		<IMAGE>portfolio_images_full/drawing_skull.jpg width="573" height="500"</IMAGE>
-		<TITLE>Still life</TITLE>
-		<DATE>October 2011</DATE>
-		<CONTENT>
-		</CONTENT>	
-	</ART>
-
-	<ART>
-		<ID>drawing_skull</ID>
 		<IMAGE>portfolio_images_full/drawing_skull.jpg width="670" height="443"</IMAGE>
 		<TITLE>Still life</TITLE>
-		<DATE>October 2011</DATE>
+		<DATE>February 2007</DATE>
 		<CONTENT>
 		</CONTENT>	
 	</ART>
@@ -299,10 +290,10 @@
 	<ART>
 		<ID>drawing_venus</ID>
 		<IMAGE>portfolio_images_full/drawing_venus.jpg width="670" height="435"</IMAGE>
-		<TITLE>A Series of Portraits</TITLE>
-		<DATE>February 2012</DATE>
+		<TITLE>Aphrodite</TITLE>
+		<DATE>December 2007</DATE>
 		<CONTENT>
-			This is the first of a series of pen and ink drawings inspired by the Mexican holiday "Dia de los Muertos" (Day of the Dead) and artist José Guadalupe Posada. In this series, I take canonical European paintings and skeletonize them, thereby mocking th mortality of art. This particular drawing is based on Botticelli's "Birth of Venus."
+			This is part of a series of pen and ink drawings inspired by the Mexican holiday "Dia de los Muertos" (Day of the Dead) and artist José Guadalupe Posada. In this series, I take canonical European paintings and skeletonize them, thereby mocking th mortality of art. This particular drawing is based on Botticelli's "Birth of Venus."
 		</CONTENT>	
 	</ART>
 
@@ -367,7 +358,7 @@
 		<ID>photo_run</ID>
 		<IMAGE>portfolio_images_full/photo_run.jpg width="670" height="445"</IMAGE>
 		<TITLE>Run</TITLE>
-		<DATE>October 2009</DATE>
+		<DATE>October 2008</DATE>
 		<CONTENT>
 		</CONTENT>	
 	</ART>
@@ -411,18 +402,9 @@
 	</ART>
 
 	<ART>
-		<ID>fashion_earring_bulb</ID>
-		<IMAGE>portfolio_images_full/fashion_earring_bulb.jpg width="363" height="500"</IMAGE>
-		<TITLE>Light Bulb Earrings</TITLE>
-		<DATE>September 2011</DATE>
-		<CONTENT>
-		</CONTENT>	
-	</ART>
-
-	<ART>
 		<ID>fashion_earring_can</ID>
 		<IMAGE>portfolio_images_full/fashion_earring_can.jpg width="372" height="500"</IMAGE>
-		<TITLE>Pop Can Earrings</TITLE>
+		<TITLE>Soda Can Earrings</TITLE>
 		<DATE>September 2011</DATE>
 		<CONTENT>
 		</CONTENT>	
@@ -462,7 +444,7 @@
 		<TITLE>Penrose Earrings</TITLE>
 		<DATE>March 2012</DATE>
 		<CONTENT>
-			I wrote my senior math thesis on Penrose Tiles. This is the complimentary pair of earrings that I wore to the presentation.
+			I wrote my senior math thesis on Penrose Tiles (yes, Penrose as in Sir Roger Penrose, the physicist, mathematician, philosopher, and generally awesome dude). This is the complimentary pair of kite and dart earrings that I wore to the presentation.
 		</CONTENT>	
 	</ART>
 
@@ -515,7 +497,7 @@
 		<ID>misc_boxcar</ID>
 		<IMAGE>portfolio_images_full/misc_boxcar.jpg width="415" height="500"</IMAGE>
 		<TITLE>New Book</TITLE>
-		<DATE>October 2010</DATE>
+		<DATE>October 2011</DATE>
 		<CONTENT>
 			I bought a copy of the Boxcar Children from a local thrift sotre, changed all the B's in "Benny" to P's, and donated teh book back to the thrift store.
 		</CONTENT>	
@@ -588,16 +570,6 @@
 	<ART>
 		<ID>misc_violin_2</ID>
 		<IMAGE>portfolio_images_full/misc_violin_2.jpg width="333" height="500"</IMAGE>
-		<TITLE>Violin Kit</TITLE>
-		<DATE>December 2010</DATE>
-		<CONTENT>
-			This is a violin-shaped kit that contains sound chips removed from musical birthday cards. The kit also contains a bow, wire, and instructions no how to string the violin to play the songs stored on the sounds chips. For a video, please click on the link below.
-		</CONTENT>	
-	</ART>
-
-	<ART>
-		<ID>misc_violin</ID>
-		<IMAGE>portfolio_images_full/misc_violin.jpg width="208" height="500"</IMAGE>
 		<TITLE>Violin Kit</TITLE>
 		<DATE>December 2010</DATE>
 		<CONTENT>

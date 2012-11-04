@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 <head>
   <title>
-    Snoweria Zhang - Soirée Dress
+    Snoweria Zhang - Pearson Airport
   </title>
 
   <!-- Meta Tags -->
@@ -74,14 +74,15 @@
   <div id="breadcrumbs">
     <a href="../../index.php">Home</a> > 
     <a href="../index.html">Portfolio</a> > 
-    <a href="../index.html?id=Fashion"> Fashion </a> > 
-    Soirée Dress </div>
+    <a href="../index.html?id=Photo"> Photography </a> > 
+   Pearson Airport </div>
 
   <figure>
-    <img src="../portfolio_images_full/fashion_dress_1.jpg" width="514" height="500" />
+    <img src="../portfolio_images_full/photo_pearson.jpg" width="313" height="500"/>
     <figcaption>
-      <p id="title"> Soirée Dress</p>
-      <p>April 2012</p>
+      <p id="title">Pearson Airport</p>
+      <p>June 2009</p>
+      <p>A passenger walking through a Richard Serra installation at the Toronto Pearson Airport.</p>
     </figcaption>
   </figure>
   <?php include("share.html"); ?>

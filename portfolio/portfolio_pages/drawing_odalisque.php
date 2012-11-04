@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 <head>
   <title>
-    Snoweria Zhang - Soirée Dress
+    Snoweria Zhang - La Morte Odalisque
   </title>
 
   <!-- Meta Tags -->
@@ -74,14 +74,15 @@
   <div id="breadcrumbs">
     <a href="../../index.php">Home</a> > 
     <a href="../index.html">Portfolio</a> > 
-    <a href="../index.html?id=Fashion"> Fashion </a> > 
-    Soirée Dress </div>
+    <a href="../index.html?id=Drawing"> Drawing </a> > 
+    La Morte Odalisque</div>
 
   <figure>
-    <img src="../portfolio_images_full/fashion_dress_1.jpg" width="514" height="500" />
+    <img src="../portfolio_images_full/drawing_odalisque.jpg" width="670" height="381"/>
     <figcaption>
-      <p id="title"> Soirée Dress</p>
-      <p>April 2012</p>
+      <p id="title">La Morte Odalisque</p>
+      <p>March 2011</p>
+      <p>This is the first of a series of pen and ink drawings inspired by the Mexican holiday "Dia de los Muertos" (Day of the Dead) and artist José Guadalupe Posada. In this series, I take canonical European paintings and skeletonize them, thereby mocking th mortality of art. This particular drawing is based on Ingres's "La Grande Odalisque."</p>
     </figcaption>
   </figure>
   <?php include("share.html"); ?>

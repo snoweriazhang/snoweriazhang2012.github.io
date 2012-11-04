@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 <head>
   <title>
-    Snoweria Zhang - Soirée Dress
+    Snoweria Zhang - Penrose Earrings
   </title>
 
   <!-- Meta Tags -->
@@ -75,13 +75,14 @@
     <a href="../../index.php">Home</a> > 
     <a href="../index.html">Portfolio</a> > 
     <a href="../index.html?id=Fashion"> Fashion </a> > 
-    Soirée Dress </div>
+    Penrose Earrings</div>
 
   <figure>
-    <img src="../portfolio_images_full/fashion_dress_1.jpg" width="514" height="500" />
+    <img src="../portfolio_images_full/fashion_earring_penrose.jpg" width="670" height="291"/>
     <figcaption>
-      <p id="title"> Soirée Dress</p>
-      <p>April 2012</p>
+      <p id="title">Penrose Earrings</p>
+      <p>March 2012</p>
+      <p>I wrote my senior math thesis on Penrose Tiles (yes, Penrose as in Sir Roger Penrose, the physicist, mathematician, philosopher, and generally awesome dude). This is the complimentary pair of kite and dart earrings that I wore to the presentation.</p>
     </figcaption>
   </figure>
   <?php include("share.html"); ?>

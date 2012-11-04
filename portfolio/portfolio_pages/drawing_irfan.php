@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 <head>
   <title>
-    Snoweria Zhang - Soirée Dress
+    Snoweria Zhang - Irfan
   </title>
 
   <!-- Meta Tags -->
@@ -74,14 +74,15 @@
   <div id="breadcrumbs">
     <a href="../../index.php">Home</a> > 
     <a href="../index.html">Portfolio</a> > 
-    <a href="../index.html?id=Fashion"> Fashion </a> > 
-    Soirée Dress </div>
+    <a href="../index.html?id=Drawing"> Drawing </a> > 
+    Irfan</div>
 
   <figure>
-    <img src="../portfolio_images_full/fashion_dress_1.jpg" width="514" height="500" />
+    <img src="../portfolio_images_full/drawing_irfan.jpg" width="401" height="500"/>
     <figcaption>
-      <p id="title"> Soirée Dress</p>
-      <p>April 2012</p>
+      <p id="title">Irfan</p>
+      <p>July 2011</p>
+      <p>Irfan Gazi lives in Izmir, Turkey. I met him and his daughter in Coimbra, Portugal in 2011 at a math conference.</p>
     </figcaption>
   </figure>
   <?php include("share.html"); ?>

@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 <head>
   <title>
-    Snoweria Zhang - Soirée Dress
+    Snoweria Zhang - Violin Kit
   </title>
 
   <!-- Meta Tags -->
@@ -74,14 +74,15 @@
   <div id="breadcrumbs">
     <a href="../../index.php">Home</a> > 
     <a href="../index.html">Portfolio</a> > 
-    <a href="../index.html?id=Fashion"> Fashion </a> > 
-    Soirée Dress </div>
+    <a href="../index.html?id=Misc"> Misc.</a> > 
+   Violin Kit </div>
 
   <figure>
-    <img src="../portfolio_images_full/fashion_dress_1.jpg" width="514" height="500" />
+    <img src="../portfolio_images_full/misc_violin_2.jpg" width="333" height="500"/>
     <figcaption>
-      <p id="title"> Soirée Dress</p>
-      <p>April 2012</p>
+      <p id="title">Violin Kit</p>
+      <p>December 2010</p>
+      <p>This is a violin-shaped kit that contains sound chips removed from musical birthday cards. The kit also contains a bow, wire, and instructions no how to string the violin to play the songs stored on the sounds chips. For a video, please click on the link below.</p>
     </figcaption>
   </figure>
   <?php include("share.html"); ?>

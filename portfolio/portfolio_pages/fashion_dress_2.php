@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 <head>
   <title>
-    Snoweria Zhang - Soirée Dress
+    Snoweria Zhang - Should Bag Dress
   </title>
 
   <!-- Meta Tags -->
@@ -75,13 +75,14 @@
     <a href="../../index.php">Home</a> > 
     <a href="../index.html">Portfolio</a> > 
     <a href="../index.html?id=Fashion"> Fashion </a> > 
-    Soirée Dress </div>
+    Shoulder Bag Dress </div>
 
   <figure>
-    <img src="../portfolio_images_full/fashion_dress_1.jpg" width="514" height="500" />
+    <img src="../portfolio_images_full/fashion_dress_2.jpg" width="306" height="500"/>
     <figcaption>
-      <p id="title"> Soirée Dress</p>
-      <p>April 2012</p>
+      <p id="title">Shoulder Bag Dress</p>
+      <p>June 2011</p>
+      <p>This is a dress made from an old shoulder bag.</p>
     </figcaption>
   </figure>
   <?php include("share.html"); ?>

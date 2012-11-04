@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 <head>
   <title>
-    Snoweria Zhang - Soirée Dress
+    Snoweria Zhang - Acrylic Bird Rings
   </title>
 
   <!-- Meta Tags -->
@@ -75,13 +75,13 @@
     <a href="../../index.php">Home</a> > 
     <a href="../index.html">Portfolio</a> > 
     <a href="../index.html?id=Fashion"> Fashion </a> > 
-    Soirée Dress </div>
+    Acrylic Bird Ring</div>
 
   <figure>
-    <img src="../portfolio_images_full/fashion_dress_1.jpg" width="514" height="500" />
+    <img src="../portfolio_images_full/fashion_ring_bird.jpg" width="558" height="500"/>
     <figcaption>
-      <p id="title"> Soirée Dress</p>
-      <p>April 2012</p>
+      <p id="title">Acrylic Bird Ring</p>
+      <p>January 2011</p>
     </figcaption>
   </figure>
   <?php include("share.html"); ?>

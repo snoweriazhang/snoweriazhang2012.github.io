@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 <head>
   <title>
-    Snoweria Zhang - Soirée Dress
+    Snoweria Zhang - Soapstone Sculpture
   </title>
 
   <!-- Meta Tags -->
@@ -74,14 +74,14 @@
   <div id="breadcrumbs">
     <a href="../../index.php">Home</a> > 
     <a href="../index.html">Portfolio</a> > 
-    <a href="../index.html?id=Fashion"> Fashion </a> > 
-    Soirée Dress </div>
+    <a href="../index.html?id=Misc"> Misc.</a> > 
+   Soapstone Sculpture </div>
 
   <figure>
-    <img src="../portfolio_images_full/fashion_dress_1.jpg" width="514" height="500" />
+    <img src="../portfolio_images_full/misc_sculpture.jpg" width="670" height="446"/>
     <figcaption>
-      <p id="title"> Soirée Dress</p>
-      <p>April 2012</p>
+      <p id="title">Soap Stone Sculpture</p>
+      <p>March 2007</p>
     </figcaption>
   </figure>
   <?php include("share.html"); ?>

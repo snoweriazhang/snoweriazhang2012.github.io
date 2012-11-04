@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 <head>
   <title>
-    Snoweria Zhang - Soirée Dress
+    Snoweria Zhang - Lino Print No.2
   </title>
 
   <!-- Meta Tags -->
@@ -74,14 +74,14 @@
   <div id="breadcrumbs">
     <a href="../../index.php">Home</a> > 
     <a href="../index.html">Portfolio</a> > 
-    <a href="../index.html?id=Fashion"> Fashion </a> > 
-    Soirée Dress </div>
+    <a href="../index.html?id=Misc"> Misc.</a> > 
+   Lino Print No.2 </div>
 
   <figure>
-    <img src="../portfolio_images_full/fashion_dress_1.jpg" width="514" height="500" />
+    <img src="../portfolio_images_full/misc_print_2.jpg" width="670" height="499"/>
     <figcaption>
-      <p id="title"> Soirée Dress</p>
-      <p>April 2012</p>
+      <p id="title">Lino Print No.2</p>
+      <p>March 2007</p>
     </figcaption>
   </figure>
   <?php include("share.html"); ?>

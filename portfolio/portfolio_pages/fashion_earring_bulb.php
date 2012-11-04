@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 <head>
   <title>
-    Snoweria Zhang - Soirée Dress
+    Snoweria Zhang - Light Bulb Earrings
   </title>
 
   <!-- Meta Tags -->
@@ -75,13 +75,14 @@
     <a href="../../index.php">Home</a> > 
     <a href="../index.html">Portfolio</a> > 
     <a href="../index.html?id=Fashion"> Fashion </a> > 
-    Soirée Dress </div>
+    Light Bulb Earrings</div>
 
   <figure>
-    <img src="../portfolio_images_full/fashion_dress_1.jpg" width="514" height="500" />
+    <img src="../portfolio_images_full/fashion_earring_bulb.jpg" width="363" height="500"/>
     <figcaption>
-      <p id="title"> Soirée Dress</p>
-      <p>April 2012</p>
+      <p id="title">Light Bulb Earrings</p>
+      <p>September 2011</p>
+      <p></p>
     </figcaption>
   </figure>
   <?php include("share.html"); ?>

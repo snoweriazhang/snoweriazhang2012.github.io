@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 <head>
   <title>
-    Snoweria Zhang - Soirée Dress
+    Snoweria Zhang - New Book
   </title>
 
   <!-- Meta Tags -->
@@ -74,14 +74,15 @@
   <div id="breadcrumbs">
     <a href="../../index.php">Home</a> > 
     <a href="../index.html">Portfolio</a> > 
-    <a href="../index.html?id=Fashion"> Fashion </a> > 
-    Soirée Dress </div>
+    <a href="../index.html?id=Misc"> Misc.</a> > 
+   New Book </div>
 
   <figure>
-    <img src="../portfolio_images_full/fashion_dress_1.jpg" width="514" height="500" />
+    <img src="../portfolio_images_full/misc_boxcar.jpg" width="415" height="500"/>
     <figcaption>
-      <p id="title"> Soirée Dress</p>
-      <p>April 2012</p>
+      <p id="title">New Book</p>
+      <p>October 2011</p>
+      <p>I bought a copy of the Boxcar Children from a local thrift sotre, changed all the B's in "Benny" to P's, and donated teh book back to the thrift store.</p>
     </figcaption>
   </figure>
   <?php include("share.html"); ?>

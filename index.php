@@ -125,7 +125,7 @@
 	        	<a class="image" href="portfolio/index.html?id=Photo"><span class="overlay"><p>photography</p></span><img src="images/port_photo.jpg" /></a><!--
 		     --><a class="image" href="portfolio/index.html?id=Set"><span class="overlay"><p>set design</p></span><img src="images/port_set.jpg" /></a><!--
 		     --><a class="image" href="portfolio/index.html?id=Web"><span class="overlay"><p>web design</p></span><img src="images/port_web.jpg" /></a><!--
-		     --><a class="image" href="portfolio/index.html?id=misc"><span class="overlay"><p>misc.</p></span><img src="images/port_misc.jpg" /></a>
+		     --><a class="image" href="portfolio/index.html?id=Misc"><span class="overlay"><p>misc.</p></span><img src="images/port_misc.jpg" /></a>
 	        </div>
 
 	        

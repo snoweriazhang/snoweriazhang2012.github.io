@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 <head>
   <title>
-    Snoweria Zhang - Soirée Dress
+    Snoweria Zhang - A Series of Portraits
   </title>
 
   <!-- Meta Tags -->
@@ -74,14 +74,15 @@
   <div id="breadcrumbs">
     <a href="../../index.php">Home</a> > 
     <a href="../index.html">Portfolio</a> > 
-    <a href="../index.html?id=Fashion"> Fashion </a> > 
-    Soirée Dress </div>
+    <a href="../index.html?id=Drawing"> Drawing </a> > 
+    A Series of Portraits </div>
 
   <figure>
-    <img src="../portfolio_images_full/fashion_dress_1.jpg" width="514" height="500" />
+    <img src="../portfolio_images_full/drawing_sunday_5.jpg" width="389" height="500"/>
     <figcaption>
-      <p id="title"> Soirée Dress</p>
-      <p>April 2012</p>
+      <p id="title">A Series of Portraits</p>
+      <p>February 2012</p>
+      <p>In 2012, I co-set designed a production of Stephen Sondheim’s musical Sunday in the Park with George. These are some drawings of actors who played characters in the painting A Sunday Afternoon on the Island of La Grande Jatte. Some of them were in costume and makeup; a few were not.</p>
     </figcaption>
   </figure>
   <?php include("share.html"); ?>
