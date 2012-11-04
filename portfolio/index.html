@@ -21,15 +21,6 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,300italic,400' rel='stylesheet' type='text/css'>
 	<link rel="Shortcut Icon" href="../images/icon.ico" type="image/ico" />
 
-	<!-- iPhone/iPad -->
-	<!--
-	<meta name="viewport" content="width=980" />
-	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="HandheldFriendly" content="True">
-	-->
-
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
 	<!--chrome frame-->
@@ -38,9 +29,6 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" media="screen, projection" href="../stylesheet/portfolio.css" />
-	
-
-	<!-- Scripts -->
 
 	<!-- BEGIN Google Analytics-->
 	<script type="text/javascript">
@@ -55,15 +43,6 @@
 	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	  })();
 	</script>
-	<!--END Google Analytics-->
-
-	<!--general mobile redirect
-	<script type="text/javascript">
-		if(screen.width <=500){
-			document.location="mobile.html"
-		}
-	</script>
-	-->
 
 	<!--BEGIN mobile redirect-->
 	<script type="text/javascript">
@@ -79,11 +58,10 @@
 	</script>
 	<!--END mobile redirect-->
 
-
 	<!--jQuery.easing.js included in jQuery.js-->
 	<script src="../JS/jQuery.js" type="text/javascript" charset="utf-8"></script>
 	<script src="../JS/jQuery.easing.js" type="text/javascript" charset="utf-8"></script>
-	<script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js" type="text/javascript"></script> 
+	<script src="../JS/jquery-ui-1.9.1.custom.min.js" type="text/javascript"></script> 
 	<script src="../JS/jquery.wookmark.js"></script>
 
 </head>
@@ -262,6 +240,10 @@
 
    	<script type="text/javascript"> 
     	$(document).ready(function(){
+
+    		//resize header and filters
+    	//	$('header').width($(document).width());
+    	//	$('#filters').width($(document).width());
     	
     		// nav animation
     		        		
@@ -411,14 +393,6 @@
 		      /**
 		       * When a filter is clicked, toggle it's active state and refresh.
 		       */
-
-		       /*
-		      var onClickFilter = function(event) {
-		        var item = $(event.currentTarget);
-		        item.toggleClass('active');
-		        updateFilters();
-		      }
-		      */
 
 		        var onClickFilter = function(event) {
 			   	    var item = $(event.currentTarget);

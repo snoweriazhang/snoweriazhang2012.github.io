@@ -21,15 +21,6 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,300italic,400|Neuton' rel='stylesheet' type='text/css'>
 	<link rel="Shortcut Icon" href="images/icon.ico" type="image/ico" />
 
-	<!-- iPhone/iPad -->
-	<!--
-	<meta name="viewport" content="width=980" />
-	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="HandheldFriendly" content="True">
-	-->
-
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
 	<!--chrome frame-->
@@ -57,14 +48,6 @@
 	</script>
 	<!--END Google Analytics-->
 
-	<!--general mobile redirect
-	<script type="text/javascript">
-		if(screen.width <=500){
-			document.location="mobile.html"
-		}
-	</script>
-	-->
-
 	<!--BEGIN mobile redirect-->
 	<script type="text/javascript">
 		if ((navigator.userAgent.match(/iPhone/i)) || 
@@ -83,9 +66,7 @@
 	<!--jQuery.easing.js included in jQuery.js-->
 	<script src="JS/jQuery.js" type="text/javascript" charset="utf-8"></script>
 	<script src="JS/jQuery.easing.js" type="text/javascript" charset="utf-8"></script>
-	<script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js" type="text/javascript"></script> 
-	<!--<script src="JS/jcarousellite_1.0.1.js" type="text/javascript" charset="utf-8"></script>-->
-	<!--<script src="JS/menu.js" type="text/javascript" charset="utf-8"></script>-->
+	<script src="JS/jquery-ui-1.9.1.custom.min.js" type="text/javascript"></script> 
 	<script src="JS/contact_form.js" type="text/javascript" charset="utf-8"></script>
 
 </head>

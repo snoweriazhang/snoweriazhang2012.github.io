@@ -27,6 +27,7 @@ time, mark, audio, video {
 
 html{
 	height:102%;
+	width: 100%;
 }
 
 
@@ -79,6 +80,86 @@ h2{
 	line-height: 120%;
 }
 
+
+p{
+	color: #100303;
+	font-size: 15px;
+	font-family: "Lato", Helvetica, Arial, Times New Roman, sans-serif;
+	font-weight:300;
+	text-align: left;
+	line-height: 18px;
+	padding-bottom: 15px;
+}
+
+p a{
+	color:inherit;
+	text-decoration: none;
+	font-style: italic;
+}
+
+p a:hover{
+	text-decoration: underline;
+}
+
+figure #title{
+	font-family: "Neuton";
+	font-size:25px;
+	font-weight: 400;
+	color:#8c1c1c;
+}
+#breadcrumbs{
+	font-family: "Lato", Helvetica, Arial, Times New Roman, sans-serif;
+	font-size: 13px;
+	color:#100303;
+	font-weight: 400;
+}
+
+
+#breadcrumbs a{
+	color:#8c1c1c;
+	text-decoration: none;
+}
+
+#breadcrumbs a:hover{
+	text-decoration: underline;
+}
+
+
+/*	--------------------------------------------------
+    Social Media
+	-------------------------------------------------- */
+
+
+#social_media{
+	position:absolute;
+	top:205px;
+}
+
+#googleplus{
+	position:relative;
+	top:0;
+}
+
+#facebook{
+	position:relative;
+	top:3px;
+}
+
+#twitter{
+	position:relative;
+	top:10px;
+}
+
+#stumbleupon{
+	position:relative;
+	top:15px;
+}
+
+#pininterest{
+	position:relative;
+	top:20px;
+}
+
 /*	--------------------------------------------------
     Content Style
 	-------------------------------------------------- */
@@ -92,6 +173,7 @@ header{
 	background: url('../images/header_bg.jpg') repeat #8c1d1d;
 	/*-webkit-transform: rotate(-50deg); 
     -moz-transform: rotate(-50deg);*/
+
 }
 
 header img{
@@ -171,3 +253,29 @@ h2{
 	position: absolute;
 	top:320px;
 }
+
+#breadcrumbs{
+	position:absolute;
+	left:50%;
+	margin-left: -432px;
+	margin-bottom: 50px;
+}
+
+figure{
+	margin:160px auto;
+	width:670px;
+	padding-bottom:70px;
+	text-align: center;
+}
+
+figure img{
+	margin:40px 0 20px 0;
+	border:5px #fff solid;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 1px 2px 5px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 1px 2px 5px rgba(0,0,0,0.2);
+	box-shadow: 1px 2px 5px rgba(0,0,0,0.2);
+}
+

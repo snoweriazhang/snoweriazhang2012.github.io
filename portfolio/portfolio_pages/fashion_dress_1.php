@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 <head>
   <title>
-    Snoweria Zhang's Online Portfolio
+    Snoweria Zhang - Soirée Dress
   </title>
 
   <!-- Meta Tags -->
@@ -19,7 +19,7 @@
   <meta name="copyright" content="Copyright (c) 2012 Snoweria Zhang" />
 
   <link href='http://fonts.googleapis.com/css?family=Lato:300,300italic,400|Neuton' rel='stylesheet' type='text/css'>
-  <link rel="Shortcut Icon" href="images/icon.ico" type="image/ico" />
+  <link rel="Shortcut Icon" href="../../images/icon.ico" type="image/ico" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
@@ -27,7 +27,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
 
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" media="screen, projection" href="../stylesheet/general.css" />
+  <link rel="stylesheet" type="text/css" media="screen, projection" href="../../stylesheet/general.css" />
   
 
   <!-- Scripts -->
@@ -63,58 +63,29 @@
 
 
   <!--jQuery.easing.js included in jQuery.js-->
-  <script src="../JS/jQuery.js" type="text/javascript" charset="utf-8"></script>
-  <script src="../JS/jquery-ui-1.9.1.custom.min.js" type="text/javascript"></script> 
+  <script src="../../JS/jQuery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../../JS/jquery-ui-1.9.1.custom.min.js" type="text/javascript"></script> 
+  <script src="../../JS/nav.js" type="text/javascript"></script>
 
 </head>
 
 <body>
+  <?php include("header.html"); ?>
+  <div id="breadcrumbs">
+    <a href="../../index.php">Home</a> > 
+    <a href="../index.html">Portfolio</a> > 
+    <a href="../index.html?id=Fashion"> Fashion </a> > 
+    Soirée Dress </div>
 
-  <header>
-    <div id="header_bg_left"></div>
-    <a href="http://www.snoweria.com" alt="www.snoweria.com">
-      <img src="../images/logo.png" alt="www.snoweria.com" />
-    </a> 
-    <div id="header_bg_bottom"></div>
-    <nav>
-      <span id="left">
-        <a href="../index.php#home">HOME</a>
-        <a href="portfolio/index.html">PORTFOLIO</a>
-      </span>
-      <span id="right">
-        <a href="../index.php#about">ABOUT ME</a>
-        <a href="../index.php#contact">CONTACT</a>
-      </span>
-    </nav>  
-  </header>
-
-  <div class="content">
-    <h1>Ah-oh!</h1>
-    <h2>There isn't much to see here. <br/>Please click on one of the menu items above to navigate.</h2>
-  </div>
-
-<script type="text/javascript"> 
-  $(document).ready(function(){  
-    // nav animation
-    $("nav a").not(".current").hover(
-        function(){
-          $(this).animate( { backgroundColor: "#000" }, 200);
-        },function(){
-          $(this).animate( { backgroundColor: "transparent" }, 100);
-      });
-
-      //resize nav left block
-      
-      resize_nav_left_bg();
-      
-      $(window).resize(resize_nav_left_bg);
-              
-      function resize_nav_left_bg(){
-        $("#header_bg_left").css("width",function(){
-          return (window.innerWidth - 960)/2;
-        });   
-      }    
-  });  
-</script> 
+  <figure>
+    <img src="../portfolio_images_full/fashion_dress_1.jpg" width="514" height="500" />
+    <figcaption>
+      <p id="title"> Soirée Dress</p>
+      <p>April 2012</p>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </figcaption>
+  </figure>
+  <?php include("share.html"); ?>
+  <?php include("footer.html"); ?>
 
 </body></html>
