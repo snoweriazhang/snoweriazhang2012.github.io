@@ -18,7 +18,7 @@
 	<meta name="title" content=" Snoweria Zhang's Online Portfolio" />
 	<meta name="copyright" content="Copyright (c) 2012 Snoweria Zhang" />
 
-	<link href='http://fonts.googleapis.com/css?family=Lato:300,300italic,400|Neuton' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,300italic,400' rel='stylesheet' type='text/css'>
 	<link rel="Shortcut Icon" href="../images/icon.ico" type="image/ico" />
 
 	<!-- iPhone/iPad -->
@@ -411,11 +411,32 @@
 		      /**
 		       * When a filter is clicked, toggle it's active state and refresh.
 		       */
+
+		       /*
 		      var onClickFilter = function(event) {
 		        var item = $(event.currentTarget);
 		        item.toggleClass('active');
 		        updateFilters();
 		      }
+		      */
+
+		        var onClickFilter = function(event) {
+			   	    var item = $(event.currentTarget);
+			   	    if(item.text()=='ALL'){
+			   	   		if($(this).attr('class')=="active"){
+			   	   			$('#filters li').removeClass('active');
+			   	   			$('#filters li #all').css('color','#8c1c1c');
+			   	   		}else{
+			   	   			$('#filters li').addClass('active');
+			   	   			$('#filters li #all').css('color','#f3f2e9');
+			   	   		}
+				   	   		
+			   	    }else{
+				   	   item.toggleClass('active'); 
+			   	    }
+			        
+			        updateFilters();
+		       }
 		      
 		      // Capture filter click events.
 		      $('#filters li').click(onClickFilter);
@@ -479,8 +500,9 @@
 			$('ul li').click(function(){
 				$id=this.id;
 				showART($id);
-				$('#modal').css('top',$(window).scrollTop());
-				$('body').css('overflow','hidden');
+			//	$('#modal').css('top',$(window).scrollTop());
+			//$('#modal').css('top',0;
+			//	$('body').css('overflow','hidden');
 				$('#modal').fadeIn(200);
 			});
 			
@@ -488,7 +510,7 @@
 			$('#modal').click(function(event){
 			    if (event.target == $('#modal').get(0)){
 					$('#modal').fadeOut(200);
-			    	$('body').css('overflow','visible');
+			 //   	$('body').css('overflow','visible');
 			    }
 			    
 		    });
@@ -496,7 +518,7 @@
 		    //hide modal when close button is closed
 		    $('#close').click(function(){
 			    $('#modal').fadeOut(500);
-			    $('body').css('overflow','visible');
+			//    $('body').css('overflow','visible');
 		    });
 		    
 		    $('#prev').click(function(){

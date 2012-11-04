@@ -92,7 +92,6 @@
 
 <body>
 
-	
 	<header>
 		<div id="header_bg_left"></div>
 		<a href="http://www.snoweria.com" alt="www.snoweria.com">
@@ -143,9 +142,9 @@
 	        </div>
 	        <div class="gallery">
 	        	<a class="image" href="portfolio/index.html?id=Photo"><span class="overlay"><p>photography</p></span><img src="images/port_photo.jpg" /></a><!--
-		     --><a class="image" href="Set Design"><span class="overlay"><p>set design</p></span><img src="images/port_set.jpg" /></a><!--
+		     --><a class="image" href="portfolio/index.html?id=Set"><span class="overlay"><p>set design</p></span><img src="images/port_set.jpg" /></a><!--
 		     --><a class="image" href="portfolio/index.html?id=Web"><span class="overlay"><p>web design</p></span><img src="images/port_web.jpg" /></a><!--
-		     --><a class="image" href="Misc."><span class="overlay"><p>misc.</p></span><img src="images/port_misc.jpg" /></a>
+		     --><a class="image" href="portfolio/index.html?id=misc"><span class="overlay"><p>misc.</p></span><img src="images/port_misc.jpg" /></a>
 	        </div>
 
 	        
@@ -162,7 +161,7 @@
 	        <p class="dark">Hi! My name is <a href="http://www.snoweria.com" alt="www.snoweria.com">Snoweria</a>. I am an artist + designer who enjoys mathematics, earrings, and tea.</p>
 			<p class="dark">A Canadian citizen, I have worked and lived in many cities, including Boston, Shanghai, Paris, and London. As a result, I am a teensy culturally “messed up.” My work draws inspiration from my travels, daydreams, and actual dreams. </p>
 			<p class="dark">I own 43 pairs of <a href="portfolio/index.html?id=Fashion" alt="Porfolio | Fashion">earrings</a>, 21 of which I made from things on their way to the trash can. None of them match the <a href="portfolio/index.html?id=Fashion" alt="Portfolio | Fashion">dresses</a> I have designed. </p>
-			<p class="dark">In May, 2012, I graduated from Harvard University with a <br/>B.A. in <a href="" alt="">mathematics</a> and a minor in fine arts.</p>
+			<p class="dark">In May, 2012, I graduated from Harvard University with a B.A. in <a href="" alt="">mathematics</a> and a minor in fine arts.</p>
 			<img src="images/snoweria.png" alt="Snoweria Zhang" id="photo_snoweria"/>
 		</div>
 	</div>

@@ -1,8 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <CATALOG>
 
 	<ART>
 		<ID>architecture_house_1</ID>
-		<IMAGE>portfolio_images_full/architecture_house_1.jpg width="333" height="500"</IMAGE>
+		<IMAGE url="snoweria.com">portfolio_images_full/architecture_house_1.jpg width="333" height="500"</IMAGE>
 		<TITLE>Shared Housing Project</TITLE>
 		<DATE>June 2011</DATE>
 		<CONTENT>
@@ -879,7 +880,7 @@
 		<DATE>November 2010</DATE>
 		<CONTENT>
 			Directed by Matthew C. Stone
-			Light Design by Bethina Liu and Lora Stoianova
+			Light Design by Bethina Liu and Lora Stoianova <br/>
 			Set Design by Elizabeth Mak and Snoweria Zhang
 			Production Photos by Gokcan Demirkazik
 

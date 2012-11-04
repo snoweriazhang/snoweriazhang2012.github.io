@@ -18,6 +18,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+html{
+	height:102%;
+}
+
 body{
 	margin:0 auto;
 	background: url('../images/home_bg.jpg') repeat #f3f2e9;
@@ -350,7 +354,7 @@ span.overlay{
 	-------------------------------------------------- */
 
 #modal{
-     position: absolute;
+     position: fixed;
      background:rgba(0,0,0,0.85);
      left: 0px;
      top: 0px;
