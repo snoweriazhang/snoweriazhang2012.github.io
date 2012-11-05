@@ -621,7 +621,7 @@
 	<ART>
 		<ID>painting_danella</ID>
 		<IMAGE>portfolio_images_full/painting_danella.jpg width="670" height="348"</IMAGE>
-		<TITLE>Chantilly, France</TITLE>
+		<TITLE>Danella</TITLE>
 		<DATE>May 2012</DATE>
 		<CONTENT>
 			Medium: oil on canvas
@@ -799,7 +799,7 @@
 
 	<ART>
 		<ID>web_snoweria</ID>
-		<IMAGE>portfolio_images_full/web_snoweria.jpg width="670" height="467"</IMAGE>
+		<IMAGE>portfolio_images_full/web_snoweria.jpg width="670" height="463"</IMAGE>
 		<TITLE>Snoweria.com (old version)</TITLE>
 		<DATE>December 2008</DATE>
 		<CONTENT>
@@ -824,19 +824,6 @@
 			Directed by Matt Stone. &lt;br&gt; 
 			Set Design by Elizabeth Mak and Snoweria Zhang. &lt;br&gt; 
 			Lighting Design by Bethina Liu and Lora Stoianova. &lt;br&gt; 
-			Production photos by Bethina Liu.
-		</CONTENT>	
-	</ART>
-
-	<ART>
-		<ID>set_attempts</ID>
-		<IMAGE>portfolio_images_full/set_attempts.jpg width="670" height="474"</IMAGE>
-		<TITLE>Attempts on Her Life by Martin Crimp</TITLE>
-		<DATE>October 2009</DATE>
-		<CONTENT>
-			Directed by Matt Stone. &lt;br&gt; 
-			Set Design by Elizabeth Mak and Snoweria Zhang. &lt;br&gt; 
-			Lighting Design by Michael Zellmann-Rhorer. &lt;br&gt; 
 			Production photos by Bethina Liu.
 		</CONTENT>	
 	</ART>
@@ -1019,7 +1006,7 @@
 		<DATE>February 2010</DATE>
 		<CONTENT>
 			Directed by Megan O'Keefe&lt;br&gt; 
-			Light Design by Michael Zellmann-Rhorer&lt;br&gt; 
+			Light Design by Matthew C. Stone&lt;br&gt; 
 			Set Design by Snoweria Zhang&lt;br&gt; 
 			Production Photos by Bethina Liu&lt;br&gt; 
 			&lt;br&gt; 
