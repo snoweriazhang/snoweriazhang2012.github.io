@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 <head>
   <title>
-    Snoweria Zhang - Memory of a Staircase
+    Snoweria Zhang - Chalk Nude
   </title>
 
   <!-- Meta Tags -->
@@ -74,15 +74,14 @@
   <div id="breadcrumbs">
     <a href="../../index.php">Home</a> > 
     <a href="../index.html">Portfolio</a> > 
-    <a href="../index.html?id=Painting"> Painting </a> > 
-    Memory of a Staircase</div>
+    <a href="../index.html?id=Drawing"> Drawing </a> > 
+    Chalk Nude </div>
 
   <figure>
-    <img src="../portfolio_images_full/painting_staircase.jpg" width="347" height="500"/>
+    <img src="../portfolio_images_full/drawing_nude.jpg" width="362" height="500"/>
     <figcaption>
-      <p id="title">Memory of a Staircase</p>
-      <p>March 2012</p>
-      <p>Medium: oil on canvas</p>
+      <p id="title">Chalk Nude</p>
+      <p>November 2010</p>
     </figcaption>
   </figure>
   <?php include("share.html"); ?>

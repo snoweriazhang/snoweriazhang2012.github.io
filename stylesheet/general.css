@@ -142,30 +142,50 @@ footer{
 	top:205px;
 }
 
-#googleplus{
+#email{
+	background: url('../images/email.jpg') no-repeat;
+	height:19px;
+	width:27px;
+	border:1px solid #ccc;
+	border-radius: 2px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
 	position:relative;
 	top:0;
+	cursor:pointer;
+}
+
+#email:hover{
+	border:1px solid #999;
+}
+
+#googleplus{
+	position:relative;
+	top:7px;
 }
 
 #facebook{
 	position:relative;
-	top:3px;
+	top:10px;
 }
 
 #twitter{
 	position:relative;
-	top:10px;
+	top:17px;
+}
+
+
+#pininterest{
+	position:relative;
+	top:22px;
 }
 
 #stumbleupon{
 	position:relative;
-	top:15px;
+	top:23px;
 }
 
-#pininterest{
-	position:relative;
-	top:20px;
-}
+
 
 /*	--------------------------------------------------
     Content Style
@@ -269,9 +289,9 @@ h2{
 }
 
 figure{
-	margin:160px auto;
+	margin:160px auto 50px auto;
 	width:670px;
-	padding-bottom:70px;
+	padding-bottom:15px;
 	text-align: center;
 }
 
@@ -287,6 +307,10 @@ figure img{
 }
 
 footer{
-
+	position:relative;
+	bottom:10px;
+	display:block;
+	margin:0 auto;
+	width: 960px;
+	text-align: right;
 }
-

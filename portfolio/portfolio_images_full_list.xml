@@ -278,6 +278,15 @@
 	</ART>
 
 	<ART>
+		<ID>drawing_nude</ID>
+		<IMAGE>portfolio_images_full/drawing_nude.jpg width="362" height="500"</IMAGE>
+		<TITLE>Chalk Nude</TITLE>
+		<DATE>November 2010</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
 		<ID>drawing_sunday_5</ID>
 		<IMAGE>portfolio_images_full/drawing_sunday_5.jpg width="389" height="500"</IMAGE>
 		<TITLE>A Series of Portraits</TITLE>

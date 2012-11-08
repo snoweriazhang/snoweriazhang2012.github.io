@@ -215,7 +215,6 @@ nav .current{
 }
 
 .divider{
-	background: url('../images/header_bg.jpg') repeat #8c1d1d;
 	position:absolute;
 	left:50%;
 	width:137px;

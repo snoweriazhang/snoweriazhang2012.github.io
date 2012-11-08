@@ -98,7 +98,7 @@
 		        <li data-filter="drawing">Drawing</li>
 		       	<li data-filter="photo">Photo</li>
 		        <li data-filter="fashion">Fashion</li>
-		        <li data-filter="london"><span id="all">ALL</span></li>
+		        <li data-filter="london"><span id="reset">RESET</span></li>
 		        <li data-filter="painting">Painting</li>
 		        <li data-filter="web">Web</li>
 		        <li data-filter="set">Set Design</li>
@@ -161,6 +161,7 @@
         	<li class="drawing" id="drawing_paris_alley"><span class="overlay"></span><img src="portfolio_images/drawing_paris_alley.jpg" height="430" width="300"><p><a href="index.html?id=Drawing">Drawing</a> | Parisian Alley</p></li>
         	<li class="set" id="set_crave"><span class="overlay"></span><img src="portfolio_images/set_crave.jpg" height="408" width="300"><p><a href="index.html?id=Set">Set Design</a> | Crave</p></li>
         	<li class="misc" id="misc_collage"><span class="overlay"></span><img src="portfolio_images/misc_collage.jpg" height="400" width="300"><p><a href="index.html?id=Misc">Misc.</a> | Dada</p></li>
+        	<li class="drawing" id="drawing_nude"><span class="overlay"></span><img src="portfolio_images/drawing_nude.jpg" height="415" width="300"><p><a href="index.html?id=Drawing">Drawing</a> | Chalk Nude</p></li>
 	       	<li class="painting" id="painting_self_1"><span class="overlay"></span><img src="portfolio_images/painting_self_1.jpg" height="298" width="300"><p><a href="index.html?id=Painting">Painting</a> | Self Portrait No.1</p></li>
 	       	<li class="photo" id="photo_pearson"><span class="overlay"></span><img src="portfolio_images/photo_pearson.jpg" height="479" width="300"><p><a href="index.html?id=Photo">Photo</a> | Toronto Pearson Airport</p></li>
 	       	<li class="set" id="set_crave_2"><span class="overlay"></span><img src="portfolio_images/set_crave_2.jpg" height="419" width="300"><p><a href="index.html?id=Set">Set Design</a> | Crave</p></li>
@@ -254,6 +255,8 @@
 
    	<script type="text/javascript"> 
     	$(document).ready(function(){
+
+    		
 
     		//resize header and filters
     	//	$('header').width($(document).width());
@@ -410,22 +413,12 @@
 
 		        var onClickFilter = function(event) {
 			   	    var item = $(event.currentTarget);
-			   	    if(item.text()=='ALL'){
-			   	   		if($(this).attr('class')=="active"){
-			   	   			$('#filters li').removeClass('active');
-			   	   			$('#filters li #all').css('color','#8c1c1c');
-			   	   		}else{
-			   	   			$('#filters li').addClass('active');
-			   	   			$('#filters li #all').css('color','#f3f2e9');
-			   	   		}	
+			   	    if(item.text()=='RESET'){
+			   	    	$('#filters li').removeClass('active');
 			   	    }else{
 				   	   item.toggleClass('active'); 
 			   	    }
 			        updateFilters();
-			      //  alert($('body').height());
-			     //   alert($('html').height());
-			      //  alert($(document).height());
-			        //$('body').css('height',500);
 		       }
 		      
 		      // Capture filter click events.
@@ -512,6 +505,7 @@
 		    });
 		    
 		    $('#prev').click(function(){
+		      //  $id=$('#'+$id).prev().attr('id');
 		        $id=$('#'+$id).prev().attr('id');
 		        if($id==undefined)
 			        $id=$('li').last().attr('id');
