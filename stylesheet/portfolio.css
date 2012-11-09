@@ -20,6 +20,7 @@ time, mark, audio, video {
 
 html{
 	height:102%;
+
 }
 
 body{
@@ -69,7 +70,7 @@ nav a{
 	color: #f3f2e9;
 }
 
-#filters li #reset{
+#filters li #all{
 	font-weight:400;
 	color: #8c1c1c;
 }
@@ -383,6 +384,7 @@ span.overlay{
 	margin-left:465px;
 	top:70px;
 	z-index: 1300;
+	cursor: pointer;
 }
 
 #close:hover{
@@ -400,6 +402,7 @@ span.overlay{
 	left:50%;
 	margin-left:-517px;
 	top:262px;
+	cursor:pointer;
 }
 
 #prev:hover{
@@ -417,6 +420,7 @@ span.overlay{
 	left:50%;
 	margin-left:485px;
 	top:262px;
+	cursor: pointer;
 }
 
 #next:hover{
