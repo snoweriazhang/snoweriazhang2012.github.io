@@ -27,16 +27,6 @@ body{
 	margin:0 auto;
 	background: url('../images/home_bg.jpg') repeat #f3f2e9;
 }
-/*
-#container{
-	
-	width:1024px;
-	position: absolute;
-	left:50%;
-	margin-left:-512px;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
-}*/
 
 /*	--------------------------------------------------
     Typography
@@ -139,8 +129,6 @@ header{
 	width: 100%;
 	height:110px;
 	background: url('../images/header_bg.jpg') repeat #8c1d1d;
-	/*-webkit-transform: rotate(-50deg); 
-    -moz-transform: rotate(-50deg);*/
 }
 
 header img{
@@ -248,10 +236,10 @@ nav .current{
 	float: left;
 	padding: 4px 0 7px 0;
 	cursor: pointer;
-	  -webkit-transition: all 0.15s ease-out;
-	     -moz-transition: all 0.15s ease-out;
-	       -o-transition: all 0.15s ease-out;
-	          transition: all 0.15s ease-out;
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	-o-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
@@ -268,32 +256,21 @@ nav .current{
 }
 
 
-/**
- * Grid container
- */
+/*  Grid container  */
 #main {
 	padding: 30px 0 30px 0;
 }
 
 #tiles {
 	list-style-type: none;
-	position: relative; /** Needed to ensure items are laid out relative to this container **/
+	position: relative; /* Needed to ensure items are laid out relative to this container */
 	margin: 0;
 	top:220px;
 }
 
-/**
- * Grid items
- */
 #tiles li {
 	width: 300px;
 	background-color: #ffffff;
-	/*
-	border: 1px solid #dedede;
-	-moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
-	border-radius: 2px;*/
-	/*display: none; *//** Hide items initially to avoid a flicker effect **/
 	cursor: pointer;
 	padding: 7px;
 	  -webkit-transition: all 0.3s ease-out;
@@ -317,23 +294,6 @@ nav .current{
 #tiles li p {
 	margin: 7px 0 0 7px;
 }
-
-/**
- * Some extra styles to randomize heights of grid items.
- */
- /*
-#tiles ali:nth-child(3n) {
-	height: 175px;
-}
-
-#tiles ali:nth-child(4n-3) {
-	padding-bottom: 30px;
-}
-
-#tiles ali:nth-child(5n) {
-	height: 250px;
-}
-*/
 
 span.overlay{
 	background:url('../images/magnifying_glass.png') no-repeat 50% 50% rgba(0,0,0,0.5);
@@ -463,5 +423,15 @@ footer{
 	margin-top: 200px; /* keeps images from touching TOP button*/
 	width: 960px;
 	text-align: right;
+}
+
+/*	--------------------------------------------------
+    Media Queries
+	-------------------------------------------------- */
+
+@media all and (max-width: 1024px) and (min-width: 520px){
+	nav a{
+		color:red;
+	}
 }
 

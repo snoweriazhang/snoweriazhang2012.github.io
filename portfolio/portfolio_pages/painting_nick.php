@@ -78,7 +78,7 @@
     Nick</div>
 
   <figure>
-    <img src="../portfolio_images_full/painting_nick.jpg" width="670" height="478"/>
+    <img src="../portfolio_images_full/painting_nick.jpg" width="556" height="500"/>
     <figcaption>
       <p id="title">Nick</p>
       <p>May 2012</p>

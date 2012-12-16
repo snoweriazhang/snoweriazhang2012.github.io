@@ -314,3 +314,13 @@ footer{
 	width: 960px;
 	text-align: right;
 }
+
+/*	--------------------------------------------------
+    Media Queries
+	-------------------------------------------------- */
+
+@media all and (max-width: 1024px) and (min-width: 520px){
+	header{
+		color:red;
+	}
+}

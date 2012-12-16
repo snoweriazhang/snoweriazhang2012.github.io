@@ -78,7 +78,7 @@
     Crave</div>
 
   <figure>
-    <img src="../portfolio_images_full/set_crave_2.jpg" width="357" height="500"/>
+    <img src="../portfolio_images_full/set_crave_2.jpg" width="359" height="500"/>
     <figcaption>
       <p id="title">Crave</p>
       <p>September 2011<br>

@@ -88,7 +88,8 @@
       Directed by Megan O'Keefe<br>
       Light Design by Mattthew C. Stone<br>
       Set Design by Snoweria Zhang<br>
-      Production Photos by Bethina Liu<br>
+      Production Photos by Bethina Liu<br></p>
+      <p>The Glass Menagerie is a memory play that revolves around the entangled lives of four characters who are all grappling with the tragedy of their own fate. In the poignant two-act play, one of the characters, Tom, references the 1937 bombing of Guernica three times. Therefore, to create the atmosphere of tension and despair, I painted the entire stage and seating area with figures from Picasso’s Guernica. In addition, the delicate floral wallpaper design was stenciled on top of crumpled, old newspaper, mimicking the style of the text found in Picasso’s masterpiece while creating context for the play.</p>
     </figcaption>
   </figure>
   <?php include("share.html"); ?>

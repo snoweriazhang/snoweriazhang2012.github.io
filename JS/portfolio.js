@@ -1,11 +1,5 @@
 $(document).ready(function(){
 
-	
-
-	//resize header and filters
-//	$('header').width($(document).width());
-//	$('#filters').width($(document).width());
-
 	// nav animation
 	        		
 	$("nav a").not(".current").hover(
@@ -16,7 +10,6 @@ $(document).ready(function(){
 	});
 
 	// scroll to top
-
 
     $('.top a').click(function(event){
     	//animate body
@@ -33,20 +26,13 @@ $(document).ready(function(){
 	//resize nav left block
 	
 	resize_nav_left_bg();
-//	if($(window).width()<$(document).width())
-//		$('header').css('width',$(document).width());
-	
 	$(window).resize(resize_nav_left_bg);
-		        	
     function resize_nav_left_bg(){
        	$("#header_bg_left").css("width",function(){
     		return (window.innerWidth - 960)/2;
     	});		
     }  
 
-/*     function resize_header_bg(){
-    	$('header').css('width',document.innerWidth);
-    } */ 
 
     //change position attribute of header and filter on scroll
 	$(window).scroll(function() {
@@ -234,9 +220,6 @@ $(document).ready(function(){
 	$('ul li').click(function(){
 		$id=this.id;
 		showART($id);
-	//	$('#modal').css('top',$(window).scrollTop());
-	//$('#modal').css('top',0;
-	//	$('body').css('overflow','hidden');
 		$('#modal').fadeIn(200);
 	});
 	
@@ -244,7 +227,6 @@ $(document).ready(function(){
 	$('#modal').click(function(event){
 	    if (event.target == $('#modal').get(0)){
 			$('#modal').fadeOut(200);
-	 //   	$('body').css('overflow','visible');
 	    }
 	    
     });
@@ -252,26 +234,21 @@ $(document).ready(function(){
     //hide modal when close button is closed
     $('#close').click(function(){
 	    $('#modal').fadeOut(500);
-	//    $('body').css('overflow','visible');
     });
     
     $('#prev').click(function(){
-      //  $id=$('#'+$id).prev().attr('id');
-        $id=$('#'+$id).prev().attr('id');
+        $id=$('#'+$id).prevAll().not('.inactive').first().attr('id');
         if($id==undefined)
-	        $id=$('li').last().attr('id');
+	        $id=$('ul li').not('.inactive').last().attr('id');
 	    showART($id);
     });
     
     $('#next').click(function(){
-        $id=$('#'+$id).next().attr('id');
+        $id=$('#'+$id).nextAll().not('.inactive').first().attr('id');
         if($id==undefined)
-	        $id=$('ul li').first().attr('id');
+	        $id=$('ul li').not('.inactive').first().attr('id');
 	    showART($id);
     });
-
-
-
 
 });
  	

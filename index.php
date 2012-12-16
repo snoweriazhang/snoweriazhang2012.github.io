@@ -173,55 +173,43 @@
 	</div>
 	<!--END contact page-->
 
+   <script type="text/javascript"> 
+    	$(document).ready(function(){
+    	
+    		// menu animation
+    		        		
+    		$("nav a").hover(
+        		function(){
+		        	$(this).animate( { backgroundColor: "#000" }, 200);
+	        	},function(){
+		        	$(this).animate( { backgroundColor: "transparent" }, 100);
+        	}).click(function(){
 
-	<!--BEGIN page scroll-->
-	<script type="text/javascript">
-/*
-	$(function() {
-	    $('nav a, .menu a').click(function(){
+	        	$(this).animate( { backgroundColor: "#000" }, 200).unbind("hover");
 
-	    	//animate body
-	        var $anchor = $(this);
-	        $('html, body').stop(false, true).animate(
-	        	{scrollTop: $($anchor.attr('href')).offset().top}, 
-	        	1000, 
-	        	'easeInOutExpo'
-	        );
-	        event.preventDefault();
-
-	        //move nacigation bar color
-	        //$(this).find('img').css('left','0px');
-
-	    });
-	});
-*/
-	</script>
-	<!--END page scroll-->
-       <script type="text/javascript"> 
-        	$(document).ready(function(){
-        	
-        		// menu animation
-        		        		
-        		$("nav a").hover(
+	        	$("nav a").not(this)
+	        	.animate( { backgroundColor: "transparent" }, 100)	
+	        	.hover(
 	        		function(){
 			        	$(this).animate( { backgroundColor: "#000" }, 200);
 		        	},function(){
 			        	$(this).animate( { backgroundColor: "transparent" }, 100);
-	        	}).click(function(){
+		        });	
 
-		        	$(this).animate( { backgroundColor: "#000" }, 200).unbind("hover");
-		        	
-		        	//$(this).siblings()
-		        	$("nav a").not(this)
-		        	.animate( { backgroundColor: "transparent" }, 100)	
-		        	.hover(
-		        		function(){
-				        	$(this).animate( { backgroundColor: "#000" }, 200);
-			        	},function(){
-				        	$(this).animate( { backgroundColor: "transparent" }, 100);
-			        });	
+		        //animate body
+		        var $anchor = $(this);
+		        $('html, body').stop(false, true).animate(
+		        	{scrollTop: $($anchor.attr('href')).offset().top}, 
+		        	1500, 
+		        	'easeInOutExpo'
+		        );
+		        event.preventDefault();
+        	});
 
-			        //animate body
+        	$(function() {
+			    $('.menu a').click(function(event){
+
+			    	//animate body
 			        var $anchor = $(this);
 			        $('html, body').stop(false, true).animate(
 			        	{scrollTop: $($anchor.attr('href')).offset().top}, 
@@ -229,76 +217,57 @@
 			        	'easeInOutExpo'
 			        );
 			        event.preventDefault();
-	        	});
 
-	        	$(function() {
-				    $('.menu a').click(function(event){
+			        $("nav a").animate( { backgroundColor: "transparent" }, 200);
+			        if($anchor.attr('href')=="#portfolio")
+			        	$("nav a:contains('PORTFOLIO')").animate( { backgroundColor: "#000" }, 200);
+			        else if($anchor.attr('href')=="#about")
+			        	$("nav a:contains('ABOUT ME')").animate( { backgroundColor: "#000" }, 200);
+			        else if($anchor.attr('href')=="#contact")
+			        	$("nav a:contains('CONTACT')").animate( { backgroundColor: "#000" }, 200);
 
-				    	//animate body
-				        var $anchor = $(this);
-				        $('html, body').stop(false, true).animate(
-				        	{scrollTop: $($anchor.attr('href')).offset().top}, 
-				        	1500, 
-				        	'easeInOutExpo'
-				        );
-				        event.preventDefault();
-
-				        $("nav a").animate( { backgroundColor: "transparent" }, 200);
-				        if($anchor.attr('href')=="#portfolio")
-				        	$("nav a:contains('PORTFOLIO')").animate( { backgroundColor: "#000" }, 200);
-				        else if($anchor.attr('href')=="#about")
-				        	$("nav a:contains('ABOUT ME')").animate( { backgroundColor: "#000" }, 200);
-				        else if($anchor.attr('href')=="#contact")
-				        	$("nav a:contains('CONTACT')").animate( { backgroundColor: "#000" }, 200);
-
-				    });
-				});
-
-	        	
+			    });
+			});
+        
+        	//resize nav left block
+        	
+    		resize_nav_left_bg();
+        	
+        	$(window).resize(resize_nav_left_bg);
+				        	
+	        function resize_nav_left_bg(){
+		       	$("#header_bg_left").css("width",function(){
+	        		return (window.innerWidth - 960)/2;
+	        	});		
+	        }
 	        
-	        	//resize nav left block
-	        	
-        		resize_nav_left_bg();
-	        	
-	        	$(window).resize(resize_nav_left_bg);
-					        	
-		        function resize_nav_left_bg(){
-			       	$("#header_bg_left").css("width",function(){
-		        		return (window.innerWidth - 960)/2;
-		        	});		
-		        }
-		        
-		       
-		       //gallery animation
-		       
-				$(function() {
-					$(".overlay").css("opacity","1");
-					$(".overlay").hover(
-						function () {
-							$(this).stop().animate({opacity: 0}, 200);
-						},
-						function () {
-							$(this).stop().animate({opacity: 1}, 200);
-					});
+	       
+	       //gallery animation
+			$(function() {
+				$(".overlay").css("opacity","1");
+				$(".overlay").hover(
+					function () {
+						$(this).stop().animate({opacity: 0}, 200);
+					},
+					function () {
+						$(this).stop().animate({opacity:1}, 200);
 				});
-				
-				//last page resize (for bigger screen resolution)
-				$(function(){
-					if(window.innerHeight>680)
-						$(".contact").css("height",window.innerHeight);
-				});
+			});
+			
+			//last page resize (for bigger screen resolution)
+			$(function(){
+				if(window.innerHeight>680)
+					$(".contact").css("height",window.innerHeight);
+			});
 
-		       	        	
-        	});
-        	
-        	
-        	
-        	
-        </script> 
+	       	        	
+    	});
+    		
+    </script> 
 
-	<footer>
-		&copy; 2012 Snoweria Zhang
-	</footer>
+<footer>
+	&copy; 2012 Snoweria Zhang
+</footer>
 
 </body>
 </html>

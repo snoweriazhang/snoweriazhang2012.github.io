@@ -82,6 +82,7 @@
     <figcaption>
       <p id="title">Parisian Alley</p>
       <p>July 2009</p>
+      <p>A quiet and quintessential Parisian alley near Montmartre.</p>
     </figcaption>
   </figure>
   <?php include("share.html"); ?>

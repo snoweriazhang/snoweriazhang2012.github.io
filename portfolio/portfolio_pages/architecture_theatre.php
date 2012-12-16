@@ -82,6 +82,8 @@
     <figcaption>
       <p id="title">Stairs</p>
       <p>June 2011</p>
+      <p>This was the first of three projects I completed at the Career Discovery program at Harvard. This  one-week exercise asked students to imagine a program for a given room, design the room for the chosen narrative, and incorporate in the design a  way to move between two portals.</p>
+      <p>The room I had designed was a black box theater for small performances (e.g. comedies, one-person plays). The initial concept was derived from the sightlines of the room and the visual focus of the audience once seated. The final design combined seating, stairs, and performance area into one integrated space.  The tiered platforms make it easy to set up layered scenic elements, while the grid provides the facility for lighting and rigging.</p>
     </figcaption>
   </figure>
   <?php include("share.html"); ?>

@@ -82,6 +82,7 @@
     <figcaption>
       <p id="title">Climbing the Eiffel Tower</p>
       <p>July 2009</p>
+      <p>One of the views of the Eiffel Tower’s intricate structure as one climbs the edifice.</p>
     </figcaption>
   </figure>
   <?php include("share.html"); ?>

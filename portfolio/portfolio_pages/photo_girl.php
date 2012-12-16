@@ -82,7 +82,7 @@
     <figcaption>
       <p id="title">Girl on the T</p>
       <p>October 2008</p>
-      <p>One day on the subway in Boston, I sat across from a girl whose bored facial expression caught my eye. I clandestinely took a picture of her. Three months later, her mother saw the photo in President Drew Faust's office. </p>
+      <p>One day on the subway in Boston, I sat across from a girl who reminded me of Mary Cassatt’s “Little Girl in a Blue Armchair.” This photo was exhibited in President Drew Faust’s office. </p>
     </figcaption>
   </figure>
   <?php include("share.html"); ?>
