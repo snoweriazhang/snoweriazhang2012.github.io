@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 <head>
 	<title>
-		Snoweria Zhang's Online Portfolio
+		Snoweria Zhang
 	</title>
 
 	<!-- Meta Tags -->
@@ -15,7 +15,7 @@
 	<meta name="description" content="The online portfolio of artist and designer Snoweria Zhang. " />
 	<meta charset="utf-8" />
 	<meta name="MSSmartTagsPreventParsing" content="true" />
-	<meta name="title" content=" Snoweria Zhang's Online Portfolio" />
+	<meta name="title" content=" Snoweria Zhang" />
 	<meta name="copyright" content="Copyright (c) 2012 Snoweria Zhang" />
 
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,300italic,400|Neuton' rel='stylesheet' type='text/css'>
@@ -74,11 +74,6 @@
 <body>
 
 	<header>
-		<div id="header_bg_left"></div>
-		<a href="http://www.snoweria.com" alt="www.snoweria.com">
-			<img src="images/logo.png" alt="www.snoweria.com" />
-		</a>
-		<div id="header_bg_bottom"></div>
 		<nav>
 			<span id="left">
 				<a href="#home">HOME</a>
@@ -228,19 +223,7 @@
 
 			    });
 			});
-        
-        	//resize nav left block
-        	
-    		resize_nav_left_bg();
-        	
-        	$(window).resize(resize_nav_left_bg);
-				        	
-	        function resize_nav_left_bg(){
-		       	$("#header_bg_left").css("width",function(){
-	        		return (window.innerWidth - 960)/2;
-	        	});		
-	        }
-	        
+
 	       
 	       //gallery animation
 			$(function() {

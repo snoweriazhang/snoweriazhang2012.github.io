@@ -22,18 +22,6 @@ $(document).ready(function(){
         event.preventDefault();
     });
 
-
-	//resize nav left block
-	
-	resize_nav_left_bg();
-	$(window).resize(resize_nav_left_bg);
-    function resize_nav_left_bg(){
-       	$("#header_bg_left").css("width",function(){
-    		return (window.innerWidth - 960)/2;
-    	});		
-    }  
-
-
     //change position attribute of header and filter on scroll
 	$(window).scroll(function() {
 		//alert("Hi");
