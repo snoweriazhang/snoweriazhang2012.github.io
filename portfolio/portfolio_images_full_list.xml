@@ -191,6 +191,15 @@
 	</ART>
 
 	<ART>
+		<ID>drawing_lauren</ID>
+		<IMAGE>portfolio_images_full/drawing_lauren.jpg width="604" height="500"</IMAGE>
+		<TITLE>Lauren</TITLE>
+		<DATE>December 2012</DATE>
+		<CONTENT>
+		</CONTENT>	
+	</ART>
+
+	<ART>
 		<ID>drawing_larc</ID>
 		<IMAGE>portfolio_images_full/drawing_larc.jpg width="470" height="500"</IMAGE>
 		<TITLE>Le Départ de 1792</TITLE>

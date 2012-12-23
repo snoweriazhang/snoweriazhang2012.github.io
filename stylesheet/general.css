@@ -200,16 +200,6 @@ header{
 	background: url('../images/header.png') no-repeat center;
 }
 
-header img{
-	position: absolute;
-	top:-12px;
-	left:50%;
-	margin-left:-101px;
-	height:167px;
-	width:202px;
-	z-index: 102;
-}
-
 nav{
 	position:absolute;
 	top:45px;
@@ -317,7 +307,4 @@ footer{
 	-------------------------------------------------- */
 
 @media all and (max-width: 1024px) and (min-width: 520px){
-	header{
-		color:red;
-	}
 }
