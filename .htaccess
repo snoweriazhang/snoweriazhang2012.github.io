@@ -1,0 +1,5 @@
+ErrorDocument 400 /404.shtml
+ErrorDocument 401 /404.shtml
+ErrorDocument 403 /404.shtml
+ErrorDocument 404 /404.shtml
+ErrorDocument 500 /404.shtml

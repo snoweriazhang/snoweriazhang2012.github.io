@@ -113,7 +113,7 @@
     	<div class="divider"><img src="images/divider_home.png" alt=""/></div>
     	<!--<div class="divider_home"></div><span id="divider_home_margin"></span>-->
 	    <div class="content">	
-	    	<p class="light">Portfolio available in <a href="" alt="PDF portfolio" target="_blank">PDF</a></p>
+	    	<p class="light">Portfolio available in <a href="portfolio/portfolio_SnoweriaZhang.pdf" alt="PDF portfolio" target="_blank">PDF</a></p>
 	    	
 	        <div class="gallery">
 	        	<a class="image" href="portfolio/index.html?id=Architecture"><span class="overlay"><p>architecture</p></span><img src="images/port_arch.jpg" /></a><!--
