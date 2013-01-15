@@ -68,6 +68,9 @@
 	<script src="JS/jQuery.easing.js" type="text/javascript" charset="utf-8"></script>
 	<script src="JS/jquery-ui-1.9.1.custom.min.js" type="text/javascript"></script> 
 	<script src="JS/contact_form.js" type="text/javascript" charset="utf-8"></script>
+	<!--[if IE]>  
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>  
+	<![endif]-->  
 
 </head>
 
@@ -137,7 +140,8 @@
 	        <p class="dark">Hi! My name is <a href="http://www.snoweria.com" alt="www.snoweria.com">Snoweria</a>. I am an artist + designer who enjoys mathematics, earrings, and tea.</p>
 			<p class="dark">A naturalized Canadian citizen, I have lived and worked in many cities, including Toronto, Boston, Shanghai, Paris, and London. As a result, I am a teensy confused culturally. My work draws inspiration from my travels, daydreams, and actual dreams. </p>
 			<p class="dark">I own 43 pairs of <a href="portfolio/index.html?id=Fashion" alt="Porfolio | Fashion">earrings</a>, 21 of which I made from things on their way to the trash can. None of them match the <a href="portfolio/index.html?id=Fashion" alt="Portfolio | Fashion">dresses</a> I have designed. </p>
-			<p class="dark">In May, 2012, I graduated from Harvard University with a B.A. in <a href="" alt="">mathematics</a> and a minor in fine arts.</p>
+			<p class="dark">In May, 2012, I graduated from Harvard University with a B.A. in <a href="" alt="" id="thesis_click">mathematics</a> and a minor in fine arts.</p>
+			<p class="dark" id="thesis_paragraph">In case you are curious, I wrote my senior thesis on aperiodic tiling and Islamic architecture. </p>
 			<img src="images/snoweria.png" alt="Snoweria Zhang" id="photo_snoweria"/>
 		</div>
 	</div>
@@ -241,6 +245,13 @@
 			$(function(){
 				if(window.innerHeight>680)
 					$(".contact").css("height",window.innerHeight);
+			});
+
+			//show thesis_paragraph
+			$('#thesis_paragraph').css('display','none');
+			$('#thesis_click').click(function(){
+				event.preventDefault();
+				$('#thesis_paragraph').fadeIn(200);
 			});
 
 	       	        	

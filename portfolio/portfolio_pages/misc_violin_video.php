@@ -2,7 +2,7 @@
 <html dir="ltr" lang="en-US">
 <head>
   <title>
-    Snoweria Zhang - Kenmore Square Film Archive and Outdoor Theater
+    Snoweria Zhang - Violin
   </title>
 
   <!-- Meta Tags -->
@@ -74,18 +74,15 @@
   <div id="breadcrumbs">
     <a href="../../index.php">Home</a> > 
     <a href="../index.html">Portfolio</a> > 
-    <a href="../index.html?id=Architecture"> Architecture</a> > 
-    Kenmore Square Film Archive and Outdoor Theater</div>
+    <a href="../index.html?id=Drawing"> Misc. </a> > 
+    Violin
+  </div>
 
   <figure>
-    <img src="../portfolio_images_full/architecture_kenmore_9.jpg" width="670" height="417"/>
+    <iframe width="420" height="315" src="http://www.youtube.com/embed/5f8VwE7Fsm4" frameborder="0" allowfullscreen></iframe>
     <figcaption>
-      <p id="title">Kenmore Square Film Archive and Outdoor Theater</p>
-      <p>June 2011</p>
-      <p>The aim of this project is to create a cultural and community hub while preserving the subway stop that is currently occupying the site. The design includes an outdoor theatre, a film archive, and indoor theater, offices, and a special collection section that houses rare films.</p>
-  </figcaption>
+    </figcaption>
   </figure>
-  <?php include("share.html"); ?>
   <?php include("footer.html"); ?>
 
 </body></html>

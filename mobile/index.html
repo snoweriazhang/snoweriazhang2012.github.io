@@ -1,26 +1,58 @@
 <!DOCTYPE html> 
 <html> 
+
 <head> 
     <title>Snoweria Zhang</title> 
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
-    <link href='http://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'> 
-    <!--<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" type="text/css" />--> 
-    <link rel="stylesheet" href="stylesheet/mobile.css" type="text/css" /> 
-    <!--<script type="text/javascript" src="jquery-1.8.2.min.js"></script> -->
-    <!--<script type="text/javascript" src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>-->
-    <!--always load custom js before jQuery mobile-->   
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,300italic,400|Neuton' rel='stylesheet' type='text/css'>
+
+  <!--  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.css" />-->
+    <link rel="stylesheet" href="stylesheet/mobile.css" />
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.js"></script>
+
+
 </head> 
+
 <body> 
-	<center>
-    <div data-role="page"> 
-    	
-        <div data-role="header"> 
-        	<img src="images/logo.jpg" alt="" class="logo"/>
-        </div> 
-        <div data-role="content">  
-            <p>Mobile site is in construction. <br/>Please check back soon!</p> 
-        </div> 
-   </div> 
-   </center>
-</body> 
-</html> 
+
+<!-- Start of home page -->
+<div data-role="page" id="home">
+
+    <div data-role="header">
+    </div><!-- /header -->
+
+    <div data-role="content">   
+        <h1>Hello!</h1>
+        <h2>My name is Snoweria Zhang.  I am an artist and designer who enjoys mathematics, earrings, and tea.</h2>
+        <a href="#portfolio" data-role="button">SEE MY WORK</a>
+        <a href="#about" data-role="button">ABOUT ME</a>
+        <a href="#contact" data-role="button">CONTACT ME</a>
+
+    </div><!-- /content -->
+
+    </div><!-- /footer -->
+</div><!-- /page -->
+
+
+<!-- Start of portfolio page -->
+<div data-role="page" id="portfolio">
+
+    <div data-role="header">
+        <h1>Bar</h1>
+    </div><!-- /header -->
+
+    <div data-role="content">   
+        <p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my ID is beeing clicked.</p>      
+        <p><a href="#foo">Back to foo</a></p>   
+    </div><!-- /content -->
+
+    <div data-role="footer">
+        <h4>Page Footer</h4>
+    </div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+</html>
