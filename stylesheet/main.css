@@ -241,7 +241,7 @@ nav .current{
     Portfolio
 	-------------------------------------------------- */
 .portfolio{
-	background: url('../images/portfolio_bg.jpg') repeat #100303;
+	background: url('../images/portfolio_bg.png') repeat #100303;
 	width:100%;
 	height:700px;
 	position: absolute;
@@ -326,7 +326,7 @@ span.overlay p{
     Contact me
 	-------------------------------------------------- */
 .contact{
-	background: url('../images/portfolio_bg.jpg') repeat #100303;
+	background: url('../images/contact_bg.jpg') repeat #100303;
 	width:100%;
 	height:680px;
 	position: absolute;

@@ -6,17 +6,19 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
 
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,300italic,400|Neuton' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic|Neuton:400,700' rel='stylesheet' type='text/css'>
 
-  <!--  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.css" />-->
+    <!--<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.css" />-->
     <link rel="stylesheet" href="stylesheet/mobile.css" />
     <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.js"></script>
+    <script src="http://code.jquery.com/retina.js"></script>
 
 
 </head> 
 
 <body> 
+
 
 <!-- Start of home page -->
 <div data-role="page" id="home">
@@ -25,15 +27,14 @@
     </div><!-- /header -->
 
     <div data-role="content">   
-        <h1>Hello!</h1>
+        <img src="images/home_hello.png" alt="hello" height="73" width="148">
         <h2>My name is Snoweria Zhang.  I am an artist and designer who enjoys mathematics, earrings, and tea.</h2>
         <a href="#portfolio" data-role="button">SEE MY WORK</a>
         <a href="#about" data-role="button">ABOUT ME</a>
         <a href="#contact" data-role="button">CONTACT ME</a>
-
+        <h4>&copy; 2012 Snoweria Zhang</h4>
     </div><!-- /content -->
 
-    </div><!-- /footer -->
 </div><!-- /page -->
 
 
@@ -41,18 +42,148 @@
 <div data-role="page" id="portfolio">
 
     <div data-role="header">
-        <h1>Bar</h1>
+
+        <a href="#home"><div id="header_home_btn" ></div></a>
+       <!--  <h2>PORTFOLIO</h2> -->
+        <a href="" class="header_menu_btn"></a>
+
+    </div><!-- /header -->
+
+    <div data-role="content">  
+
+        <figure class="first">
+          <img src="images/portfolio_architecture.jpg" alt="Architecture">
+          <figcaption>architecture ></figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/portfolio_fashion.jpg" alt="Fashion">
+          <figcaption>fashion ></figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/portfolio_drawing.jpg" alt="Drawing">
+          <figcaption>drawing ></figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/portfolio_painting.jpg" alt="Painting">
+          <figcaption>painting ></figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/portfolio_photography.jpg" alt="Photography">
+          <figcaption>photography ></figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/portfolio_set.jpg" alt="Set Design">
+          <figcaption>set design ></figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/portfolio_web.jpg" alt="Web Design">
+          <figcaption>web design ></figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/portfolio_misc.jpg" alt="Miscellany">
+          <figcaption>miscellany ></figcaption>
+        </figure>
+
+        <h4>&copy; 2012 Snoweria Zhang</h4>
+
+    </div><!-- /content -->
+</div><!-- /page -->
+
+<!-- Start of about me page -->
+<div data-role="page" id="about">
+
+    <div data-role="header">
+        <a href="#home"><div id="header_home_btn" ></div></a>
+        <a href="" class="header_menu_btn"></a>
     </div><!-- /header -->
 
     <div data-role="content">   
-        <p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my ID is beeing clicked.</p>      
-        <p><a href="#foo">Back to foo</a></p>   
-    </div><!-- /content -->
+        <h2>About me</h2>
+        <img src="images/about_snoweria.jpg" alt="Snoweria Zhang" height="115" width="280" />
+        <p>My name is <a href="#about">Snoweria</a>. I am an artist + designer who enjoys mathematics, earrings, and tea. </p>
 
-    <div data-role="footer">
-        <h4>Page Footer</h4>
-    </div><!-- /footer -->
+        <p>A naturalized Canadian citizen, I have lived and worked in many cities, including Toronto, Boston, Shanghai, Paris, and London. As a result, I am a teensy confused culturally. My work draws inspiration from my travels, daydreams, and actual dreams. </p>
+
+        <p>I own 43 pairs of <a href="">earrings</a>, 21 of which I made from things on their way to the trash can. None of them match the <a href="">dresses</a> I have designed.</p>
+
+        <p>In May, 2012, I graduated from Harvard University with a B.A. in <a href="">mathematics</a> and a minor in fine arts.</p>
+
+        <h4>&copy; 2012 Snoweria Zhang</h4>
+
+    </div><!-- /content -->
+        
 </div><!-- /page -->
+
+
+<!-- Start of contact me page -->
+<div data-role="page" id="contact">
+
+    <div data-role="header">
+        <a href="#home"><div id="header_home_btn" ></div></a>
+        <a href="" class="header_menu_btn"></a>
+    </div><!-- /header -->
+
+    <div id="drop_down_menu">
+        <a href="#home" data-role="button">HOME</a>
+        <a href="#portfolio" data-role="button">PORTFOLIO</a>
+        <a href="#about" data-role="button">ABOUT</a>
+        <a href="#contact" data-role="button">CONTACT</a>
+    </div>
+ 
+    <div data-role="content">  
+        <h2>Contact me</h2>
+        <p>I'd love to hear from you! Please email me at <a href="mailto:snoweriazhang@gmail.com" target="_blank">snoweriazhang@gmail.com</a> or use the form below. Alternatively, you can find me on <a href="http://www.linkedin.com/pub/snoweria-zhang/45/372/aa5" alt="Snoweria's LinkedIn" target="_blank">LinkedIn</a> or <a href="https://github.com/dobbyzhang" alt="Snoweria's GitHub" target="_blank">GitHub</a>.</p>
+
+
+        <div id="sendform">            
+            <div id="response"></div>
+            <form id="formail" action="" method ="post" name="sendform">
+
+                <input type="text" name="subject" id="subject" value="Name*" required="required" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Name*':this.value;" />
+                <input type="email" name="mail" id="mail" value="Email Address*" required="required" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Email Address*':this.value;" />
+                <textarea name="text" rows="" cols="" id="text" required="required" onclick="document.sendform.text.value='';" onfocus="this.select()" onblur="document.sendform.text.value=!document.sendform.text.value?'Message*':this.value;">Message*</textarea> 
+                <input type="button" alt="Submit" class="submit" id="sendmail" name="sendmail" value="Send" />
+            </form>
+        </div>
+
+        <h4>&copy; 2012 Snoweria Zhang</h4>
+
+    </div><!-- /content -->    
+</div><!-- /page -->
+
+<!-- BEGIN Google Analytics-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33850959-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+<script type="text/javascript"> 
+    $(document).ready(function(){
+
+        //drop down menu
+       $('a.header_menu_btn').hide();
+        $('.header_menu_btn').click(function(){
+            $('#drop_down_menu').css('display','block');
+        });
+    });
+
+</script>
 
 </body>
 </html>
