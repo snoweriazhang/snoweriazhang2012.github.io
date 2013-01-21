@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
 
     <link href='http://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic|Neuton:400,700' rel='stylesheet' type='text/css'>
+    <link rel="Shortcut Icon" href="images/icon.ico" type="image/ico" />
 
-    <!--<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.css" />-->
+    <!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.css" /> -->
     <link rel="stylesheet" href="stylesheet/mobile.css" />
     <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.js"></script>
     <script src="http://code.jquery.com/retina.js"></script>
-
+    <script src="JS/contact_form.js" type="text/javascript" charset="utf-8"></script>
 
 </head> 
 
@@ -48,6 +49,13 @@
         <a href="" class="header_menu_btn"></a>
 
     </div><!-- /header -->
+
+    <div class="drop_down_menu">
+        <a href="#home" data-role="button">HOME</a>
+        <a href="#portfolio" data-role="button">PORTFOLIO</a>
+        <a href="#about" data-role="button">ABOUT</a>
+        <a href="#contact" data-role="button">CONTACT</a>
+    </div>
 
     <div data-role="content">  
 
@@ -104,6 +112,13 @@
         <a href="" class="header_menu_btn"></a>
     </div><!-- /header -->
 
+      <div class="drop_down_menu">
+        <a href="#home" data-role="button">HOME</a>
+        <a href="#portfolio" data-role="button">PORTFOLIO</a>
+        <a href="#about" data-role="button">ABOUT</a>
+        <a href="#contact" data-role="button">CONTACT</a>
+    </div>
+
     <div data-role="content">   
         <h2>About me</h2>
         <img src="images/about_snoweria.jpg" alt="Snoweria Zhang" height="115" width="280" />
@@ -130,7 +145,7 @@
         <a href="" class="header_menu_btn"></a>
     </div><!-- /header -->
 
-    <div id="drop_down_menu">
+    <div class="drop_down_menu">
         <a href="#home" data-role="button">HOME</a>
         <a href="#portfolio" data-role="button">PORTFOLIO</a>
         <a href="#about" data-role="button">ABOUT</a>
@@ -158,9 +173,9 @@
     </div><!-- /content -->    
 </div><!-- /page -->
 
-<!-- BEGIN Google Analytics-->
-<script type="text/javascript">
 
+<script type="text/javascript">
+  //Google Analytics
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-33850959-1']);
   _gaq.push(['_trackPageview']);
@@ -170,17 +185,47 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
+
+  //load desktop site for bigger screens
+  // reload();
+  // function reload(){
+  //   if (window.innerWidth >=480){
+  //    document.location="../index.php";
+  //   }
+  // }
+
+  // window.onresize=function(){
+  //   reload();
+  // };
 </script>
 
 
 <script type="text/javascript"> 
     $(document).ready(function(){
 
-        //drop down menu
-       $('a.header_menu_btn').hide();
+      $('.ui-page').ready(function(){
+        //toggle drop down menu
         $('.header_menu_btn').click(function(){
-            $('#drop_down_menu').css('display','block');
+          $('.drop_down_menu').slideToggle('fast');
         });
+
+        //hide drop down menu on page load
+        $('.drop_down_menu a').add($('#home a')).click(function(){
+          $('.drop_down_menu').hide();
+        });
+      });
+
+      //hide contact response when touched (anywhere on contact page)
+      $('#contact').click(function(event){
+        $('#response').fadeOut(100); 
+      });
+
+      //send filter to portfolio page
+      $('#portfolio figure').click(function(){
+        $id = $(this).find('img').attr('alt');
+        document.location="portfolio.html?id="+$id;
+      });
+
     });
 
 </script>
