@@ -147,7 +147,7 @@
 	        <p class="dark">Hi! My name is <a href="http://www.snoweria.com" alt="www.snoweria.com">Snoweria</a>. I am an artist + designer who enjoys mathematics, earrings, and tea.</p>
 			<p class="dark">A naturalized Canadian citizen, I have lived and worked in many cities, including Toronto, Boston, Shanghai, Paris, and London. As a result, I am a teensy confused culturally. My work draws inspiration from my travels, daydreams, and actual dreams. </p>
 			<p class="dark">I own 43 pairs of <a href="portfolio/index.html?id=Fashion" alt="Porfolio | Fashion">earrings</a>, 21 of which I made from things on their way to the trash can. None of them match the <a href="portfolio/index.html?id=Fashion" alt="Portfolio | Fashion">dresses</a> I have designed. </p>
-			<p class="dark">In May, 2012, I graduated from Harvard University with a B.A. in <a href="" alt="" id="thesis_click">mathematics</a> and a minor in fine arts.</p>
+			<p class="dark">In May, 2012, I graduated from Harvard University with B.A. in <a href="" alt="" id="thesis_click">mathematics</a> and minor in fine arts.</p>
 			<p class="dark" id="thesis_paragraph">In case you are curious, I wrote my senior thesis on aperiodic tiling and Islamic architecture. </p>
 			<img src="images/snoweria.png" alt="Snoweria Zhang" id="photo_snoweria"/>
 		</div>
