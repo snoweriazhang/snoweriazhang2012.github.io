@@ -30,9 +30,9 @@
     <div data-role="content">   
         <img src="images/home_hello.png" alt="hello" height="73" width="148">
         <h2>My name is Snoweria Zhang.  I am an artist and designer who enjoys mathematics, earrings, and tea.</h2>
-        <a href="#portfolio" data-role="button">SEE MY WORK</a>
-        <a href="#about" data-role="button">ABOUT ME</a>
-        <a href="#contact" data-role="button">CONTACT ME</a>
+        <a href="#portfolio" data-role="button" data-ajax="false">SEE MY WORK</a>
+        <a href="#about" data-role="button" data-ajax="false">ABOUT ME</a>
+        <a href="#contact" data-role="button" data-ajax="false">CONTACT ME</a>
         <h4>&copy; 2012 Snoweria Zhang</h4>
     </div><!-- /content -->
 
@@ -51,10 +51,10 @@
     </div><!-- /header -->
 
     <div class="drop_down_menu">
-        <a href="#home" data-role="button">HOME</a>
-        <a href="#portfolio" data-role="button">PORTFOLIO</a>
-        <a href="#about" data-role="button">ABOUT</a>
-        <a href="#contact" data-role="button">CONTACT</a>
+        <a href="#home" data-role="button" data-ajax="false">HOME</a>
+        <a href="#portfolio" data-role="button" data-ajax="false">PORTFOLIO</a>
+        <a href="#about" data-role="button" data-ajax="false">ABOUT</a>
+        <a href="#contact" data-role="button" data-ajax="false">CONTACT</a>
     </div>
 
     <div data-role="content">  
@@ -113,10 +113,10 @@
     </div><!-- /header -->
 
       <div class="drop_down_menu">
-        <a href="#home" data-role="button">HOME</a>
-        <a href="#portfolio" data-role="button">PORTFOLIO</a>
-        <a href="#about" data-role="button">ABOUT</a>
-        <a href="#contact" data-role="button">CONTACT</a>
+        <a href="#home" data-role="button" data-ajax="false">HOME</a>
+        <a href="#portfolio" data-role="button" data-ajax="false">PORTFOLIO</a>
+        <a href="#about" data-role="button" data-ajax="false">ABOUT</a>
+        <a href="#contact" data-role="button" data-ajax="false">CONTACT</a>
     </div>
 
     <div data-role="content">   
@@ -146,10 +146,10 @@
     </div><!-- /header -->
 
     <div class="drop_down_menu">
-        <a href="#home" data-role="button">HOME</a>
-        <a href="#portfolio" data-role="button">PORTFOLIO</a>
-        <a href="#about" data-role="button">ABOUT</a>
-        <a href="#contact" data-role="button">CONTACT</a>
+        <a href="#home" data-role="button" data-ajax="false">HOME</a>
+        <a href="#portfolio" data-role="button" data-ajax="false">PORTFOLIO</a>
+        <a href="#about" data-role="button" data-ajax="false">ABOUT</a>
+        <a href="#contact" data-role="button" data-ajax="false">CONTACT</a>
     </div>
  
     <div data-role="content">  
@@ -225,6 +225,7 @@
         $id = $(this).find('img').attr('alt');
         document.location="portfolio.html?id="+$id;
       });
+
 
     });
 
