@@ -329,6 +329,7 @@ h4{ /*footer*/
 }
 
 .drop_down_menu{
+	position: fixed;
 	background: #771917;
 	width:100%;
 	padding:20px 0;
