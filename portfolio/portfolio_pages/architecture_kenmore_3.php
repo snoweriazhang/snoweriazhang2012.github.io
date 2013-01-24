@@ -47,18 +47,6 @@
   </script>
   <!--END Google Analytics-->
 
-  <!--BEGIN mobile redirect-->
-  <script type="text/javascript">
-    if ((navigator.userAgent.match(/iPhone/i)) || 
-      (navigator.userAgent.match(/iPod/i)) || 
-      (navigator.userAgent.match(/Android/i)) ||
-      (navigator.userAgent.match(/webOS/i)) ||
-      (navigator.userAgent.match(/Windows Phone OS 7/i)) ||
-      (screen.width <=480)) {
-      document.location="mobile/index.html"
-       //location.replace("http://snoweria.com/mobile.html");
-    }
-  </script>
   <!--END mobile redirect-->
 
 
