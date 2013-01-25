@@ -26,7 +26,7 @@
 	<a id="top"></a>
 	
 
-	<div data-role="header">
+	<div data-role="header" data-position="fixed" data-fullscreen="true">
 		<a href="index.html#home" data-ajax="false"><div id="header_home_btn" ></div></a>
 		<div class="top"><a href="#top"></a></div>
         <a href="" class="header_menu_btn"></a>
@@ -321,16 +321,16 @@
 	})();
 
 	//load desktop site for bigger screens
-	reload();
-	function reload(){
-	    if (window.innerWidth >=480){
-	    	document.location="../portfolio/";
-	    }
-	}
+	// reload();
+	// function reload(){
+	//     if (window.innerWidth >=480){
+	//     	document.location="../portfolio/";
+	//     }
+	// }
 
-	window.onresize=function(){
-	    reload();
-	};
+	// window.onresize=function(){
+	//     reload();
+	// };
 </script>
 
 
@@ -348,13 +348,15 @@
         	$distance_top = $('.drop_down_menu').offset().top;
         	if($('.drop_down_menu').is(':hidden'))
         		$distance_top+=40;
-           $('.drop_down_menu').css('top',$distance_top);
+            $('.drop_down_menu').css('top',$distance_top);
        		$('#filters_container').hide();	
         	$('.drop_down_menu').slideToggle('fast');
         });
 
         $('#portfolio_cat').click(function(){
         	$distance_top = $('#filters_container').offset().top;
+        	if($('#filters_container').is(':hidden'))
+        		$distance_top+=40;
            $('#filters_container').css('top',$distance_top);
         	$('.drop_down_menu').hide();
         	$('#filters_container').slideToggle('fast');
