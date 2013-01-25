@@ -73,7 +73,7 @@
 	<!--jQuery.easing.js included in jQuery.js-->
 	<script src="JS/jQuery.js" type="text/javascript" charset="utf-8"></script>
 	<script src="JS/jQuery.easing.js" type="text/javascript" charset="utf-8"></script>
-	<script src="JS/jquery-ui-1.9.1.custom.min.js" type="text/javascript"></script> 
+	<script src="JS/jquery-ui-1.9.1.custom.min.js" type="text/javascript" charset="utf-8"></script> 
 	<script src="JS/contact_form.js" type="text/javascript" charset="utf-8"></script>
 	<!--[if IE]>  
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>  
@@ -162,7 +162,7 @@
         <h2>Contact me</h2>
 
         <p class="light">Please feel free to contact me about my work or to suggest improvements to my portfolio. You may email me at <a href="mailto:snoweriazhang@gmail.com" target="_blank">snoweriazhang@gmail.com</a> or use the form on the left. </p>
-		<p class="light">Alternatively, you can find me on <a href="http://www.linkedin.com/pub/snoweria-zhang/45/372/aa5" alt="Snoweria's LinkedIn" target="_blank">LinkedIn</a> or <a href="https://github.com/dobbyzhang" alt="Snoweria's GitHub" target="_blank">GitHub</a>.</p>
+		<p class="light">Alternatively, you can find me on <a href="http://www.linkedin.com/pub/snoweria-zhang/45/372/aa5" alt="Snoweria's LinkedIn" target="_blank">LinkedIn</a> or <a href="https://github.com/snoweriazhang" alt="Snoweria's GitHub" target="_blank">GitHub</a>.</p>
  
         <div id="sendform">            
         	
@@ -185,12 +185,12 @@
     		// menu animation
     		        		
     		$("nav a").hover(
+
         		function(){
 		        	$(this).animate( { backgroundColor: "#000" }, 200);
 	        	},function(){
 		        	$(this).animate( { backgroundColor: "transparent" }, 100);
         	}).click(function(){
-
 	        	$(this).animate( { backgroundColor: "#000" }, 200).unbind("hover");
 
 	        	$("nav a").not(this)
