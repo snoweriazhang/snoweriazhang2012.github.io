@@ -162,7 +162,7 @@ $(document).ready(function(){
 		$(".overlay").hover(
 			function () {
 				$(this).stop().animate({opacity: 1}, 200);
-				$(this).css('height',$(this).parent().height()-21);
+				$(this).css('height',$(this).parent().height()-23);
 			},
 			function () {
 				$(this).stop().animate({opacity: 0}, 200);
