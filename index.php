@@ -161,7 +161,7 @@
     	<div class="divider"><img src="images/divider_about.png" alt=""/></div>
         <h2>Contact me</h2>
 
-        <p class="light">Please feel free to contact me about my work or to suggest improvements to my portfolio. You may email me at <a href="mailto:snoweriazhang@gmail.com" target="_blank">snoweriazhang@gmail.com</a> or use the form on the left. </p>
+        <p class="light">I would love to hear from you, especially if you have yummy tea suggestions! Please send me an email at <a href="mailto:snoweriazhang@gmail.com" target="_blank">snoweriazhang@gmail.com</a> or use the form on the left. </p>
 		<p class="light">Alternatively, you can find me on <a href="http://www.linkedin.com/pub/snoweria-zhang/45/372/aa5" alt="Snoweria's LinkedIn" target="_blank">LinkedIn</a> or <a href="https://github.com/snoweriazhang" alt="Snoweria's GitHub" target="_blank">GitHub</a>.</p>
  
         <div id="sendform">            
