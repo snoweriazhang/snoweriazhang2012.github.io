@@ -55,13 +55,13 @@
 			(navigator.userAgent.match(/Android/i)) ||
 			(navigator.userAgent.match(/webOS/i)) ||
 			(navigator.userAgent.match(/Windows Phone OS 7/i)) ||
-			(screen.width <=480) ||
-			(window.innerWidth <=480)){
-			document.location="mobile/index.html";
+			(screen.width <=500) ||
+			(window.innerWidth <=500)){
+				document.location="mobile/index.html";
 		   //location.replace("http://snoweria.com/mobile.html");
-		}
+			}
 		window.onresize=function(){
-			if (window.innerWidth <=480){
+			if (window.innerWidth <=500){
 				document.location="mobile/index.html";
 			}
 		};

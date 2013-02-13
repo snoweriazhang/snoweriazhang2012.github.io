@@ -16,7 +16,7 @@
 		}
 		if (valid!='') {
 			$("#response").fadeIn(200);
-			$("#response").html("Error:"+valid);
+			$("#response").html(valid);
 		}
 		else {
 			var datastr ='&mail=' + mail + '&subject=' + subject + '&text=' + text;
