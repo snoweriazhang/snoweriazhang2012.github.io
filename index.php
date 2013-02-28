@@ -17,6 +17,7 @@
 	<meta name="MSSmartTagsPreventParsing" content="true" />
 	<meta name="title" content=" Snoweria Zhang" />
 	<meta name="copyright" content="Copyright (c) 2012 Snoweria Zhang" />
+	<meta property="fb:admins" content="538999781" /><!--facebook analytics-->
 
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,300italic,400|Neuton' rel='stylesheet' type='text/css'>
 	<link rel="Shortcut Icon" href="images/icon.ico" type="image/ico" />
